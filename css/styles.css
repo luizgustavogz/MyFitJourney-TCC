@@ -1,0 +1,139 @@
+.imagem-1,
+.imagem-2,
+.imagem-3,
+.imagem-4,
+.imagem-5,
+.imagem-6,
+.imagem-7,
+.imagem-8 {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.imagem-1 {
+    background-image: url(../img/teste-3.jpg);
+}
+
+.imagem-2 {
+    background-image: url(../img/teste-2.jpg);
+}
+
+.imagem-3 {
+    background-image: url(../img/teste-1.png);
+}
+
+.imagem-4 {
+    background-image: url(../img/teste-4.jpg);
+}
+
+.imagem-5 {
+    background-image: url(../img/imagem-5.jpg);
+}
+
+.imagem-6 {
+    background-image: url(../img/imagem-6.jpg);
+}
+
+.imagem-7 {
+    background-image: url(../img/imagem-7.jpg);
+}
+
+.imagem-8 {
+    background-image: url(../img/imagem-8.jpg);
+}
+
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+
+.conteudo {
+    color: #777;
+    background-color: white;
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.formulario {
+    width: 460px;
+    height: 630px;
+    margin: 200px auto 30px auto;
+    padding: 20px;
+    border-radius: 15px;
+    opacity: 0.90;
+}
+
+.formulario-entrar {
+    width: 460px;
+    height: 330px;
+    margin: 200px auto 30px auto;
+    padding: 20px;
+    border-radius: 15px;
+    opacity: 0.90;
+}
+
+.formulario h2 {
+    text-align: center;
+}
+
+.formulario button {
+    position: relative;
+    left: 25%;
+    margin: 5px auto 0 auto;
+}
+
+.formulario a {
+    position: absolute;
+    top: 88.3%;
+    left: 49%;
+}
+
+.formulario-entrar h2 {
+    text-align: center;
+}
+
+.formulario-entrar button {
+    position: relative;
+    left: 25%;
+    margin: 5px auto 0 auto;
+}
+
+.formulario-entrar a {
+    position: absolute;
+    top: 53.3%;
+    left: 50%;
+}
+
+.opacidade {
+    opacity: 0.85;
+}
+
+.my-7 {
+    margin-top: 7rem!important;
+}
+
+.card-inicio {
+    width: 460px;
+    height: 630px;
+    margin: auto;
+    padding: 20px;
+    opacity: 0.80;
+}
+
+.texto {
+    text-align: center;
+    margin-left: 16%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.my-6 {
+    margin-top: 5rem!important;
+    margin-bottom: 3rem!important;
+}
