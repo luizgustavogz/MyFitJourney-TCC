@@ -8,6 +8,11 @@
 
     if (isset($_POST["register"]))
     {
+        if ($_POST["password"] != $_POST["repassword"])
+        {
+            die("Senhas não conferem.");
+        }
+
         $name = $_POST["name"];
         $sobrenome = $_POST["sobrenome"];
         $nome_completo = $name . " " . $sobrenome;
@@ -86,6 +91,7 @@
     <input type="text" name="sobrenome" placeholder="Sobrenome" required />
     <input type="email" name="email" placeholder="E-mail" required />
     <input type="password" name="password" placeholder="Senha" required />
+    <input type="password" name="repassword" placeholder="Confirme sua senha" required />
  
     <input type="submit" name="register" value="Register">
 </form>
