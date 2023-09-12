@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CoreFit | evolua para a sua melhor versão</title>
+    <title>MyFitJourney | Evolua para a sua melhor versão</title>
     <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/map.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="./assets/js/map.js" defer></script>
 </head>
 <body>
     <section id="menu-nav-home-banner">
@@ -144,6 +147,12 @@
             </div>
         </div>
     </section>
+    
+    <div id="map"></div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJTurt8jzCmO6z7VjAMG7DGpSy5UIOkHA&callback=initMap&v=weekly"
+      defer
+    ></script>
 </body>
 </html>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
