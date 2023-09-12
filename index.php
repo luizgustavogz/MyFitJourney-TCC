@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyFitJourney | Evolua para a sua melhor versão</title>
-    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/index.scss">
     <link rel="stylesheet" href="./assets/css/map.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
