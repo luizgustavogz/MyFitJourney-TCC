@@ -9,6 +9,8 @@
     if (isset($_POST["register"]))
     {
         $name = $_POST["name"];
+        $sobrenome = $_POST["sobrenome"];
+        $nome_completo = $name . " " . $sobrenome;
         $email = $_POST["email"];
         $password = $_POST["password"];
 
@@ -55,7 +57,7 @@
 
             $verification_code = substr(number_format(time() * rand(), 0, '', ''), 0, 6);
 
-            $mail->Subject = 'Confirmação de E-mail';
+            $mail->Subject = 'Código de verificação de e-mail';
             $mail->Body    = 'Olá ' . $name . ',<br><br>Seu código de verificação é: ' . $verification_code . '<br><br>Atenciosamente,<br>MyFitJourney';
 
             $mail->send();
@@ -68,7 +70,7 @@
 
             // insert na tabela de usuários
             $sql = "INSERT INTO tblusuario(vchNome, vchEmail, vchSenha, vchCodigo, dtmVerificadoEm) 
-                VALUES ('" . $name . "', '" . $email . "', '" . $encrypted_password . "', '" . $verification_code . "', NULL)";
+                VALUES ('" . $nome_completo . "', '" . $email . "', '" . $encrypted_password . "', '" . $verification_code . "', NULL)";
             mysqli_query($conn, $sql);
 
             header("Location: email-verification.php?email=" . $email);
@@ -80,9 +82,10 @@
 ?>
 
 <form method="POST">
-    <input type="text" name="name" placeholder="Enter name" required />
-    <input type="email" name="email" placeholder="Enter email" required />
-    <input type="password" name="password" placeholder="Enter password" required />
+    <input type="text" name="name" placeholder="Nome" required />
+    <input type="text" name="sobrenome" placeholder="Sobrenome" required />
+    <input type="email" name="email" placeholder="E-mail" required />
+    <input type="password" name="password" placeholder="Senha" required />
  
     <input type="submit" name="register" value="Register">
 </form>
