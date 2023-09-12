@@ -1,0 +1,111 @@
+#menu-nav-home-banner{
+    background-color: #fff !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#menu-nav-home-banner a{
+    font-family: 'Montserrat', sans-serif; 
+    text-transform: unset;
+    font-weight: 600;
+    color: #000;
+}
+
+#menu-nav-home-banner a.link:hover{
+    color: #0842A9;
+}
+
+#menu-nav-home-banner a.logo-header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: ease-in-out 0.2s;
+}
+
+#menu-nav-home-banner a.logo-header:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.2s;
+}
+
+#menu-nav-home-banner a.logo-header strong{
+    color: #0842A9;
+    font-weight: 700;
+}
+
+#menu-nav-home-banner .uk-button-default{
+    background-color: #D9D9D9;
+    color: #205DC9;
+    border-radius: 20px;
+    opacity: 0.7;
+    text-transform: unset;
+}
+
+#menu-nav-home-banner .uk-button-default:hover{
+    opacity: 1;
+}
+
+#menu-nav-home-banner .uk-navbar-container:not(.uk-navbar-transparent){
+    background-color: #fff;
+}
+
+#hp-banner-header{
+    background: linear-gradient(to right, #0842A9, #3CA3F4);
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#hp-banner-header h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 700;
+}
+
+#hp-banner-header p{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+#hp-banner-header .box-subscription{
+    opacity: 0.7;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#hp-banner-header .box-subscription button{
+    background: linear-gradient(to right, #FEA007, #FC4419);
+    border-radius: 5px;
+    border: unset;
+    text-transform: unset;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 700;
+}
+
+#hp-banner-header .box-subscription input{
+    width: 60% !important;
+    border-radius: 5px;
+    border: unset;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+
+
+#hp-banner-header form{
+    margin-top: 50px;
+}
+
+#hp-banner-header .cards-item h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 5px !important;
+}
+
+#hp-banner-header .cards-item p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#hp-banner-header *+address, *+dl, *+fieldset, *+figure, *+ol, *+p, *+pre, *+ul{
+    margin-top: unset !important;
+}
