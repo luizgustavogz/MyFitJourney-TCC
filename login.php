@@ -53,7 +53,8 @@
 <body>
     <div class="container-login">
         <div class="img-box">
-            <img src="./assets/img/login.svg">
+            <!-- <img src="./assets/img/login.svg"> -->
+            <img id="inverter" src="./assets/img/runner.png">
         </div>
         <div class="content-box">
             <div class="form-box">

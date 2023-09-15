@@ -5,8 +5,8 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-footer{
-    background-color: #415aca;
+footer{    
+    background: linear-gradient(to left, #0842A9, #3CA3F4);
     padding: 50px 0;
 }
 .container-footer{
