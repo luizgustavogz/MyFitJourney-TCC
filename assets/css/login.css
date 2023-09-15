@@ -13,15 +13,21 @@
 }
 
 .img-box {
-    width: 50%;
+    width: 60%;
     height: 100%;
-    background-color: #3CA3F4;    
+    background-color: #0842A9;    
     padding: 20px;
 }
 
 .img-box img {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+#inverter {
+    transform: scaleX(-1);
 }
 
 .content-box {
