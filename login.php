@@ -4,39 +4,81 @@
         $email = $_POST["email"];
         $password = $_POST["password"];
  
-        // connect with database
+        // Conexão com o banco
         $conn = mysqli_connect("localhost", "root", "", "myfitjourney");
  
-        // check if credentials are okay, and email is verified
+        // Validação dos dados e e-mail verificado
         $sql = "SELECT * FROM tblusuario WHERE vchEmail = '" . $email . "'";
         $result = mysqli_query($conn, $sql);
  
         if (mysqli_num_rows($result) == 0)
-        {
-            die("Email not found.");
+        {            
+            die('<script>
+            alert("E-MAIL NÃO REGISTRADO OU INCORRETO.\nTENTE NOVAMENTE");
+            window.location="./login.php";
+            </script>');
         }
  
         $user = mysqli_fetch_object($result);
  
         if (!password_verify($password, $user->vchSenha))
-        {
-            die("Password is not correct");
+        {            
+            die('<script>
+            alert("SENHA INCORRETA\nTENTE NOVAMENTE");
+            window.location="./login.php";
+            </script>');            
         }
- 
+        
         if ($user->dtmVerificadoEm == null)
         {
-            die("Please verify your email <a href='email-verification.php?email=" . $email . "'>from here</a>");
+            die('<script>
+            alert("VALIDAÇÃO DE E-MAIL PENDENTE.\nPOR FAVOR, VALIDE SEU E-MAIL PARA REALIZAR O LOGIN AQUI:");
+            window.location="emailVerification.php?email=' . $email . '";
+            </script>');
         }
- 
-        echo "<p>Your login logic here</p>";
-        header("Location: index.php");
+
+        header("Location: ./index.php");
         exit();
     }
 ?>
 
-<form method="POST">
-    <input type="email" name="email" placeholder="Enter email" required />
-    <input type="password" name="password" placeholder="Enter password" required />
- 
-    <input type="submit" name="login" value="Login">
-</form>
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <link rel="stylesheet" href="./assets/css/login.css">
+        <title>MyFitJourney | Login</title>
+</head>
+    
+<body>
+    <div class="container-login">
+        <div class="img-box">
+            <img src="./assets/img/login.svg">
+        </div>
+        <div class="content-box">
+            <div class="form-box">
+                <h2>MyFitJourney</h2>
+                <h3>Login</h3>
+                <form method="POST">
+                    <div class="input-box">
+                        <span>E-mail</span>
+                        <input type="email" name="email" placeholder="@gmail.com" required />
+                    </div>
+
+                    <div class="input-box">
+                        <span>Senha</span>
+                        <input type="password" name="password" placeholder="****" required />
+                    </div>                    
+                    
+                    <div class="input-box">
+                        <input type="submit" name="login" value="Entrar">
+                    </div>
+
+                    <div class="input-box">
+                        <p>Não tem uma conta? <a href="cadastro.php">Cadastre-se</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>

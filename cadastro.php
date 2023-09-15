@@ -78,7 +78,8 @@
                 VALUES ('" . $nome_completo . "', '" . $email . "', '" . $encrypted_password . "', '" . $verification_code . "', NULL)";
             mysqli_query($conn, $sql);
 
-            header("Location: email-verification.php?email=" . $email);
+            // header("Location: emailVerification.php?email=" . $email);
+            header("Location: login.php");
             exit();
         } catch (Exception $e) {
             echo "Erro ao enviar email. Mailer Error: {$mail->ErrorInfo}";
