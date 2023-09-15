@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyFitJourney | Evolua para a sua melhor versão</title>
     <link rel="stylesheet" href="./assets/css/index.scss">
-    <link rel="stylesheet" href="./assets/css/map.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -148,11 +148,62 @@
         </div>
     </section>
     
-    <div id="map"></div>
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJTurt8jzCmO6z7VjAMG7DGpSy5UIOkHA&callback=initMap&v=weekly"
-      defer
-    ></script>
+    <footer>
+        <div class="container-footer">
+            <div class="row-footer">
+                <div class="footer-col">
+                    <h4>MyFitJourney</h4>
+                    <div class="medias-socias">
+                        <a href="https://www.instagram.com/myfitjourneyreal/"> <img src="./assets/img/instagram-icon.svg"></img> </a>
+                        <a href="https://twitter.com/myfitjourneyofc"> <img src="./assets/img/twitter-icon.svg"></img> </a>
+                        <a href="#"> <img src="./assets/img/linkedin-icon.svg"></img> </a>                        
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Obter ajuda</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Transporte</a></li>
+                        <li><a href="#">devoluções</a></li>
+                        <li><a href="#">Status De Pedido</a></li>
+                        <li><a href="#">Opções De Pagamento</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Loja online</h4>
+                    <ul>
+                        <li><a href="#">Relógio</a></li>
+                        <li><a href="#">Saco</a></li>
+                        <li><a href="#">Calçado</a></li>
+                        <li><a href="#">Endereço</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Nosso endereço:</h4>                    
+                    <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+                        <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+                        <script>
+                            (function () {
+                                var setting = {"query":"Avenida da Liberdade, 899 - Liberdade, São Paulo - State of São Paulo, Brazil","width":300,"height":200,"satellite":false,"zoom":12,"placeId":"ChIJi9nxv6VZzpQRmTpKInfOmbo","cid":"0xba99ce77224a3a99","coords":[-23.5607673,-46.63771339999999],"lang":"en","queryString":"Avenida da Liberdade, 899 - Liberdade, São Paulo - State of São Paulo, Brazil","centerCoord":[-23.5607673,-46.63771339999999],"id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"996185"};
+                                var d = document;
+                                var s = d.createElement('script');
+                                s.src = 'https://1map.com/js/script-for-user.js?embed_id=996185';
+                                s.async = true;
+                                s.onload = function (e) {
+                                window.OneMap.initMap(setting)
+                                };
+                                var to = d.getElementsByTagName('script')[0];
+                                to.parentNode.insertBefore(s, to);
+                            })();
+                        </script><a href="https://1map.com/map-embed">1 Map</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
