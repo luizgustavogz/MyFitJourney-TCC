@@ -15,7 +15,7 @@
 .img-box {
     width: 60%;
     height: 100%;
-    background-color: #0842A9;    
+    background: linear-gradient(to right, #0842A9, #3CA3F4);  
     padding: 20px;
 }
 
