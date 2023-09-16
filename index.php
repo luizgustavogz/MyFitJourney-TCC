@@ -156,7 +156,8 @@
                     <div class="medias-socias">
                         <a href="https://www.instagram.com/myfitjourneyreal/"> <img src="./assets/img/instagram-icon.svg"></img> </a>
                         <a href="https://twitter.com/myfitjourneyofc"> <img src="./assets/img/twitter-icon.svg"></img> </a>
-                        <a href="#"> <img src="./assets/img/linkedin-icon.svg"></img> </a>                        
+                        <a href="#"> <img src="./assets/img/linkedin-icon.svg"></img> </a>
+                        <a href="#"> <img src="./assets/img/facebook-icon.svg"></img> </a>
                     </div>
                 </div>
 
