@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CoreFit | Evolua para a sua melhor versão</title>
+    <title>MyFitJourney | Evolua para a sua melhor versão</title>
     <link rel="stylesheet" href="../assets/css/index.scss">
     <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script src="../assets/js/map.js" defer></script>
+    
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default" defer></script>    
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js" defer></script>
 </head>
 <body>
     <section id="menu-nav-home-banner">
@@ -76,7 +76,7 @@
             <div class="uk-flex-middle" uk-grid>
                 <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
                     <h1>Sua Jornada para <br> uma melhor versão <br>começa Aqui!</h1>
-                    <p>Construa Músculos, Supere Limites e Viva de Forma Saudável com a Core Fit! <strong>Inscreva-se para uma avalição gratuita!</strong></p>
+                    <p>Construa Músculos, Supere Limites e Viva de Forma Saudável com a MyFitJourney! <strong>Inscreva-se para uma avalição gratuita!</strong></p>
 
                     <form action="">
                         <div>
@@ -155,7 +155,7 @@
         <div class="uk-container uk-container-large">
             <div class="uk-flex-middle" uk-grid>
                 <div class="uk-width-1-2@m">
-                    <h2><strong>Sobre Nós</strong>: Bem-Vindo à Core Fit</h2>
+                    <h2><strong>Sobre Nós</strong>: Bem-Vindo à MyFitJourney</h2>
                     <p>Nosso site foi criado com um propósito claro: capacitar indivíduos a tomar o controle de sua saúde e bem-estar, promovendo um estilo de vida saudável e a prevenção de doenças relacionadas à obesidade e má alimentação. Acreditamos que a saúde é um ativo inestimável e que cada pessoa merece a oportunidade de viver uma vida plena, longa e cheia de vitalidade.</p>
 
                     <p>Nosso objetivo é fornecer recursos, informações e orientações práticas para ajudar as pessoas a fazer escolhas conscientes em relação à sua alimentação, atividade física e saúde mental. Acreditamos que a prevenção é a chave para um futuro mais saudável e estamos empenhados em capacitar nossos visitantes a trilhar esse caminho.</p> <br>
@@ -228,12 +228,12 @@
         <div class="container-footer">
             <div class="row-footer">
                 <div class="footer-col">
-                    <h4>CoreFit</h4>
+                    <h4>MyFitJourney</h4>
                     <div class="medias-socias">
                         <a href="https://www.instagram.com/myfitjourneyreal/"> <img src="../assets/img/instagram-icon.svg"></img> </a>
                         <a href="https://twitter.com/myfitjourneyofc"> <img src="../assets/img/twitter-icon.svg"></img> </a>
-                        <a href="#"> <img src="../assets/img/linkedin-icon.svg"></img> </a> 
-                        <a href="https://www.instagram.com/myfitjourneyreal/"> <img src="../assets/img/facebook-icon.svg"></img> </a>                       
+                        <a href="https://www.linkedin.com/in/luiz-gustavo-oliveira-cunha-a9b329176/"> <img src="../assets/img/linkedin-icon.svg"></img> </a>
+                        <a href="https://www.facebook.com/profile.php?id=61550970016109"> <img src="../assets/img/facebook-icon.svg"></img> </a>
                     </div>
                 </div>
 
@@ -283,5 +283,3 @@
     </footer>
 </body>
 </html>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>

@@ -33,7 +33,7 @@
         {
             die('<script>
             alert("VALIDAÇÃO DE E-MAIL PENDENTE.\nPOR FAVOR, VALIDE SEU E-MAIL PARA REALIZAR O LOGIN AQUI:");
-            window.location="emailVerification.php?email=' . $email . '";
+            window.location="../services/emailVerification.php?email=' . $email . '";
             </script>');
         }
 
@@ -46,8 +46,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-        <link rel="stylesheet" href="../assets/css/login.css">
         <title>MyFitJourney | Login</title>
+        
+        <link rel="stylesheet" href="../assets/css/login.css">
 </head>
     
 <body>
