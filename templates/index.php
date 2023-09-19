@@ -21,7 +21,7 @@
 
                     <div class="uk-navbar-left">
 
-                        <a class="uk-navbar-item uk-logo logo-header" href="#" aria-label="Back to Home">MyFit<strong>Journey</strong></a>
+                        <a class="uk-navbar-item uk-logo logo-header" href="index.php" aria-label="Back to Home">MyFit<strong>Journey</strong></a>
                     </div>
                     <div class="uk-navbar-center">
                         <ul class="uk-navbar-nav">
@@ -32,7 +32,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="link" href="#">
+                                <a class="link" href="shop.php">
                                     <span class="uk-icon uk-margin-small-right" ></span>
                                     Store
                                 </a>

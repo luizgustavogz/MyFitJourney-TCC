@@ -54,7 +54,7 @@
 <body>
     <div class="container-login">
         <div class="img-box">            
-            <img id="inverter" src="../assets/img/runner.png">
+            <img id="inverter" src="../assets/img/login.svg">
         </div>
         <div class="content-box">
             <div class="form-box">
