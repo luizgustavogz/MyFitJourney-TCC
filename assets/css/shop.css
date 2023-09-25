@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Grid dos Acessórios*/
+  
+  .product-banner {
+    margin-bottom: 50px;
+  }
+  
+  .banner-img {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-image: url(../img/banner-background.webp);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: 50% 35%;
+    width: 100%;
+    height: 600px;
+  }
+  
+  .product-title {
+    font-size: 30px;
+    padding: 25px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    background-color: #3286cabc;
+  }
+  
+  .accessories-container{
+    margin: 80px 40px;
+  }
+  
+  .title-grid {
+    color: #3286ca;
+  }
+  
+  .accessories-group {
+    display: flex;
+    padding: 30px;
+    height: 300px;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-around;
+    column-gap: 80px;
+  }
+  
+  .accessories-img {
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+  }
+  
+  .accessories-img:hover{
+      transform: scale(1.05);
+  }
+  
+  .subtitle-accessories-grid {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .button-grid {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .accessories-page-button {
+    width: 100px;
+    margin: 30px auto;
+    padding: 15px;
+    background-color: #3286ca;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .accessories-page-button:hover{
+      background-color: #1b6098;
+      transition: .3s;
+  }
+  
+  /* Grid dos Suplementos
