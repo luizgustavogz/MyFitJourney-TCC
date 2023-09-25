@@ -70,7 +70,7 @@
 }
 
 .content-box .form-box h2 {
-    color: #32324f;
+    color: #000000;
     font-weight: 600;
     font-size: 2em;
     text-transform: uppercase;
@@ -89,7 +89,7 @@
     font-weight: 400;
     border: none;
     font-size: 17px;
-    color: #32324f;
+    color: #000000;
     background-color: #ecf2f7;
     border-radius: 5px;
 }
@@ -98,8 +98,8 @@
     font-size: 16px;
     margin-bottom: 5px;
     display: inline-block;
-    color: #32324f;
-    font-weight: 400;
+    color: #000000;
+    font-weight: 550;
 }
 
 .content-box .form-box .input-box input::placeholder {
@@ -121,9 +121,13 @@
     background: #3286ca;
 }
 
+.input-box a, p {
+    font-weight: 550;
+}
+
 .content-box .form-box .remember{
     margin-bottom: 20px;
-    color: #32324f;
+    color: #000000;
     font-weight: 400;
     font-size: 14px;
     cursor: pointer;
@@ -140,7 +144,7 @@
 }
 
 .content-box .form-box .input-box p {
-    color: #32324f;
+    color: #000000;
 }
 .content-box .form-box .input-box p a{
     color: #4aa4ee;
@@ -151,7 +155,7 @@
 }
 .content-box .form-box h3
 {
-    color: #607d8b;
+    color: #000000;
     text-decoration: none;
     margin: 40px 0 15px;
     font-weight: 500;
