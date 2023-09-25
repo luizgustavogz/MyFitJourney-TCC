@@ -33,7 +33,7 @@
         {
             die('<script>
             alert("VALIDAÇÃO DE E-MAIL PENDENTE.\nPOR FAVOR, VALIDE SEU E-MAIL PARA REALIZAR O LOGIN AQUI:");
-            window.location="emailVerification.php?email=' . $email . '";
+            window.location="../services/emailVerification.php?email=' . $email . '";
             </script>');
         }
 
@@ -46,19 +46,28 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+<<<<<<< HEAD
         <link rel="stylesheet" href="../assets/css/login.css">
+=======
+>>>>>>> 2cffcc54a97a35e8dc82eb8227a33fe0dea3676d
         <title>MyFitJourney | Login</title>
+        
+        <link rel="stylesheet" href="../assets/css/login.css">
 </head>
     
 <body>
     <div class="container-login">
         <div class="img-box">            
+<<<<<<< HEAD
             <img id="inverter" src="../assets/img/runner.png">
+=======
+            <img id="inverter" src="../assets/img/login.svg">
+>>>>>>> 2cffcc54a97a35e8dc82eb8227a33fe0dea3676d
         </div>
         <div class="content-box">
             <div class="form-box">
                 <h2>MyFitJourney</h2>
-                <h3>Login</h3>
+                <h3>Bem-vindo(a)!</h3>
                 <form method="POST">
                     <div class="input-box">
                         <span>E-mail</span>

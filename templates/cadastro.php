@@ -4,7 +4,7 @@
     use PHPMailer\PHPMailer\Exception;
 
     // Load Composer's autoloader
-    require 'vendor/autoload.php';
+    require '../vendor/autoload.php';    
 
     if (isset($_POST["register"]))
     {
@@ -87,6 +87,12 @@
     }
 ?>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFitJourney | Cadastro</title>
+</head>
+
 <form method="POST">
     <input type="text" name="name" placeholder="Nome" required />
     <input type="text" name="sobrenome" placeholder="Sobrenome" required />
@@ -94,5 +100,5 @@
     <input type="password" name="password" placeholder="Senha" required />
     <input type="password" name="repassword" placeholder="Confirme sua senha" required />
  
-    <input type="submit" name="register" value="Register">
+    <input type="submit" name="register" value="Cadastrar">
 </form>
