@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyFitJourney | Store</title>
     <link rel="stylesheet" href="../assets/css/index.scss">
     <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/shop.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -13,6 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>
 </head>
+
 <body>
     <section id="menu-nav-home-banner">
         <nav class="uk-navbar-container">
@@ -27,13 +30,13 @@
                         <ul class="uk-navbar-nav">
                             <li>
                                 <a class="link" href="#">
-                                    <span class="uk-icon uk-margin-small-right" ></span>
+                                    <span class="uk-icon uk-margin-small-right"></span>
                                     Home
                                 </a>
                             </li>
                             <li>
                                 <a class="link" href="shop.php">
-                                    <span class="uk-icon uk-margin-small-right" ></span>
+                                    <span class="uk-icon uk-margin-small-right"></span>
                                     Store
                                 </a>
                             </li>
@@ -63,12 +66,53 @@
                             <form action="javascript:void(0)">
                                 <a href="login.php" class="uk-button uk-button-default button">Area do cliente</a>
                             </form>
-                        </div>    
+                        </div>
                     </div>
 
                 </div>
             </div>
         </nav>
+    </section>
+
+    <section class="product-banner">
+        <div class="banner-img">
+            <span class="product-title">Conheça nossos Produtos</span>
+        </div>
+
+        <div class="accessories-container">
+            <h1 class="title-grid">Os melhores Acessórios:</h1>
+
+            <div class="accessories-group">
+                <div class="accessories-img">
+                    <img src="../assets/img/Luvas Crossfit.jpg" alt="">
+                </div>
+
+                <div class="accessories-img">
+                    <img src="../assets/img/Colete de Peso Funcional.jpg" alt="">
+                </div>
+
+                <div class="accessories-img">
+                    <img src="../assets/img/Peso do Kettlebell.jpg" alt="">
+                </div>
+
+            </div>
+            <div class="subtitle-accessories-grid">
+                <span> Luvas Crossfit</span>
+                <span> Colete de Peso Funcional</span>
+                <span> Peso do Kettlebell</span>
+            </div>
+
+            <div class="button-grid">
+                <a href="#">
+                    <button class="accessories-page-button">Ver mais</button>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="supplements">
+
     </section>
 
     <footer>
@@ -106,18 +150,32 @@
                 </div>
 
                 <div class="footer-col">
-                    <h4>Nosso endereço:</h4>                    
+                    <h4>Nosso endereço:</h4>
                     <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
                         <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
                         <script>
-                            (function () {
-                                var setting = {"query":"Avenida da Liberdade, 899 - Liberdade, São Paulo - State of São Paulo, Brazil","width":300,"height":200,"satellite":false,"zoom":12,"placeId":"ChIJi9nxv6VZzpQRmTpKInfOmbo","cid":"0xba99ce77224a3a99","coords":[-23.5607673,-46.63771339999999],"lang":"en","queryString":"Avenida da Liberdade, 899 - Liberdade, São Paulo - State of São Paulo, Brazil","centerCoord":[-23.5607673,-46.63771339999999],"id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"996185"};
+                            (function() {
+                                var setting = {
+                                    "query": "Avenida da Liberdade, 899 - Liberdade, São Paulo - State of São Paulo, Brazil",
+                                    "width": 300,
+                                    "height": 200,
+                                    "satellite": false,
+                                    "zoom": 12,
+                                    "placeId": "ChIJi9nxv6VZzpQRmTpKInfOmbo",
+                                    "cid": "0xba99ce77224a3a99",
+                                    "coords": [-23.5607673, -46.63771339999999],
+                                    "lang": "en",
+                                    "queryString": "Avenida da Liberdade, 899 - Liberdade, São Paulo - State of São Paulo, Brazil",
+                                    "centerCoord": [-23.5607673, -46.63771339999999],
+                                    "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3",
+                                    "embed_id": "996185"
+                                };
                                 var d = document;
                                 var s = d.createElement('script');
                                 s.src = 'https://1map.com/js/script-for-user.js?embed_id=996185';
                                 s.async = true;
-                                s.onload = function (e) {
-                                window.OneMap.initMap(setting)
+                                s.onload = function(e) {
+                                    window.OneMap.initMap(setting)
                                 };
                                 var to = d.getElementsByTagName('script')[0];
                                 to.parentNode.insertBefore(s, to);
@@ -129,4 +187,5 @@
         </div>
     </footer>
 </body>
+
 </html>
