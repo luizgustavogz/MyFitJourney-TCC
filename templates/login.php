@@ -59,7 +59,7 @@
         <div class="content-box">
             <div class="form-box">
                 <h2>MyFitJourney</h2>
-                <h3>Login</h3>
+                <h3>Bem-vindo(a)!</h3>
                 <form method="POST">
                     <div class="input-box">
                         <span>E-mail</span>
