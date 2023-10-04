@@ -1,4 +1,6 @@
 <?php
+session_start();
+
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\SMTP;
     use PHPMailer\PHPMailer\Exception;
@@ -16,7 +18,7 @@
         $name = $_POST["name"];
         $sobrenome = $_POST["sobrenome"];
         $nome_completo = $name . " " . $sobrenome;
-        $email = $_POST["email"];
+        $email = $_SESSION["email"] = $_POST["email"];
         $password = $_POST["password"];
 
         //Instantiation and passing `true` enables exceptions
@@ -91,14 +93,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyFitJourney | Cadastro</title>
+
+    <link rel="stylesheet" href="../assets/css/cadastro.css">
 </head>
 
-<form method="POST">
-    <input type="text" name="name" placeholder="Nome" required />
-    <input type="text" name="sobrenome" placeholder="Sobrenome" required />
-    <input type="email" name="email" placeholder="E-mail" required />
-    <input type="password" name="password" placeholder="Senha" required />
-    <input type="password" name="repassword" placeholder="Confirme sua senha" required />
- 
-    <input type="submit" name="register" value="Cadastrar">
-</form>
+<body>
+    <div class="container-cadastro">    
+        <div class="img-box">            
+            <img id="inverter" src="../assets/img/cadastro.svg">
+        </div>
+        <div class="content-box">
+            <div class="form-box">
+                <h2>Criar uma conta</h2>
+                <form method="POST">
+                    <div class="input-box">
+                        <span>Nome</span>
+                        <input type="text" name="name" placeholder="" required />
+                    </div>
+                    <div class="input-box">
+                        <span>Sobrenome</span>
+                        <input type="text" name="sobrenome" placeholder="" required />
+                    </div>
+                    <div class="input-box">
+                        <span>E-mail</span>
+                        <input type="email" name="email" placeholder="@gmail.com" required />
+                    </div>
+                    <div class="input-box">
+                        <span>Senha</span>
+                        <input type="password" name="password" placeholder="****" required />
+                    </div>
+                    <div class="input-box">
+                        <span>Confirmar senha</span>
+                        <input type="password" name="repassword" placeholder="****" required />
+                    </div>
+                    <div class="input-box">
+                    <input type="submit" name="register" value="Cadastrar">
+                    </div>
+        </form>
+    </div>
+</body>

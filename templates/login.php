@@ -1,4 +1,6 @@
-<?php     
+<?php
+session_start();
+
     if (isset($_POST["login"]))
     {
         $email = $_POST["email"];
@@ -36,7 +38,8 @@
             window.location="../services/emailVerification.php?email=' . $email . '";
             </script>');
         }
-
+        
+        $_SESSION["email"] = $email;
         header("Location: ./index.php");
         exit();
     }
@@ -57,9 +60,8 @@
             <img id="inverter" src="../assets/img/login.svg">
         </div>
         <div class="content-box">
-            <div class="form-box">
-                <h2>MyFitJourney</h2>
-                <h3>Bem-vindo(a)!</h3>
+            <div class="form-box">                
+                <h2>Login</h2>
                 <form method="POST">
                     <div class="input-box">
                         <span>E-mail</span>
