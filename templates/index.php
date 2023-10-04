@@ -61,7 +61,10 @@
                     <div class="uk-navbar-right">
                         <div class="uk-navbar-item">
                             <form action="javascript:void(0)">
-                                <a href="login.php" class="uk-button uk-button-default button">Area do cliente</a>
+                                <a href="login.php" class="uk-button uk-button-default button">Login</a>
+                            </form>
+                            <form action="javascript:void(0)">
+                                <a href="../services/sairService.php" class="uk-button uk-button-logout">Sair</a>
                             </form>
                         </div>    
                     </div>
