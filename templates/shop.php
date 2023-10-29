@@ -84,15 +84,15 @@
 
             <div class="accessories-group">
                 <div class="accessories-img">
-                    <img src="../assets/img/Luvas Crossfit.jpg" alt="">
+                
                 </div>
 
                 <div class="accessories-img">
-                    <img src="../assets/img/Colete de Peso Funcional.jpg" alt="">
+                    
                 </div>
 
                 <div class="accessories-img">
-                    <img src="../assets/img/Peso do Kettlebell.jpg" alt="">
+                    
                 </div>
 
             </div>
