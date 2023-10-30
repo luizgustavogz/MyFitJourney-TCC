@@ -24,17 +24,11 @@
                         <a class="uk-navbar-item uk-logo logo-header" href="index.php" aria-label="Back to Home">MyFit<strong>Journey</strong></a>
                     </div>
                     <div class="uk-navbar-center">
-                        <ul class="uk-navbar-nav">
-                            <li>
-                                <a class="link" href="#">
-                                    <span class="uk-icon uk-margin-small-right" ></span>
-                                    Home
-                                </a>
-                            </li>
+                        <ul class="uk-navbar-nav">                            
                             <li>
                                 <a class="link" href="shop.php">
                                     <span class="uk-icon uk-margin-small-right" ></span>
-                                    Store
+                                    Loja
                                 </a>
                             </li>
                             <li>
@@ -46,13 +40,19 @@
                             <li>
                                 <a class="link" href="#">
                                     <span class="uk-icon uk-margin-small-right"></span>
-                                    Cardapio
+                                    Dietas
                                 </a>
                             </li>
                             <li>
                                 <a class="link" href="#">
                                     <span class="uk-icon uk-margin-small-right"></span>
                                     Fale com nossos Nutricionistas
+                                </a>
+                            </li>
+                            <li>
+                                <a class="link" href="pagamento.php">
+                                    <span class="uk-icon uk-margin-small-right"></span>
+                                    Pagamento
                                 </a>
                             </li>
                         </ul>
@@ -84,9 +84,6 @@
                     <form action="">
                         <div>
                             <div class="uk-margin box-subscription" uk-margin>
-                                
-                                    <input class="uk-input uk-form-width-medium" type="text" placeholder="Digite seu email" aria-label="Custom controls" >
-                                
                                 <button class="uk-button uk-button-default">Iniciar Consultoria</button>
                             </div>
                         </div>
