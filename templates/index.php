@@ -22,41 +22,7 @@
                     <div class="uk-navbar-left">
 
                         <a class="uk-navbar-item uk-logo logo-header" href="index.php" aria-label="Back to Home">MyFit<strong>Journey</strong></a>
-                    </div>
-                    <div class="uk-navbar-center">
-                        <ul class="uk-navbar-nav">                            
-                            <li>
-                                <a class="link" href="shop.php">
-                                    <span class="uk-icon uk-margin-small-right" ></span>
-                                    Loja
-                                </a>
-                            </li>
-                            <li>
-                                <a class="link" href="treinos.php">
-                                    <span class="uk-icon uk-margin-small-right"></span>
-                                    Treinos
-                                </a>
-                            </li>
-                            <li>
-                                <a class="link" href="#">
-                                    <span class="uk-icon uk-margin-small-right"></span>
-                                    Dietas
-                                </a>
-                            </li>
-                            <li>
-                                <a class="link" href="#">
-                                    <span class="uk-icon uk-margin-small-right"></span>
-                                    Fale com nossos Nutricionistas
-                                </a>
-                            </li>
-                            <li>
-                                <a class="link" href="pagamento.php">
-                                    <span class="uk-icon uk-margin-small-right"></span>
-                                    Pagamento
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                    </div>                    
 
                     <div class="uk-navbar-right">
                         <div class="uk-navbar-item">
@@ -64,7 +30,7 @@
                                 <a href="login.php" class="uk-button uk-button-default button">Login</a>
                             </form>
                             <form action="javascript:void(0)">
-                                <a href="../services/sairService.php" class="uk-button uk-button-logout">Sair</a>
+                                <a href="cadastro.php" class="uk-button uk-button-default button">Cadastro</a>
                             </form>
                         </div>    
                     </div>
@@ -78,16 +44,16 @@
         <div class="uk-container uk-container-large">
             <div class="uk-flex-middle" uk-grid>
                 <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
-                    <h1>Sua Jornada para <br> uma melhor versão <br>começa Aqui!</h1>
-                    <p>Construa Músculos, Supere Limites e Viva de Forma Saudável com a MyFitJourney! <strong>Inscreva-se para uma avalição gratuita!</strong></p>
-
-                    <form action="">
-                        <div>
-                            <div class="uk-margin box-subscription" uk-margin>
-                                <button class="uk-button uk-button-default">Iniciar Consultoria</button>
-                            </div>
+                    <h1>Sua Jornada para <br> uma melhor versão <br>começa aqui!</h1>
+                    <p>Construa músculos, supere limites e viva de forma saudável com a MyFitJourney!
+                        <strong>Inscreva-se na plataforma e acesse nossos conteúdos sobre Dietas e Treinos de forma GRATUITA!</strong></p>
+                    
+                    <div>
+                        <div class="uk-margin box-subscription" uk-margin>
+                            <a href="./cadastro.php"><button class="uk-button uk-button-default">Cadastrar</button></a>
                         </div>
-                    </form>
+                    </div>
+                    
 
                     <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
                         <div>

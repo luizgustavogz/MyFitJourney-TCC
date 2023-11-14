@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyFitJourney | Store</title>
+    <title>MyFitJourney | Evolua para a sua melhor versão</title>
     <link rel="stylesheet" href="../assets/css/index.scss">
     <link rel="stylesheet" href="../assets/css/footer.css">
-    <link rel="stylesheet" href="../assets/css/treinos.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
-
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>
+    
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default" defer></script>    
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js" defer></script>
 </head>
-
 <body>
     <section id="menu-nav-home-banner">
         <nav class="uk-navbar-container">
@@ -64,9 +61,6 @@
                     <div class="uk-navbar-right">
                         <div class="uk-navbar-item">
                             <form action="javascript:void(0)">
-                                <a href="login.php" class="uk-button uk-button-default button">Login</a>
-                            </form>
-                            <form action="javascript:void(0)">
                                 <a href="../services/sairService.php" class="uk-button uk-button-logout">Sair</a>
                             </form>
                         </div>    
@@ -80,25 +74,17 @@
     <section id="hp-banner-header">
         <div class="uk-container uk-container-large">
             <div class="uk-flex-middle" uk-grid>
-
-                <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
-                    <img src="../assets/img/treinos.svg" alt="Image">
-                </div>
-
                 <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
-                    <h1>Bem vindo a sua jornada fit!<br>Seu guia de treinos para uma vida saudável e ativa!</h1>
-                    <p>Construa Músculos, Supere Limites e Viva de Forma Saudável com a MyFitJourney! <strong>Inscreva-se para uma avalição gratuita!</strong></p>
-
-                    <form action="">
-                        <div>
-                            <div class="uk-margin box-subscription" uk-margin>
-
-                                <input class="uk-input uk-form-width-medium" type="text" placeholder="Digite seu email" aria-label="Custom controls">
-
-                                <button class="uk-button uk-button-default">Iniciar Consultoria</button>
-                            </div>
+                    <h1>Sua Jornada para <br> uma melhor versão <br>começa aqui!</h1>
+                    <p>Construa músculos, supere limites e viva de forma saudável com a MyFitJourney!
+                        <strong>Inscreva-se na plataforma e acesse nossos conteúdos sobre Dietas e Treinos de forma GRATUITA!</strong></p>
+                    
+                    <div>
+                        <div class="uk-margin box-subscription" uk-margin>
+                            <a href="./cadastro.php"><button class="uk-button uk-button-default">Cadastrar</button></a>
                         </div>
-                    </form>
+                    </div>
+                    
 
                     <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
                         <div>
@@ -122,14 +108,16 @@
                     </div>
 
                 </div>
+                <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                    <img src="../assets/img/academia.svg" alt="Image">
+                </div>
             </div>
         </div>
     </section>
 
     <section id="hp-gym-benefits">
         <div class="uk-container uk-container-large">
-            <h2 class="uk-text-center">Planos de Treino Personalizados</h2>
-            <p class="uk-text-center subtitle">Encontre o plano de treino perfeito pra você.</p>
+            <h2 class="uk-text-center">Maiores vantagens do nosso Método</h2>
 
             <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
                 <div>
@@ -137,7 +125,7 @@
                         <img src="../assets/img/img-card-1.png" alt="" srcset="">
                         <h3 class="uk-card-title">Desenvolva Músculos</h3>
                         <p>Os benefícios da musculação incluem a construção de músculos magros, a melhoria da postura e a prevenção de lesões.</p>
-                        <a href="">learn more</a>
+                        <a href="treinos.php">learn more</a>
                     </div>
                 </div>
                 <div>
@@ -145,7 +133,7 @@
                         <img src="../assets/img/img-card-2.png" alt="" srcset="">
                         <h3 class="uk-card-title"> Perda de Gordura Ruim</h3>
                         <p>Com dedicação e um plano bem equilibrado, você alcançará seus objetivos de desempenho e superará seus limites.</p>
-                        <a href="">learn more</a>
+                        <a href="treinos.php">learn more</a>
                     </div>
                 </div>
                 <div>
@@ -153,13 +141,86 @@
                         <img src="../assets/img/img-card-3.png" alt="" srcset="">
                         <h3 class="uk-card-title">Corpo saudável</h3>
                         <p> queime gordura ruim e alcance um corpo mais saudável, foco em exercícios cardiovasculares e treinamento de força. </p>
-                        <a href="">learn more</a>
+                        <a href="treinos.php">learn more</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section id="hp-about-us">
+        <div class="uk-container uk-container-large">
+            <div class="uk-flex-middle" uk-grid>
+                <div class="uk-width-1-2@m">
+                    <h2><strong>Sobre Nós</strong>: Bem-Vindo à MyFitJourney</h2>
+                    <p>Nosso site foi criado com um propósito claro: capacitar indivíduos a tomar o controle de sua saúde e bem-estar, promovendo um estilo de vida saudável e a prevenção de doenças relacionadas à obesidade e má alimentação. Acreditamos que a saúde é um ativo inestimável e que cada pessoa merece a oportunidade de viver uma vida plena, longa e cheia de vitalidade.</p>
+
+                    <p>Nosso objetivo é fornecer recursos, informações e orientações práticas para ajudar as pessoas a fazer escolhas conscientes em relação à sua alimentação, atividade física e saúde mental. Acreditamos que a prevenção é a chave para um futuro mais saudável e estamos empenhados em capacitar nossos visitantes a trilhar esse caminho.</p> <br>
+                    <a href="">Ler mais</a>
+                </div>
+                <div class="uk-width-1-2@m uk-text-center">
+                    <img src="../assets/img/about-us-img-3.svg" alt="Image">
+                </div>
+            </div>            
+        </div>
+    </section>
+
+    <section id="hp-services-offered">
+        <div class="uk-container uk-container-large">
+
+            <h2 class="uk-text-center">Serviços Oferecidos</h2>
+            <p class="uk-text-center subtitle">For some people, putting in the hard work that it takes</p>
+
+            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-body card-services">
+                        <h3 class="uk-card-title">Dieta programada</h3>
+                        <p><strong>$59</strong>/ month</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <br><br>
+                        <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <br><br>
+                        <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <br><br>
+                        <br>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-body card-services">
+                        <h3 class="uk-card-title">Consulta Nutricional</h3>
+                        <p><strong>$59</strong>/ month</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <br><br>
+                        <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <br><br>
+                        <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <br><br>
+                        <br>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-body card-services">
+                        <h3 class="uk-card-title">Treinamentos Coaching</h3>
+                        <p><strong>$59</strong>/ month</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <br><br>
+                        <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <br><br>
+                        <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <br><br>
+                        <br>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <footer>
         <div class="container-footer">
             <div class="row-footer">
@@ -217,7 +278,5 @@
             </div>
         </div>
     </footer>
-
 </body>
-
 </html>
