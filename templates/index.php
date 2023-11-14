@@ -26,7 +26,7 @@
                     <div class="uk-navbar-center">
                         <ul class="uk-navbar-nav">
                             <li>
-                                <a class="link" href="#">
+                                <a class="link" href="index.php">
                                     <span class="uk-icon uk-margin-small-right" ></span>
                                     Home
                                 </a>
@@ -38,7 +38,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="link" href="#">
+                                <a class="link" href="treinos.php">
                                     <span class="uk-icon uk-margin-small-right"></span>
                                     Treinos
                                 </a>
@@ -131,7 +131,7 @@
                         <img src="../assets/img/img-card-1.png" alt="" srcset="">
                         <h3 class="uk-card-title">Desenvolva Músculos</h3>
                         <p>Os benefícios da musculação incluem a construção de músculos magros, a melhoria da postura e a prevenção de lesões.</p>
-                        <a href="">learn more</a>
+                        <a href="treinos.php">learn more</a>
                     </div>
                 </div>
                 <div>
@@ -139,7 +139,7 @@
                         <img src="../assets/img/img-card-2.png" alt="" srcset="">
                         <h3 class="uk-card-title"> Perda de Gordura Ruim</h3>
                         <p>Com dedicação e um plano bem equilibrado, você alcançará seus objetivos de desempenho e superará seus limites.</p>
-                        <a href="">learn more</a>
+                        <a href="treinos.php">learn more</a>
                     </div>
                 </div>
                 <div>
@@ -147,7 +147,7 @@
                         <img src="../assets/img/img-card-3.png" alt="" srcset="">
                         <h3 class="uk-card-title">Corpo saudável</h3>
                         <p> queime gordura ruim e alcance um corpo mais saudável, foco em exercícios cardiovasculares e treinamento de força. </p>
-                        <a href="">learn more</a>
+                        <a href="treinos.php">learn more</a>
                     </div>
                 </div>
             </div>
