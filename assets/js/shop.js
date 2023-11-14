@@ -15,7 +15,7 @@ async function loadProducts(url) {
         const responseJson = await response.json();
         console.log(responseJson)
 
-        const accImgElements = document.getElementsByClassName('accessories-img'); // Seleciona todas as divs com a classe 'accessories-img'
+        const accImgElements = document.getElementsByClassName('uk-card uk-card-body card-benefits cards-border'); // Seleciona todas as divs com a classe 'accessories-img'
 
         for (let i = 0; i < responseJson.products.length; i++) {
             const tagImg = document.createElement('img');
