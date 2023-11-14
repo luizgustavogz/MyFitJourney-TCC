@@ -40,7 +40,7 @@ session_start();
         }
         
         $_SESSION["email"] = $email;
-        header("Location: ./index.php");
+        header("Location: ./home.php");
         exit();
     }
 ?>

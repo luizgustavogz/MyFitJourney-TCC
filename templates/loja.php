@@ -7,7 +7,7 @@
     <title>MyFitJourney | Store</title>
     <link rel="stylesheet" href="../assets/css/index.scss">
     <link rel="stylesheet" href="../assets/css/footer.css">
-    <link rel="stylesheet" href="../assets/css/shop.css">
+    <link rel="stylesheet" href="../assets/css/loja.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -24,20 +24,14 @@
 
                     <div class="uk-navbar-left">
 
-                        <a class="uk-navbar-item uk-logo logo-header" href="index.php" aria-label="Back to Home">MyFit<strong>Journey</strong></a>
+                        <a class="uk-navbar-item uk-logo logo-header" href="home.php" aria-label="Back to Home">MyFit<strong>Journey</strong></a>
                     </div>
                     <div class="uk-navbar-center">
                         <ul class="uk-navbar-nav">
                             <li>
-                                <a class="link" href="index.php">
-                                    <span class="uk-icon uk-margin-small-right"></span>
-                                    Home
-                                </a>
-                            </li>
-                            <li>
-                                <a class="link" href="shop.php">
-                                    <span class="uk-icon uk-margin-small-right"></span>
-                                    Store
+                                <a class="link" href="loja.php">
+                                    <span class="uk-icon uk-margin-small-right" ></span>
+                                    Loja
                                 </a>
                             </li>
                             <li>
@@ -49,13 +43,19 @@
                             <li>
                                 <a class="link" href="#">
                                     <span class="uk-icon uk-margin-small-right"></span>
-                                    Cardapio
+                                    Dietas
                                 </a>
                             </li>
                             <li>
                                 <a class="link" href="#">
                                     <span class="uk-icon uk-margin-small-right"></span>
                                     Fale com nossos Nutricionistas
+                                </a>
+                            </li>
+                            <li>
+                                <a class="link" href="pagamento.php">
+                                    <span class="uk-icon uk-margin-small-right"></span>
+                                    Pagamento
                                 </a>
                             </li>
                         </ul>
@@ -69,7 +69,7 @@
                             <form action="javascript:void(0)">
                                 <a href="../services/sairService.php" class="uk-button uk-button-logout">Sair</a>
                             </form>
-                        </div>
+                        </div>    
                     </div>
 
                 </div>
@@ -217,7 +217,7 @@
                                 to.parentNode.insertBefore(s, to);
                             })();
                         </script><a href="https://1map.com/map-embed">1 Map</a>
-                        <script src="../assets/js/shop.js"></script>
+                        <script src="../assets/js/loja.js"></script>
                     </div>
                 </div>
             </div>
