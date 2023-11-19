@@ -30,7 +30,7 @@
                         <ul class="uk-navbar-nav">
                             <li>
                                 <a class="link" href="loja.php">
-                                    <span class="uk-icon uk-margin-small-right" ></span>
+                                    <span class="uk-icon uk-margin-small-right"></span>
                                     Loja
                                 </a>
                             </li>
@@ -69,7 +69,7 @@
                             <form action="javascript:void(0)">
                                 <a href="../services/sairService.php" class="uk-button uk-button-logout">Sair</a>
                             </form>
-                        </div>    
+                        </div>
                     </div>
 
                 </div>
@@ -77,9 +77,24 @@
         </nav>
     </section>
 
-    <section class="product-banner">
+    <main class="product-banner">
         <div class="banner-img">
             <span class="product-title">Conheça nossos Produtos</span>
+        </div>
+
+        <div class="uk-container uk-container-large">
+            <div class="uk-flex-middle" uk-grid>
+                <div class="uk-width-1-2@m">
+                    <h2>Na MyFitJourney nós trazemos os produtos certos para o seu crescimento</h2>
+                    <p>A MyFitJourney, comprometida com a promoção de um estilo de vida saudável, foi concebida com o objetivo claro de capacitar os indivíduos a assumirem o controle de sua saúde e bem-estar. Nossa missão é prevenir doenças relacionadas à obesidade e má alimentação, proporcionando a todos a oportunidade de viver uma vida plena, longa e cheia de vitalidade.</p>
+
+                    <p>Acreditamos que investir na qualidade desses itens não só aprimora seu desempenho, mas também contribui significativamente para a promoção de uma vida saudável e ativa. Convidamos você a explorar nossa variedade, dando um passo firme em direção a um futuro mais saudável e capacitador.</p> <br>
+                    <a href="#">Falar com especialista</a>
+                </div>
+                <div class="uk-width-1-2@m uk-text-center" style="margin-bottom: 80px;">
+                    <img src="../assets/img/Coach-amico.svg" alt="Image">
+                </div>
+            </div>            
         </div>
 
 
@@ -92,60 +107,35 @@
                     <div>
                         <div class="uk-card uk-card-body card-benefits cards-border">
 
-                            <h3 class="uk-card-title">Desenvolva Músculos</h3>
-                            <p>Os benefícios da musculação incluem a construção de músculos magros, a melhoria da postura e a prevenção de lesões.</p>
+                            <h2 class="uk-card-title"></h2>
+                            <p class="products-price"></p>
                         </div>
                     </div>
                     <div>
                         <div class="uk-card uk-card-body card-benefits cards-border" style="flex-direction: row-reverse; -webkit-flex-direction: row-reverse;">
-                            <h3 class="uk-card-title"> Perda de Gordura Ruim</h3>
-                            <p>Com dedicação e um plano bem equilibrado, você alcançará seus objetivos de desempenho e superará seus limites.</p>
+                            <h2 class="uk-card-title"></h2>
+                            <p class="products-price"></p>
                         </div>
                     </div>
                     <div>
                         <div class="uk-card uk-card-body card-benefits cards-border">
-                            <h3 class="uk-card-title">Corpo saudável</h3>
-                            <p> queime gordura ruim e alcance um corpo mais saudável, foco em exercícios cardiovasculares e treinamento de força. </p>
+                            <h2 class="uk-card-title"></h2>
+                            <p class="products-price"></p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="button-grid">
-                <a href="#">
+                <a href="accessories.php">
                     <button class="accessories-page-button">Ver mais</button>
                 </a>
             </div>
 
-            <!-- <div class="accessories-group">
-                
-                <div class="accessories-img">
-
-                </div>
-
-                <div class="accessories-img">
-
-                </div>
-
-                <div class="accessories-img">
-
-                </div>
-
-            </div>
-            <div class="subtitle-accessories-grid">
-                <span> Luvas Crossfit</span>
-                <span> Colete de Peso Funcional</span>
-                <span> Peso do Kettlebell</span>
-            </div>
-
-            <div class="button-grid">
-                <a href="#">
-                    <button class="accessories-page-button">Ver mais</button>
-                </a>
-            </div> -->
+            <!-- End accessories container -->
         </div>
 
-    </section>
+    </main>
 
     <section class="supplements">
 
