@@ -145,7 +145,7 @@
                     <select class="uk-select" id="gender" required>
                         <option value="male">Masculino</option>
                         <option value="female">Feminino</option>
-                        <option value="nonbinarie">Não binário</option>
+                        <option value="nonidentify">Prefiro não identificar</option>
                     </select>
                     </div>
                     <div class="uk-margin">
