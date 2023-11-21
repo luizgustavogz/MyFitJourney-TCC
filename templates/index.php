@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="../assets/css/index.scss">
     <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default" defer></script>    
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js" defer></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>    
 </head>
 <body>
     <section id="menu-nav-home-banner">
@@ -30,7 +29,7 @@
                                 <a href="login.php" class="uk-button uk-button-default button">Login</a>
                             </form>
                             <form action="javascript:void(0)">
-                                <a href="cadastro.php" class="uk-button uk-button-default button">Cadastro</a>
+                                <a href="register.php" class="uk-button uk-button-default button">Cadastro</a>
                             </form>
                         </div>    
                     </div>
@@ -50,7 +49,7 @@
                     
                     <div>
                         <div class="uk-margin box-subscription" uk-margin>
-                            <a href="./cadastro.php"><button class="uk-button uk-button-default">Cadastrar</button></a>
+                            <a href="./register.php"><button class="uk-button uk-button-default button-1">Cadastrar</button></a>
                         </div>
                     </div>
                     
@@ -88,13 +87,13 @@
         <div class="uk-container uk-container-large">
             <h2 class="uk-text-center">Maiores vantagens do nosso Método</h2>
 
-            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
                 <div>
                     <div class="uk-card uk-card-body card-benefits cards-border">
                         <img src="../assets/img/img-card-1.png" alt="" srcset="">
                         <h3 class="uk-card-title">Desenvolva Músculos</h3>
                         <p>Os benefícios da musculação incluem a construção de músculos magros, a melhoria da postura e a prevenção de lesões.</p>
-                        <a href="treinos.php">learn more</a>
+                        <!-- <a href="treinos.php">learn more</a> -->
                     </div>
                 </div>
                 <div>
@@ -102,7 +101,7 @@
                         <img src="../assets/img/img-card-2.png" alt="" srcset="">
                         <h3 class="uk-card-title"> Perda de Gordura Ruim</h3>
                         <p>Com dedicação e um plano bem equilibrado, você alcançará seus objetivos de desempenho e superará seus limites.</p>
-                        <a href="treinos.php">learn more</a>
+                        <!-- <a href="treinos.php">learn more</a> -->
                     </div>
                 </div>
                 <div>
@@ -110,7 +109,7 @@
                         <img src="../assets/img/img-card-3.png" alt="" srcset="">
                         <h3 class="uk-card-title">Corpo saudável</h3>
                         <p> queime gordura ruim e alcance um corpo mais saudável, foco em exercícios cardiovasculares e treinamento de força. </p>
-                        <a href="treinos.php">learn more</a>
+                        <!-- <a href="treinos.php">learn more</a> -->
                     </div>
                 </div>
             </div>
@@ -138,52 +137,86 @@
         <div class="uk-container uk-container-large">
 
             <h2 class="uk-text-center">Serviços Oferecidos</h2>
-            <p class="uk-text-center subtitle">For some people, putting in the hard work that it takes</p>
+            <!-- <p class="uk-text-center subtitle">For some people, putting in the hard work that it takes</p> -->
 
-            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
                 <div>
                     <div class="uk-card uk-card-body card-services">
-                        <h3 class="uk-card-title">Dieta programada</h3>
-                        <p><strong>$59</strong>/ month</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <h3 class="uk-card-title">Dietas:</h3>
+                        <p>Consultoria para elaboração de cardapios</p>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <br><br>
+                        <span>Calcule seu IMC</span> <br><br>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <br><br>
+                        <span>Escolha a dieta para seu objetivo</span> <br><br>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <br><br>
+                        <span>Curiosidades sobre dietas</span> <br><br>
+                        <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
+                        <span>Receitas saudáveis</span> <br><br>
                         <br>
-                        <a href="">Read More</a>
+                        <!-- <a href="">Read More</a> -->
                     </div>
                 </div>
                 <div>
                     <div class="uk-card uk-card-body card-services">
-                        <h3 class="uk-card-title">Consulta Nutricional</h3>
-                        <p><strong>$59</strong>/ month</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <h3 class="uk-card-title">Treinos:</h3>
+                        <p>Planos para realização de treinos de acordo com o que desejar atingir</p>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <br><br>
+                        <span>Planos de treino</span> <br><br>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <br><br>
+                        <span>Treinos em casa</span> <br><br>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <br><br>
+                        <span>Treinos de alta intensidade</span> <br><br>
+                        <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
+                        <span>Treinos ao ar livre</span> <br><br>
                         <br>
-                        <a href="">Read More</a>
+                        <!-- <a href="">Read More</a> -->
                     </div>
                 </div>
                 <div>
                     <div class="uk-card uk-card-body card-services">
-                        <h3 class="uk-card-title">Treinamentos Coaching</h3>
-                        <p><strong>$59</strong>/ month</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <h3 class="uk-card-title">Shopping:</h3>
+                        <p>Loja com produtos para ajudar com treino e dieta</p>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <br><br>
+                        <span>Alimentos</span> <br><br>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <br><br>
+                        <span>Equipamentos para casa</span> <br><br>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <br><br>
+                        <span>Suplementos nutricionais</span> <br><br>
+                        <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
+                        <span>Vestuário</span> <br><br>
                         <br>
-                        <a href="">Read More</a>
+                        <!-- <a href="">Read More</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="box-feedback">
+        <div class="uk-container uk-container-large">
+            <h1 class="uk-text-center">Feedbacks</h1>
+            <h2>Alguns comentários de nossos clientes que se beneficiaram <br>com o método apresentado pela MyFitJourney</h2>
+
+            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
+                <div>
+                    <div class="uk-card  uk-card-body cards-feedback">
+                        <img src="../assets/img/aspas-index.svg" alt="" srcset="">
+                        <h3 class="uk-card-title">Marina Pinto</h3>
+                        <p>Minha experiência com o MyFitJourney foi simplesmente incrível! Desde o início, a plataforma mostrou um compromisso excepcional com minha jornada de saúde. Os planos nutricionais personalizados foram perfeitamente alinhados com meus objetivos, e a variedade de exercícios na academia virtual me manteve sempre motivada. A atenção aos detalhes e a orientação especializada fazem deste site uma escolha fácil para quem busca resultados reais. Estou extremamente satisfeita com a minha evolução e ansiosa para continuar essa jornada fitness com o MyFitJourney!</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card  uk-card-body cards-feedback">
+                        <img src="../assets/img/aspas-index.svg" alt="" srcset="">
+                        <h3 class="uk-card-title"> Pedro Oliveira</h3>
+                        <p>Quero expressar minha gratidão ao MyFitJourney pela transformação que vivenciei desde que me tornei membro. A combinação de programas de exercícios desafiadores e orientação nutricional personalizada fez toda a diferença. A facilidade de navegação no site e a comunidade envolvente tornaram a jornada ainda mais prazerosa. Os profissionais por trás do MyFitJourney realmente entendem as necessidades individuais dos membros, e isso se reflete nos resultados que alcancei. Estou extremamente satisfeito com a minha escolha e ansioso para atingir novos patamares!</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card  uk-card-body cards-feedback">
+                        <img src="../assets/img/aspas-index.svg" alt="" srcset="">
+                        <h3 class="uk-card-title">Gabriela Santos</h3>
+                        <p>O MyFitJourney é mais do que um site de nutrição e exercícios; é um parceiro dedicado na minha jornada de bem-estar. A diversidade de opções de treino, combinada com a orientação nutricional adaptada às minhas preferências, tornou meu caminho para a boa forma muito mais acessível. Além disso, a comunidade online proporciona um apoio constante, criando um ambiente encorajador. Estou verdadeiramente satisfeita com os resultados que alcancei até agora e ansiosa para continuar minha jornada de saúde com o MyFitJourney. Recomendo a todos que buscam uma abordagem holística para o fitness!</p>
                     </div>
                 </div>
             </div>
@@ -198,29 +231,27 @@
                     <div class="medias-socias">
                         <a href="https://www.instagram.com/myfitjourneyreal/"> <img src="../assets/img/instagram-icon.svg"></img> </a>
                         <a href="https://twitter.com/myfitjourneyofc"> <img src="../assets/img/twitter-icon.svg"></img> </a>
-                        <a href="https://www.linkedin.com/in/luiz-gustavo-oliveira-cunha-a9b329176/"> <img src="../assets/img/linkedin-icon.svg"></img> </a>
-                        <a href="https://www.facebook.com/profile.php?id=61550970016109"> <img src="../assets/img/facebook-icon.svg"></img> </a>
+                        <a href="#"> <img src="../assets/img/linkedin-icon.svg"></img> </a> 
+                        <a href="https://www.instagram.com/myfitjourneyreal/"> <img src="../assets/img/facebook-icon.svg"></img> </a>                       
+
                     </div>
                 </div>
 
                 <div class="footer-col">
-                    <h4>Obter ajuda</h4>
+                    <h4>Informações</h4>
                     <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Transporte</a></li>
-                        <li><a href="#">devoluções</a></li>
-                        <li><a href="#">Status De Pedido</a></li>
-                        <li><a href="#">Opções De Pagamento</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="./store.php">Loja</a></li>
+                        <li><a href="./payment.php">Pagamento</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-col">
-                    <h4>Loja online</h4>
+                    <h4>Serviços</h4>
                     <ul>
-                        <li><a href="#">Relógio</a></li>
-                        <li><a href="#">Saco</a></li>
-                        <li><a href="#">Calçado</a></li>
-                        <li><a href="#">Endereço</a></li>
+                        <li><a href="./workout.php">Treinos</a></li>
+                        <li><a href="./diet.php">Dietas</a></li>
+                        <li><a href="./nutritionist.php">Nutricionistas</a></li>
                     </ul>
                 </div>
 
@@ -249,3 +280,5 @@
     </footer>
 </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>
