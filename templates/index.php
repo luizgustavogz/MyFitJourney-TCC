@@ -21,47 +21,16 @@
 
                     <div class="uk-navbar-left">
 
-                        <a class="uk-navbar-item uk-logo logo-header" href="#" aria-label="Back to Home">MyFit<strong>Journey</strong></a>
-                    </div>
-                    <div class="uk-navbar-center">
-                        <ul class="uk-navbar-nav">
-                            <li>
-                                <a class="link" href="#">
-                                    <span class="uk-icon uk-margin-small-right" ></span>
-                                    Home
-                                </a>
-                            </li>
-                            <li>
-                                <a class="link" href="#">
-                                    <span class="uk-icon uk-margin-small-right" ></span>
-                                    Store
-                                </a>
-                            </li>
-                            <li>
-                                <a class="link" href="#">
-                                    <span class="uk-icon uk-margin-small-right"></span>
-                                    Treinos
-                                </a>
-                            </li>
-                            <li>
-                                <a class="link" href="#">
-                                    <span class="uk-icon uk-margin-small-right"></span>
-                                    Cardapio
-                                </a>
-                            </li>
-                            <li>
-                                <a class="link" href="#">
-                                    <span class="uk-icon uk-margin-small-right"></span>
-                                    Fale com nossos Nutricionistas
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                        <a class="uk-navbar-item uk-logo logo-header" href="index.php" aria-label="Back to Home">MyFit<strong>Journey</strong></a>
+                    </div>                    
 
                     <div class="uk-navbar-right">
                         <div class="uk-navbar-item">
                             <form action="javascript:void(0)">
-                                <a href="login.php" class="uk-button uk-button-default button">Area do cliente</a>
+                                <a href="login.php" class="uk-button uk-button-default button">Login</a>
+                            </form>
+                            <form action="javascript:void(0)">
+                                <a href="cadastro.php" class="uk-button uk-button-default button">Cadastro</a>
                             </form>
                         </div>    
                     </div>
@@ -87,7 +56,8 @@
                                 <button class="uk-button uk-button-default">Iniciar Consultoria</button>
                             </div>
                         </div>
-                    </form>
+                    </div>
+                    
 
                     <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
                         <div>
@@ -128,7 +98,7 @@
                         <img src="../assets/img/img-card-1.png" alt="" srcset="">
                         <h3 class="uk-card-title">Desenvolva Músculos</h3>
                         <p>Os benefícios da musculação incluem a construção de músculos magros, a melhoria da postura e a prevenção de lesões.</p>
-                        <a href="">learn more</a>
+                        <a href="treinos.php">learn more</a>
                     </div>
                 </div>
                 <div>
@@ -136,7 +106,7 @@
                         <img src="../assets/img/img-card-2.png" alt="" srcset="">
                         <h3 class="uk-card-title"> Perda de Gordura Ruim</h3>
                         <p>Com dedicação e um plano bem equilibrado, você alcançará seus objetivos de desempenho e superará seus limites.</p>
-                        <a href="">learn more</a>
+                        <a href="treinos.php">learn more</a>
                     </div>
                 </div>
                 <div>
@@ -144,7 +114,7 @@
                         <img src="../assets/img/img-card-3.png" alt="" srcset="">
                         <h3 class="uk-card-title">Corpo saudável</h3>
                         <p> queime gordura ruim e alcance um corpo mais saudável, foco em exercícios cardiovasculares e treinamento de força. </p>
-                        <a href="">learn more</a>
+                        <a href="treinos.php">learn more</a>
                     </div>
                 </div>
             </div>

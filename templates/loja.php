@@ -7,7 +7,7 @@
     <title>MyFitJourney | Store</title>
     <link rel="stylesheet" href="../assets/css/index.scss">
     <link rel="stylesheet" href="../assets/css/footer.css">
-    <link rel="stylesheet" href="../assets/css/shop.css">
+    <link rel="stylesheet" href="../assets/css/loja.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -24,24 +24,18 @@
 
                     <div class="uk-navbar-left">
 
-                        <a class="uk-navbar-item uk-logo logo-header" href="index.php" aria-label="Back to Home">MyFit<strong>Journey</strong></a>
+                        <a class="uk-navbar-item uk-logo logo-header" href="home.php" aria-label="Back to Home">MyFit<strong>Journey</strong></a>
                     </div>
                     <div class="uk-navbar-center">
                         <ul class="uk-navbar-nav">
                             <li>
-                                <a class="link" href="#">
-                                    <span class="uk-icon uk-margin-small-right"></span>
-                                    Home
+                                <a class="link" href="loja.php">
+                                    <span class="uk-icon uk-margin-small-right" ></span>
+                                    Loja
                                 </a>
                             </li>
                             <li>
-                                <a class="link" href="shop.php">
-                                    <span class="uk-icon uk-margin-small-right"></span>
-                                    Store
-                                </a>
-                            </li>
-                            <li>
-                                <a class="link" href="#">
+                                <a class="link" href="treinos.php">
                                     <span class="uk-icon uk-margin-small-right"></span>
                                     Treinos
                                 </a>
@@ -49,7 +43,7 @@
                             <li>
                                 <a class="link" href="#">
                                     <span class="uk-icon uk-margin-small-right"></span>
-                                    Cardapio
+                                    Dietas
                                 </a>
                             </li>
                             <li>
@@ -58,15 +52,24 @@
                                     Fale com nossos Nutricionistas
                                 </a>
                             </li>
+                            <li>
+                                <a class="link" href="pagamento.php">
+                                    <span class="uk-icon uk-margin-small-right"></span>
+                                    Pagamento
+                                </a>
+                            </li>
                         </ul>
                     </div>
 
                     <div class="uk-navbar-right">
                         <div class="uk-navbar-item">
                             <form action="javascript:void(0)">
-                                <a href="login.php" class="uk-button uk-button-default button">Area do cliente</a>
+                                <a href="login.php" class="uk-button uk-button-default button">Login</a>
                             </form>
-                        </div>
+                            <form action="javascript:void(0)">
+                                <a href="../services/sairService.php" class="uk-button uk-button-logout">Sair</a>
+                            </form>
+                        </div>    
                     </div>
 
                 </div>
@@ -79,20 +82,53 @@
             <span class="product-title">Conheça nossos Produtos</span>
         </div>
 
+
         <div class="accessories-container">
-            <h1 class="title-grid">Os melhores Acessórios:</h1>
+            <h2 class="uk-text-center">Os melhores Acessórios:</h2>
 
-            <div class="accessories-group">
+            <div class="uk-container uk-container-large">
+
+                <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-body card-benefits cards-border">
+
+                            <h3 class="uk-card-title">Desenvolva Músculos</h3>
+                            <p>Os benefícios da musculação incluem a construção de músculos magros, a melhoria da postura e a prevenção de lesões.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-body card-benefits cards-border" style="flex-direction: row-reverse; -webkit-flex-direction: row-reverse;">
+                            <h3 class="uk-card-title"> Perda de Gordura Ruim</h3>
+                            <p>Com dedicação e um plano bem equilibrado, você alcançará seus objetivos de desempenho e superará seus limites.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-body card-benefits cards-border">
+                            <h3 class="uk-card-title">Corpo saudável</h3>
+                            <p> queime gordura ruim e alcance um corpo mais saudável, foco em exercícios cardiovasculares e treinamento de força. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="button-grid">
+                <a href="#">
+                    <button class="accessories-page-button">Ver mais</button>
+                </a>
+            </div>
+
+            <!-- <div class="accessories-group">
+                
                 <div class="accessories-img">
-                    <img src="../assets/img/Luvas Crossfit.jpg" alt="">
+
                 </div>
 
                 <div class="accessories-img">
-                    <img src="../assets/img/Colete de Peso Funcional.jpg" alt="">
+
                 </div>
 
                 <div class="accessories-img">
-                    <img src="../assets/img/Peso do Kettlebell.jpg" alt="">
+
                 </div>
 
             </div>
@@ -106,7 +142,7 @@
                 <a href="#">
                     <button class="accessories-page-button">Ver mais</button>
                 </a>
-            </div>
+            </div> -->
         </div>
 
     </section>
@@ -181,6 +217,7 @@
                                 to.parentNode.insertBefore(s, to);
                             })();
                         </script><a href="https://1map.com/map-embed">1 Map</a>
+                        <script src="../assets/js/loja.js"></script>
                     </div>
                 </div>
             </div>

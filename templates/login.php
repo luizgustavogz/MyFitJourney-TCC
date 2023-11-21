@@ -1,4 +1,6 @@
-<?php     
+<?php
+session_start();
+
     if (isset($_POST["login"]))
     {
         $email = $_POST["email"];
@@ -36,8 +38,9 @@
             window.location="../services/emailVerification.php?email=' . $email . '";
             </script>');
         }
-
-        header("Location: ./index.php");
+        
+        $_SESSION["email"] = $email;
+        header("Location: ./home.php");
         exit();
     }
 ?>
@@ -65,9 +68,8 @@
 >>>>>>> 2cffcc54a97a35e8dc82eb8227a33fe0dea3676d
         </div>
         <div class="content-box">
-            <div class="form-box">
-                <h2>MyFitJourney</h2>
-                <h3>Bem-vindo(a)!</h3>
+            <div class="form-box">                
+                <h2>Login</h2>
                 <form method="POST">
                     <div class="input-box">
                         <span>E-mail</span>

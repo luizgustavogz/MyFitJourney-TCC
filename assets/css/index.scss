@@ -43,6 +43,18 @@
     opacity: 1;
 }
 
+#menu-nav-home-banner .uk-button-logout{
+    background-color: #D9D9D9;
+    color: #ef0404;
+    border-radius: 20px;
+    opacity: 0.7;
+    text-transform: unset;
+}
+
+#menu-nav-home-banner .uk-button-logout:hover{
+    opacity: 1;
+}
+
 #menu-nav-home-banner .uk-navbar-container:not(.uk-navbar-transparent){
     background-color: #fff;
 }
