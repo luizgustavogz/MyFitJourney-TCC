@@ -18,7 +18,7 @@
         {
             die('<script>
             alert("CÓDIGO INCORRETO.\nTENTE NOVAMENTE");
-            window.location="emailVerification.php?email=' . $email . '";
+            window.location="emailVerificationService.php?email=' . $email . '";
             </script>');
         }
 

@@ -35,7 +35,7 @@ session_start();
         {
             die('<script>
             alert("VALIDAÇÃO DE E-MAIL PENDENTE.\nPOR FAVOR, VALIDE SEU E-MAIL PARA REALIZAR O LOGIN AQUI:");
-            window.location="../services/emailVerification.php?email=' . $email . '";
+            window.location="../services/emailVerificationService.php?email=' . $email . '";
             </script>');
         }
         
@@ -49,10 +49,6 @@ session_start();
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-<<<<<<< HEAD
-        <link rel="stylesheet" href="../assets/css/login.css">
-=======
->>>>>>> 2cffcc54a97a35e8dc82eb8227a33fe0dea3676d
         <title>MyFitJourney | Login</title>
         
         <link rel="stylesheet" href="../assets/css/login.css">
@@ -61,11 +57,7 @@ session_start();
 <body>
     <div class="container-login">
         <div class="img-box">            
-<<<<<<< HEAD
-            <img id="inverter" src="../assets/img/runner.png">
-=======
             <img id="inverter" src="../assets/img/login.svg">
->>>>>>> 2cffcc54a97a35e8dc82eb8227a33fe0dea3676d
         </div>
         <div class="content-box">
             <div class="form-box">                
@@ -86,7 +78,7 @@ session_start();
                     </div>
 
                     <div class="input-box">
-                        <p>Não tem uma conta? <a href="cadastro.php">Cadastre-se</a></p>
+                        <p>Não tem uma conta? <a href="register.php">Cadastre-se</a></p>
                     </div>
                 </form>
             </div>
