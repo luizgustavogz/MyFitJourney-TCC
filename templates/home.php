@@ -76,12 +76,14 @@
             <div class="uk-flex-middle" uk-grid>
                 <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
                     <h1>Seja bem-vindo(a)!<br> Vamos começar uma<br>vida mais saudável?</h1>
-                    <p>Sinta-se à vontade para elaborar planos alimentares, treinos diversificados e <br> consultar nossos nutricionistas! <strong>Planeje o futuro da sua saúde e bem-estar!</strong></p>
+                    <p>Sinta-se à vontade para elaborar planos alimentares, treinos diversificados, <br> consultar nossos nutricionistas e adquirir nossos produtos! 
+                    <strong><br>Planeje o futuro da sua saúde e bem-estar!</strong></p>
                     
                     <div class="uk-margin box-subscription" uk-margin>
                         <a href="./diet.php"><button class="uk-button uk-button-default button-1">Dietas</button></a>
                         <a href="./workout.php"><button class="uk-button uk-button-default button-2">Treinos</button></a>
-                        <a href="./nutritionist.php"><button class="uk-button uk-button-default button-1">Nutricionista</button></a>
+                        <a href="./nutritionist.php"><button class="uk-button uk-button-default button-1">Nutricionistas</button></a>
+                        <a href="./store.php"><button class="uk-button uk-button-default button-2">Loja</button></a>
                     </div>
                     
                 </div>
