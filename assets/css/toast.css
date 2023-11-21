@@ -1,0 +1,17 @@
+#toast {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: none;
+  cursor: pointer; /* Adiciona um cursor de clique */
+  transition: background-color 0.3s ease-in-out;
+}
+
+#toast:hover {
+  background-color: #555; /* Altera a cor de fundo ao passar o mouse */
+}

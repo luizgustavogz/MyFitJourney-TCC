@@ -142,8 +142,8 @@
             <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
                 <div>
                     <div class="uk-card uk-card-body card-services">
-                        <h3 class="uk-card-title">Dietas:</h3>
-                        <p>Consultoria para elaboração de cardapios</p>
+                        <h3 class="uk-card-title">Dietas</h3>
+                        <p>Elaboração de refeições diárias e dicas de alimentação</p>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
                         <span>Calcule seu IMC</span> <br><br>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
@@ -158,8 +158,8 @@
                 </div>
                 <div>
                     <div class="uk-card uk-card-body card-services">
-                        <h3 class="uk-card-title">Treinos:</h3>
-                        <p>Planos para realização de treinos de acordo com o que desejar atingir</p>
+                        <h3 class="uk-card-title">Treinos</h3>
+                        <p>Diversidade de treinos de acordo com a meta que desejar atingir</p>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
                         <span>Planos de treino</span> <br><br>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
@@ -174,14 +174,14 @@
                 </div>
                 <div>
                     <div class="uk-card uk-card-body card-services">
-                        <h3 class="uk-card-title">Shopping:</h3>
-                        <p>Loja com produtos para ajudar com treino e dieta</p>
+                        <h3 class="uk-card-title">Loja</h3>
+                        <p>Produtos para impulsionar e ajudar nos treinos e dietas</p>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
-                        <span>Alimentos</span> <br><br>
+                        <span>Alimentação</span> <br><br>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
-                        <span>Equipamentos para casa</span> <br><br>
+                        <span>Suplementos</span> <br><br>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
-                        <span>Suplementos nutricionais</span> <br><br>
+                        <span>Equipamentos</span> <br><br>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
                         <span>Vestuário</span> <br><br>
                         <br>
@@ -195,7 +195,7 @@
     <section id="box-feedback">
         <div class="uk-container uk-container-large">
             <h1 class="uk-text-center">Feedbacks</h1>
-            <h2>Alguns comentários de nossos clientes que se beneficiaram <br>com o método apresentado pela MyFitJourney</h2>
+            <h2 class="uk-text-center">Alguns comentários de nossos clientes que se beneficiaram <br>com o método apresentado pela MyFitJourney</h2>
 
             <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
                 <div>
