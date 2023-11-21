@@ -80,7 +80,7 @@ session_start();
                 VALUES ('" . $nome_completo . "', '" . $email . "', '" . $encrypted_password . "', '" . $verification_code . "', NULL)";
             mysqli_query($conn, $sql);
 
-            // header("Location: emailVerification.php?email=" . $email);
+            // header("Location: emailVerificationService.php?email=" . $email);
             header("Location: login.php");
             exit();
         } catch (Exception $e) {
@@ -94,7 +94,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyFitJourney | Cadastro</title>
 
-    <link rel="stylesheet" href="../assets/css/cadastro.css">
+    <link rel="stylesheet" href="../assets/css/register.css">
 </head>
 
 <body>

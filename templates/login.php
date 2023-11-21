@@ -35,7 +35,7 @@ session_start();
         {
             die('<script>
             alert("VALIDAÇÃO DE E-MAIL PENDENTE.\nPOR FAVOR, VALIDE SEU E-MAIL PARA REALIZAR O LOGIN AQUI:");
-            window.location="../services/emailVerification.php?email=' . $email . '";
+            window.location="../services/emailVerificationService.php?email=' . $email . '";
             </script>');
         }
         
@@ -78,7 +78,7 @@ session_start();
                     </div>
 
                     <div class="input-box">
-                        <p>Não tem uma conta? <a href="cadastro.php">Cadastre-se</a></p>
+                        <p>Não tem uma conta? <a href="register.php">Cadastre-se</a></p>
                     </div>
                 </form>
             </div>
