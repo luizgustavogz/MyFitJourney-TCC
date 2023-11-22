@@ -130,8 +130,7 @@
 
     <section class="supplements">
     </section>
-
-    <script src="../assets/js/loja.js"></script>
+    
     <footer>
         <div class="container-footer">
             <div class="row-footer">
@@ -201,6 +200,6 @@
             </div>
         </div>
     </footer>
+    <script src="../assets/js/loja.js"></script>
 </body>
-
 </html>
