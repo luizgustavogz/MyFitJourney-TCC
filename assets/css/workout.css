@@ -1,0 +1,136 @@
+#wk-training-plans{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background: linear-gradient(to left, #FEA007, #FC4419);
+}
+
+#wk-training-plans h2{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+#wk-training-plans .cards-border {
+    border: 3px solid #205DC9;
+    border-radius: 20px;
+}
+
+#wk-training-plans .cards-border-white {
+    border: 3px solid #fff;
+    border-radius: 20px;
+}
+
+#wk-training-plans .cards-border-black {
+    border: 3px solid #000;
+    border-radius: 20px;
+}
+
+#wk-training-plans .card-benefits{
+    background-color: #fff;
+}
+
+#wk-training-plans .card-benefits-secondary{
+    background-color: #205DC9;
+}
+
+#wk-training-plans .card-benefits-secondary h3{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;    
+}
+
+#wk-training-plans .card-benefits-secondary p{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: left;
+}
+
+#wk-training-plans .card-benefits-secondary span{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: left;
+}
+
+#wk-training-plans .card-benefits-secondary a{
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+#wk-training-plans .card-benefits h3{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#wk-training-plans .card-benefits p{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: left;
+}
+
+#wk-training-plans .card-benefits a{
+    color: #000;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.invert-img {
+    position: relative;
+    display: inline-block;
+}
+
+#wk-trainners{
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background: linear-gradient(to right, #003a67, #232c3c);
+    
+}
+
+#wk-trainners h2{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+#wk-trainners p{
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#wk-trainners strong{
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+#wk-trainners .container-slide a{
+    background: linear-gradient(to right, #FEA007, #FC4419);
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+
+#wk-trainners .container-slide a:hover{
+    background: linear-gradient(to right, #3CA3F4, #224f9c);
+    color: #fff;
+}
+
+#wk-trainners .uk-grid>*>:last-child{
+    min-height: 550px;
+}
