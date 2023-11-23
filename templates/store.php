@@ -17,6 +17,24 @@
 </head>
 
 <body>
+
+    <div class="sidebar">
+        <menu>
+            <li class="logo">
+                <a href="#"></a>
+                <span>MyFitJourney</span>
+            </li>
+            <li>
+                <a href="#"></a>
+                <span>Carrinho</span>
+            </li>
+            <li>
+                <a href="#"></a>
+                <span>Logoff</span>
+            </li>
+        </menu>
+    </div>
+
     <section id="menu-nav-home-banner">
         <nav class="uk-navbar-container">
             <div class="uk-container uk-container-large">
@@ -130,7 +148,7 @@
 
     <section class="supplements">
     </section>
-    
+
     <footer>
         <div class="container-footer">
             <div class="row-footer">
@@ -202,4 +220,5 @@
     </footer>
     <script src="../assets/js/loja.js"></script>
 </body>
+
 </html>

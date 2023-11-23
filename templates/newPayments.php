@@ -107,7 +107,7 @@
             <form action="">
                 <div class="inputBox">
                     <span>Número no Cartão</span>
-                    <input type="text" maxlength="16" class="card-number-input">
+                    <input type="number" maxlength="16" class="card-number-input">
                 </div>
                 <div class="inputBox">
                     <span>Nome no cartão</span>
