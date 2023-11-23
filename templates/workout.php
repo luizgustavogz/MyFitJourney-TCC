@@ -117,37 +117,37 @@
                     <li class="uk-text-center container-slide">
                         <div class="uk-panel">
                             <img src="../assets/img/cardio.svg" alt="" srcset="">
-                            <a href="./workout.php">Cardiovascular</a>
+                            <a href="#cardiovascular">Cardiovascular</a>
                         </div>                        
                     </li>
                     <li class="uk-text-center container-slide">
                         <div class="uk-panel">
                             <img src="../assets/img/treino-de-definicao.svg" alt="" srcset="">
-                            <a href="./workout.php">Definição</a>
+                            <a href="#definicao">Definição</a>
                         </div>
                     </li>
                     <li class="uk-text-center container-slide">
                         <div class="uk-panel">
                             <img src="../assets/img/treino-de-força.svg" alt="" srcset="">
-                            <a href="./workout.php">Força</a>
+                            <a href="#forca">Força</a>
                         </div>
                     </li>
                     <li class="uk-text-center container-slide">
                         <div class="uk-panel">
                             <img src="../assets/img/treino-hiit.svg" alt="" srcset="">
-                            <a href="./workout.php">Funcional</a>
+                            <a href="#funcional">Funcional</a>
                         </div>
                     </li>
                     <li class="uk-text-center container-slide">
                         <div class="uk-panel">
                             <img src="../assets/img/treino-hipertrofia.svg" alt="" srcset=""> 
-                            <a href="">Hipertrofia</a>                       
+                            <a href="#hipertrofia">Hipertrofia</a>                       
                         </div>                        
                     </li>
                     <li class="uk-text-center container-slide">
                         <div class="uk-panel">
                             <img src="../assets/img/treino-resistencia.svg" alt="" srcset="">
-                            <a href="./workout.php">Resistência</a>
+                            <a href="#resistencia">Resistência</a>
                         </div>
                     </li>
                 </ul>
@@ -164,9 +164,9 @@
         <div class="uk-container uk-container-large">
             <h2 class="uk-text-center">Planos de Treino Personalizados</h2>            
 
-            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
+            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 500; repeat: true">
                 <div>
-                    <div class="uk-card uk-card-body card-benefits cards-border-black">
+                    <div class="uk-card uk-card-body card-benefits cards-border-black" id="cardiovascular">
                         <h3 class="uk-card-title">
                             <img src="../assets/img/img-wk-card-cardio.png" alt="" width="55" height="55">
                             Cardiovascular
@@ -194,7 +194,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-body card-benefits-secondary cards-border-white">
+                    <div class="uk-card uk-card-body card-benefits-secondary cards-border-white" uk-scrollspy-class="uk-animation-slide-top" id="resistencia">
                         <h3 class="uk-card-title">
                             <div class="invert-img">
                                 <canvas id="canvas-resistencia" width="55" height="55"></canvas>
@@ -224,7 +224,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-body card-benefits cards-border-black">
+                    <div class="uk-card uk-card-body card-benefits cards-border-black" id="definicao">
                         <h3 class="uk-card-title">
                             <img src="../assets/img/img-wk-card-definicao.png" alt="" width="55" height="55">
                             Definição
@@ -255,9 +255,9 @@
 
             <br><br><br>
 
-            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
+            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid uk-scrollspy="cls: uk-animation-slide-top; target: .uk-card; delay: 500; repeat: true">
                 <div>
-                    <div class="uk-card uk-card-body card-benefits-secondary cards-border-white">
+                    <div class="uk-card uk-card-body card-benefits-secondary cards-border-white" id="forca">
                         <h3 class="uk-card-title">
                             <div class="invert-img">
                                 <canvas id="canvas-forca" width="55" height="55"></canvas>
@@ -286,7 +286,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-body card-benefits cards-border-black">
+                    <div class="uk-card uk-card-body card-benefits cards-border-black" uk-scrollspy-class="uk-animation-slide-bottom" id="funcional" >
                         <h3 class="uk-card-title">
                             <img src="../assets/img/img-wk-card-funcional.png" alt="" width="55" height="55">
                             Funcional
@@ -312,9 +312,8 @@
                         <span>Levantamento Terra</span> <br><br>
                     </div>
                 </div>
-
                 <div>
-                    <div class="uk-card uk-card-body card-benefits-secondary cards-border-white">                        
+                    <div class="uk-card uk-card-body card-benefits-secondary cards-border-white" id="hipertrofia"> 
                         <h3 class="uk-card-title">
                             <div class="invert-img">
                                 <canvas id="canvas-hipertrofia" width="55" height="55"></canvas>
@@ -343,7 +342,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -404,6 +402,7 @@
     </footer>
 
 <script src="../assets/js/invertColors.js"></script>
+<script src="../assets/js/scrollIntoView.js"></script>
 </body>
 
 </html>
