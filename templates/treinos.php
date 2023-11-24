@@ -81,11 +81,11 @@
         <div class="uk-container uk-container-large">
             <div class="uk-flex-middle" uk-grid>
 
-                <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
                     <img src="../assets/img/treinos.svg" alt="Image">
                 </div>
 
-                <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
                     <h1>Bem vindo a sua jornada fit!<br>Seu guia de treinos para uma vida saudável e ativa!</h1>
                     <p>Construa Músculos, Supere Limites e Viva de Forma Saudável com a MyFitJourney! <strong>Inscreva-se para uma avalição gratuita!</strong></p>
 

@@ -44,17 +44,13 @@
         <div class="uk-container uk-container-large">
             <div class="uk-flex-middle" uk-grid>
                 <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
-                    <h1>Sua Jornada para <br> uma melhor versão <br>começa Aqui!</h1>
-                    <p>Construa Músculos, Supere Limites e Viva de Forma Saudável com a Core Fit! <strong>Inscreva-se para uma avalição gratuita!</strong></p>
-
-                    <form action="">
-                        <div>
-                            <div class="uk-margin box-subscription" uk-margin>
-                                
-                                    <input class="uk-input uk-form-width-medium" type="text" placeholder="Digite seu email" aria-label="Custom controls" >
-                                
-                                <button class="uk-button uk-button-default">Iniciar Consultoria</button>
-                            </div>
+                    <h1>Sua Jornada para <br> uma melhor versão <br>começa aqui!</h1>
+                    <p>Construa músculos, supere limites e viva de forma saudável com a MyFitJourney!
+                        <strong>Inscreva-se na plataforma e acesse nossos conteúdos sobre Dietas e Treinos de forma GRATUITA!</strong></p>
+                    
+                    <div>
+                        <div class="uk-margin box-subscription" uk-margin>
+                            <a href="./cadastro.php"><button class="uk-button uk-button-default">Cadastrar</button></a>
                         </div>
                     </div>
                     
