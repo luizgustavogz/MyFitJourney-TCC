@@ -3,15 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CoreFit | Evolua para a sua melhor versão</title>
+    <title>MyFitJourney | Dietas</title>
     <link rel="stylesheet" href="../assets/css/index.scss">
     <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script src="../assets/js/map.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">        
 </head>
 <body>
     <section id="menu-nav-home-banner">
@@ -21,38 +19,32 @@
 
                     <div class="uk-navbar-left">
 
-                        <a class="uk-navbar-item uk-logo logo-header" href="#" aria-label="Back to Home">MyFit<strong>Journey</strong></a>
+                        <a class="uk-navbar-item uk-logo logo-header" href="home.php" aria-label="Back to Home">MyFit<strong>Journey</strong></a>
                     </div>
                     <div class="uk-navbar-center">
-                        <ul class="uk-navbar-nav">
+                        <ul class="uk-navbar-nav">                            
                             <li>
-                                <a class="link" href="#">
+                                <a class="link" href="store.php">
                                     <span class="uk-icon uk-margin-small-right" ></span>
-                                    Calcular IMC
+                                    Loja
                                 </a>
                             </li>
                             <li>
-                                <a class="link" href="#">
-                                    <span class="uk-icon uk-margin-small-right" ></span>
-                                    Store
-                                </a>
-                            </li>
-                            <li>
-                                <a class="link" href="#">
+                                <a class="link" href="workout.php">
                                     <span class="uk-icon uk-margin-small-right"></span>
                                     Treinos
                                 </a>
                             </li>
                             <li>
-                                <a class="link" href="#">
+                                <a class="link" href="nutritionist.php">
                                     <span class="uk-icon uk-margin-small-right"></span>
-                                    Cardapio
+                                    Fale com nossos Nutricionistas
                                 </a>
                             </li>
                             <li>
-                                <a class="link" href="#">
+                                <a class="link" href="payment.php">
                                     <span class="uk-icon uk-margin-small-right"></span>
-                                    Fale com nossos Nutricionistas
+                                    Pagamento
                                 </a>
                             </li>
                         </ul>
@@ -61,7 +53,7 @@
                     <div class="uk-navbar-right">
                         <div class="uk-navbar-item">
                             <form action="javascript:void(0)">
-                                <a href="login.php" class="uk-button uk-button-default button">Area do cliente</a>
+                                <a href="../services/logoutService.php" class="uk-button uk-button-logout">Sair</a>
                             </form>
                         </div>    
                     </div>
@@ -92,7 +84,7 @@
                             </div>
 
                             <div class="uk-margin">
-                            <label class="uk-form-label" for="height">Altura (m):</label>
+                            <label class="uk-form-label" for="height">Altura (cm):</label>
                             <div class="uk-form-controls">
                                 <input class="uk-input" type="number" id="height" step="0.01" required>
                             </div>
@@ -109,15 +101,15 @@
                             </div>
                             </div>
 
-                            <div class="uk-margin">
-                            <label class="uk-form-label" for="dob">Data de Nascimento:</label>
+                            <div class="uk-margin">                            
+                            <label class="uk-form-label" for="age">Idade:</label>
                             <div class="uk-form-controls">
-                                <input class="uk-input" type="date" id="dob" required>
+                                <input class="uk-input" type="number" id="age" placeholder="Digite sua idade" required>
                             </div>
                             </div>
 
                             <div class="uk-margin uk-flex-center uk-text-center button-space">
-                                <button type="button" class="uk-button uk-button-primary" onclick="calculateBMI()">Calcular IMC</button>
+                                <button type="button" class="uk-button uk-button-primary" onclick="calculateIMC()">Calcular IMC</button>
                             </div>
                         </form>
 
@@ -178,13 +170,12 @@
             </div>
         </div>
     </section>
-
     
     <footer>
         <div class="container-footer">
             <div class="row-footer">
                 <div class="footer-col">
-                    <h4>CoreFit</h4>
+                    <h4>MyFitJourney</h4>
                     <div class="medias-socias">
                         <a href="https://www.instagram.com/myfitjourneyreal/"> <img src="../assets/img/instagram-icon.svg"></img> </a>
                         <a href="https://twitter.com/myfitjourneyofc"> <img src="../assets/img/twitter-icon.svg"></img> </a>
@@ -195,23 +186,20 @@
                 </div>
 
                 <div class="footer-col">
-                    <h4>Obter ajuda</h4>
+                    <h4>Informações</h4>
                     <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Transporte</a></li>
-                        <li><a href="#">devoluções</a></li>
-                        <li><a href="#">Status De Pedido</a></li>
-                        <li><a href="#">Opções De Pagamento</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="./store.php">Loja</a></li>
+                        <li><a href="./payment.php">Pagamento</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-col">
-                    <h4>Loja online</h4>
+                    <h4>Serviços</h4>
                     <ul>
-                        <li><a href="#">Relógio</a></li>
-                        <li><a href="#">Saco</a></li>
-                        <li><a href="#">Calçado</a></li>
-                        <li><a href="#">Endereço</a></li>
+                        <li><a href="./workout.php">Treinos</a></li>
+                        <li><a href="./diet.php">Dietas</a></li>
+                        <li><a href="./nutritionist.php">Nutricionistas</a></li>
                     </ul>
                 </div>
 
@@ -238,41 +226,9 @@
             </div>
         </div>
     </footer>
-
-    <script>
-  function calculateBMI() {
-    var weight = document.getElementById('weight').value;
-    var height = document.getElementById('height').value;
-
-    if (weight > 0 && height > 0) {
-      var bmi = weight / (height * height);
-      displayResult(bmi);
-    } else {
-      alert('Por favor, insira valores válidos para peso e altura.');
-    }
-  }
-
-  function displayResult(bmi) {
-    var resultDiv = document.getElementById('result');
-    var message;
-
-    if (bmi < 18.5) {
-      message = 'Abaixo do peso';
-    } else if (bmi >= 18.5 && bmi < 24.9) {
-      message = 'Peso normal';
-    } else if (bmi >= 25 && bmi < 29.9) {
-      message = 'Sobrepeso';
-    } else {
-      message = 'Obeso';
-    }
-
-    console.log(bmi);
-    resultDiv.innerHTML = 'Seu IMC é ' + bmi.toFixed(2) + '. ' + message + '.';
-    resultDiv.hidden = false;
-  }
-</script>
 </body>
 </html>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>
-
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script src="../assets/js/calculateIMC.js"></script>

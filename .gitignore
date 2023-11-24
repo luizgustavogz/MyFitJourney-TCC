@@ -9,3 +9,6 @@ crash.log
 
 # API .env
 .env
+
+node_modules/
+

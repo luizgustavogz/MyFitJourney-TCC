@@ -122,7 +122,7 @@
 }
 
 #hp-banner-header .box-subscription{
-    opacity: 0.7;
+    opacity: 0.8;
     color: #fff;
     border-radius: 5px;
 }
@@ -133,7 +133,7 @@
     border: unset;
     text-transform: unset;
     font-family: 'Montserrat', sans-serif;
-    color: #fff;
+    color: #fff ;
     font-weight: 700;
 }
 
@@ -141,6 +141,7 @@
     background-color: #fff !important;
     color: #0842A9 !important;
     font-family: 'Montserrat', sans-serif;
+    text-transform: unset;
     color: #fff;
     font-weight: 700;
     border-radius: 5px;
@@ -322,7 +323,7 @@
 #hp-services-offered .card-services{
     border: 2px solid #fff;
     color: #fff;
-    opacity: 0.6;
+    opacity: 0.75;
     border-radius: 15px;
 }
 
@@ -371,6 +372,13 @@
     padding-top: 70px;
     padding-bottom: 70px;
     background: linear-gradient(to right, #FEA007, #FC4419);
+}
+
+#box-feedback h1{    
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
 }
 
 #box-feedback h2{

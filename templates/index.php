@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CoreFit | Evolua para a sua melhor versão</title>
+    <title>MyFitJourney | Evolua para a sua melhor versão</title>
     <link rel="stylesheet" href="../assets/css/index.scss">
     <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script src="../assets/js/map.js" defer></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>    
 </head>
 <body>
     <section id="menu-nav-home-banner">
@@ -30,7 +29,7 @@
                                 <a href="login.php" class="uk-button uk-button-default button">Login</a>
                             </form>
                             <form action="javascript:void(0)">
-                                <a href="cadastro.php" class="uk-button uk-button-default button">Cadastro</a>
+                                <a href="register.php" class="uk-button uk-button-default button">Cadastro</a>
                             </form>
                         </div>    
                     </div>
@@ -50,7 +49,7 @@
                     
                     <div>
                         <div class="uk-margin box-subscription" uk-margin>
-                            <a href="./cadastro.php"><button class="uk-button uk-button-default">Cadastrar</button></a>
+                            <a href="./register.php"><button class="uk-button uk-button-default button-1">Cadastrar</button></a>
                         </div>
                     </div>
                     
@@ -94,7 +93,7 @@
                         <img src="../assets/img/img-card-1.png" alt="" srcset="">
                         <h3 class="uk-card-title">Desenvolva Músculos</h3>
                         <p>Os benefícios da musculação incluem a construção de músculos magros, a melhoria da postura e a prevenção de lesões.</p>
-                        <a href="treinos.php">learn more</a>
+                        <!-- <a href="treinos.php">learn more</a> -->
                     </div>
                 </div>
                 <div>
@@ -102,7 +101,7 @@
                         <img src="../assets/img/img-card-2.png" alt="" srcset="">
                         <h3 class="uk-card-title"> Perda de Gordura Ruim</h3>
                         <p>Com dedicação e um plano bem equilibrado, você alcançará seus objetivos de desempenho e superará seus limites.</p>
-                        <a href="treinos.php">learn more</a>
+                        <!-- <a href="treinos.php">learn more</a> -->
                     </div>
                 </div>
                 <div>
@@ -110,7 +109,7 @@
                         <img src="../assets/img/img-card-3.png" alt="" srcset="">
                         <h3 class="uk-card-title">Corpo saudável</h3>
                         <p> queime gordura ruim e alcance um corpo mais saudável, foco em exercícios cardiovasculares e treinamento de força. </p>
-                        <a href="treinos.php">learn more</a>
+                        <!-- <a href="treinos.php">learn more</a> -->
                     </div>
                 </div>
             </div>
@@ -121,7 +120,7 @@
         <div class="uk-container uk-container-large">
             <div class="uk-flex-middle" uk-grid>
                 <div class="uk-width-1-2@m">
-                    <h2><strong>Sobre Nós</strong>: Bem-Vindo à Core Fit</h2>
+                    <h2><strong>Sobre Nós</strong>: Bem-Vindo à MyFitJourney</h2>
                     <p>Nosso site foi criado com um propósito claro: capacitar indivíduos a tomar o controle de sua saúde e bem-estar, promovendo um estilo de vida saudável e a prevenção de doenças relacionadas à obesidade e má alimentação. Acreditamos que a saúde é um ativo inestimável e que cada pessoa merece a oportunidade de viver uma vida plena, longa e cheia de vitalidade.</p>
 
                     <p>Nosso objetivo é fornecer recursos, informações e orientações práticas para ajudar as pessoas a fazer escolhas conscientes em relação à sua alimentação, atividade física e saúde mental. Acreditamos que a prevenção é a chave para um futuro mais saudável e estamos empenhados em capacitar nossos visitantes a trilhar esse caminho.</p> <br>
@@ -138,13 +137,13 @@
         <div class="uk-container uk-container-large">
 
             <h2 class="uk-text-center">Serviços Oferecidos</h2>
-            <p class="uk-text-center subtitle">For some people, putting in the hard work that it takes</p>
+            <!-- <p class="uk-text-center subtitle">For some people, putting in the hard work that it takes</p> -->
 
             <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
                 <div>
                     <div class="uk-card uk-card-body card-services">
-                        <h3 class="uk-card-title">Dietas:</h3>
-                        <p>Consultoria para elaboração de cardapios</p>
+                        <h3 class="uk-card-title">Dietas</h3>
+                        <p>Elaboração de refeições diárias e dicas de alimentação</p>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
                         <span>Calcule seu IMC</span> <br><br>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
@@ -154,13 +153,13 @@
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
                         <span>Receitas saudáveis</span> <br><br>
                         <br>
-                        <a href="">Read More</a>
+                        <!-- <a href="">Read More</a> -->
                     </div>
                 </div>
                 <div>
                     <div class="uk-card uk-card-body card-services">
-                        <h3 class="uk-card-title">Treinos:</h3>
-                        <p>Planos para realização de treinos de acordo com o que desejar atingir</p>
+                        <h3 class="uk-card-title">Treinos</h3>
+                        <p>Diversidade de treinos de acordo com a meta que desejar atingir</p>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
                         <span>Planos de treino</span> <br><br>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
@@ -170,23 +169,23 @@
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
                         <span>Treinos ao ar livre</span> <br><br>
                         <br>
-                        <a href="">Read More</a>
+                        <!-- <a href="">Read More</a> -->
                     </div>
                 </div>
                 <div>
                     <div class="uk-card uk-card-body card-services">
-                        <h3 class="uk-card-title">Shopping:</h3>
-                        <p>Loja com produtos para ajudar com treino e dieta</p>
+                        <h3 class="uk-card-title">Loja</h3>
+                        <p>Produtos para impulsionar e ajudar nos treinos e dietas</p>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
-                        <span>Alimentos</span> <br><br>
+                        <span>Alimentação</span> <br><br>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
-                        <span>Equipamentos para casa</span> <br><br>
+                        <span>Suplementos</span> <br><br>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
-                        <span>Suplementos nutricionais</span> <br><br>
+                        <span>Equipamentos</span> <br><br>
                         <img src="../assets/img/list-icon.svg" alt="" width="15" height="15">
                         <span>Vestuário</span> <br><br>
                         <br>
-                        <a href="">Read More</a>
+                        <!-- <a href="">Read More</a> -->
                     </div>
                 </div>
             </div>
@@ -195,8 +194,8 @@
 
     <section id="box-feedback">
         <div class="uk-container uk-container-large">
-
-            <h2>Alguns comentários de nossos clientes que <br> se beneficiaram com o metodo <br> myfitjourney</h2>
+            <h1 class="uk-text-center">Feedbacks</h1>
+            <h2 class="uk-text-center">Alguns comentários de nossos clientes que se beneficiaram <br>com o método apresentado pela MyFitJourney</h2>
 
             <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
                 <div>
@@ -228,7 +227,7 @@
         <div class="container-footer">
             <div class="row-footer">
                 <div class="footer-col">
-                    <h4>CoreFit</h4>
+                    <h4>MyFitJourney</h4>
                     <div class="medias-socias">
                         <a href="https://www.instagram.com/myfitjourneyreal/"> <img src="../assets/img/instagram-icon.svg"></img> </a>
                         <a href="https://twitter.com/myfitjourneyofc"> <img src="../assets/img/twitter-icon.svg"></img> </a>
@@ -239,23 +238,20 @@
                 </div>
 
                 <div class="footer-col">
-                    <h4>Obter ajuda</h4>
+                    <h4>Informações</h4>
                     <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Transporte</a></li>
-                        <li><a href="#">devoluções</a></li>
-                        <li><a href="#">Status De Pedido</a></li>
-                        <li><a href="#">Opções De Pagamento</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="./store.php">Loja</a></li>
+                        <li><a href="./payment.php">Pagamento</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-col">
-                    <h4>Loja online</h4>
+                    <h4>Serviços</h4>
                     <ul>
-                        <li><a href="#">Relógio</a></li>
-                        <li><a href="#">Saco</a></li>
-                        <li><a href="#">Calçado</a></li>
-                        <li><a href="#">Endereço</a></li>
+                        <li><a href="./workout.php">Treinos</a></li>
+                        <li><a href="./diet.php">Dietas</a></li>
+                        <li><a href="./nutritionist.php">Nutricionistas</a></li>
                     </ul>
                 </div>
 

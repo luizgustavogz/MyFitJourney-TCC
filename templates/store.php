@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyFitJourney | Store</title>
+    <title>MyFitJourney | Loja</title>
     <link rel="stylesheet" href="../assets/css/index.scss">
     <link rel="stylesheet" href="../assets/css/footer.css">
-    <link rel="stylesheet" href="../assets/css/loja.css">
+    <link rel="stylesheet" href="../assets/css/store.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -17,6 +17,24 @@
 </head>
 
 <body>
+
+    <div class="sidebar">
+        <menu>
+            <li class="logo">
+                <a href="#"></a>
+                <span>MyFitJourney</span>
+            </li>
+            <li>
+                <a href="#"></a>
+                <span>Carrinho</span>
+            </li>
+            <li>
+                <a href="#"></a>
+                <span>Logoff</span>
+            </li>
+        </menu>
+    </div>
+
     <section id="menu-nav-home-banner">
         <nav class="uk-navbar-container">
             <div class="uk-container uk-container-large">
@@ -29,31 +47,25 @@
                     <div class="uk-navbar-center">
                         <ul class="uk-navbar-nav">
                             <li>
-                                <a class="link" href="loja.php">
-                                    <span class="uk-icon uk-margin-small-right" ></span>
-                                    Loja
-                                </a>
-                            </li>
-                            <li>
-                                <a class="link" href="treinos.php">
+                                <a class="link" href="workout.php">
                                     <span class="uk-icon uk-margin-small-right"></span>
                                     Treinos
                                 </a>
                             </li>
                             <li>
-                                <a class="link" href="#">
+                                <a class="link" href="diet.php">
                                     <span class="uk-icon uk-margin-small-right"></span>
                                     Dietas
                                 </a>
                             </li>
                             <li>
-                                <a class="link" href="#">
+                                <a class="link" href="nutritionist.php">
                                     <span class="uk-icon uk-margin-small-right"></span>
                                     Fale com nossos Nutricionistas
                                 </a>
                             </li>
                             <li>
-                                <a class="link" href="pagamento.php">
+                                <a class="link" href="payment.php">
                                     <span class="uk-icon uk-margin-small-right"></span>
                                     Pagamento
                                 </a>
@@ -64,12 +76,9 @@
                     <div class="uk-navbar-right">
                         <div class="uk-navbar-item">
                             <form action="javascript:void(0)">
-                                <a href="login.php" class="uk-button uk-button-default button">Login</a>
+                                <a href="../services/logoutService.php" class="uk-button uk-button-logout">Sair</a>
                             </form>
-                            <form action="javascript:void(0)">
-                                <a href="../services/sairService.php" class="uk-button uk-button-logout">Sair</a>
-                            </form>
-                        </div>    
+                        </div>
                     </div>
 
                 </div>
@@ -77,9 +86,24 @@
         </nav>
     </section>
 
-    <section class="product-banner">
+    <main class="product-banner">
         <div class="banner-img">
             <span class="product-title">Conheça nossos Produtos</span>
+        </div>
+
+        <div class="uk-container uk-container-large">
+            <div class="uk-flex-middle" uk-grid>
+                <div class="uk-width-1-2@m">
+                    <h2>Na MyFitJourney nós trazemos os produtos certos para o seu crescimento</h2>
+                    <p>A MyFitJourney, comprometida com a promoção de um estilo de vida saudável, foi concebida com o objetivo claro de capacitar os indivíduos a assumirem o controle de sua saúde e bem-estar. Nossa missão é prevenir doenças relacionadas à obesidade e má alimentação, proporcionando a todos a oportunidade de viver uma vida plena, longa e cheia de vitalidade.</p>
+
+                    <p>Acreditamos que investir na qualidade desses itens não só aprimora seu desempenho, mas também contribui significativamente para a promoção de uma vida saudável e ativa. Convidamos você a explorar nossa variedade, dando um passo firme em direção a um futuro mais saudável e capacitador.</p> <br>
+                    <a href="#">Falar com especialista</a>
+                </div>
+                <div class="uk-width-1-2@m uk-text-center" style="margin-bottom: 80px;">
+                    <img src="../assets/img/Coach-amico.svg" alt="Image">
+                </div>
+            </div>
         </div>
 
 
@@ -92,63 +116,37 @@
                     <div>
                         <div class="uk-card uk-card-body card-benefits cards-border">
 
-                            <h3 class="uk-card-title">Desenvolva Músculos</h3>
-                            <p>Os benefícios da musculação incluem a construção de músculos magros, a melhoria da postura e a prevenção de lesões.</p>
+                            <h2 class="uk-card-title"></h2>
+                            <p class="products-price"></p>
                         </div>
                     </div>
                     <div>
                         <div class="uk-card uk-card-body card-benefits cards-border" style="flex-direction: row-reverse; -webkit-flex-direction: row-reverse;">
-                            <h3 class="uk-card-title"> Perda de Gordura Ruim</h3>
-                            <p>Com dedicação e um plano bem equilibrado, você alcançará seus objetivos de desempenho e superará seus limites.</p>
+                            <h2 class="uk-card-title"></h2>
+                            <p class="products-price"></p>
                         </div>
                     </div>
                     <div>
                         <div class="uk-card uk-card-body card-benefits cards-border">
-                            <h3 class="uk-card-title">Corpo saudável</h3>
-                            <p> queime gordura ruim e alcance um corpo mais saudável, foco em exercícios cardiovasculares e treinamento de força. </p>
+                            <h2 class="uk-card-title"></h2>
+                            <p class="products-price"></p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="button-grid">
-                <a href="#">
+                <a href="accessories.php">
                     <button class="accessories-page-button">Ver mais</button>
                 </a>
             </div>
 
-            <!-- <div class="accessories-group">
-                
-                <div class="accessories-img">
-
-                </div>
-
-                <div class="accessories-img">
-
-                </div>
-
-                <div class="accessories-img">
-
-                </div>
-
-            </div>
-            <div class="subtitle-accessories-grid">
-                <span> Luvas Crossfit</span>
-                <span> Colete de Peso Funcional</span>
-                <span> Peso do Kettlebell</span>
-            </div>
-
-            <div class="button-grid">
-                <a href="#">
-                    <button class="accessories-page-button">Ver mais</button>
-                </a>
-            </div> -->
+            <!-- End accessories container -->
         </div>
 
-    </section>
+    </main>
 
     <section class="supplements">
-
     </section>
 
     <footer>
@@ -159,29 +157,27 @@
                     <div class="medias-socias">
                         <a href="https://www.instagram.com/myfitjourneyreal/"> <img src="../assets/img/instagram-icon.svg"></img> </a>
                         <a href="https://twitter.com/myfitjourneyofc"> <img src="../assets/img/twitter-icon.svg"></img> </a>
-                        <a href="https://www.linkedin.com/in/luiz-gustavo-oliveira-cunha-a9b329176/"> <img src="../assets/img/linkedin-icon.svg"></img> </a>
-                        <a href="https://www.facebook.com/profile.php?id=61550970016109"> <img src="../assets/img/facebook-icon.svg"></img> </a>
+                        <a href="#"> <img src="../assets/img/linkedin-icon.svg"></img> </a>
+                        <a href="https://www.instagram.com/myfitjourneyreal/"> <img src="../assets/img/facebook-icon.svg"></img> </a>
+
                     </div>
                 </div>
 
                 <div class="footer-col">
-                    <h4>Obter ajuda</h4>
+                    <h4>Informações</h4>
                     <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Transporte</a></li>
-                        <li><a href="#">devoluções</a></li>
-                        <li><a href="#">Status De Pedido</a></li>
-                        <li><a href="#">Opções De Pagamento</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="./store.php">Loja</a></li>
+                        <li><a href="./payment.php">Pagamento</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-col">
-                    <h4>Loja online</h4>
+                    <h4>Serviços</h4>
                     <ul>
-                        <li><a href="#">Relógio</a></li>
-                        <li><a href="#">Saco</a></li>
-                        <li><a href="#">Calçado</a></li>
-                        <li><a href="#">Endereço</a></li>
+                        <li><a href="./workout.php">Treinos</a></li>
+                        <li><a href="./diet.php">Dietas</a></li>
+                        <li><a href="./nutritionist.php">Nutricionistas</a></li>
                     </ul>
                 </div>
 
@@ -217,12 +213,12 @@
                                 to.parentNode.insertBefore(s, to);
                             })();
                         </script><a href="https://1map.com/map-embed">1 Map</a>
-                        <script src="../assets/js/loja.js"></script>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="../assets/js/loja.js"></script>
 </body>
 
 </html>
