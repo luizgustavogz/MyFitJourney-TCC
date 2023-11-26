@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyFitJourney | Loja</title>
+    <title>MyFitJourney | Pagamento</title>
     <link rel="stylesheet" href="../assets/css/index.scss">
     <link rel="stylesheet" href="../assets/css/footer.css">
-    <link rel="stylesheet" href="../assets/css/store.css">
+    <link rel="stylesheet" href="../assets/css/newPayments.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -17,24 +17,6 @@
 </head>
 
 <body>
-
-    <div class="sidebar">
-        <menu>
-            <li class="logo">
-                <a href="#"></a>
-                <span>MyFitJourney</span>
-            </li>
-            <li>
-                <a href="#"></a>
-                <span>Carrinho</span>
-            </li>
-            <li>
-                <a href="#"></a>
-                <span>Logoff</span>
-            </li>
-        </menu>
-    </div>
-
     <section id="menu-nav-home-banner">
         <nav class="uk-navbar-container">
             <div class="uk-container uk-container-large">
@@ -86,67 +68,94 @@
         </nav>
     </section>
 
-    <main class="product-banner">
-        <div class="banner-img">
-            <span class="product-title">Conheça nossos Produtos</span>
-        </div>
+    <section id="payment-section">
+        <div class="container">
 
-        <div class="uk-container uk-container-large">
-            <div class="uk-flex-middle" uk-grid>
-                <div class="uk-width-1-2@m">
-                    <h2>Na MyFitJourney nós trazemos os produtos certos para o seu crescimento</h2>
-                    <p>A MyFitJourney, comprometida com a promoção de um estilo de vida saudável, foi concebida com o objetivo claro de capacitar os indivíduos a assumirem o controle de sua saúde e bem-estar. Nossa missão é prevenir doenças relacionadas à obesidade e má alimentação, proporcionando a todos a oportunidade de viver uma vida plena, longa e cheia de vitalidade.</p>
-
-                    <p>Acreditamos que investir na qualidade desses itens não só aprimora seu desempenho, mas também contribui significativamente para a promoção de uma vida saudável e ativa. Convidamos você a explorar nossa variedade, dando um passo firme em direção a um futuro mais saudável e capacitador.</p> <br>
-                    <a href="#">Falar com especialista</a>
-                </div>
-                <div class="uk-width-1-2@m uk-text-center" style="margin-bottom: 80px;">
-                    <img src="../assets/img/Coach-amico.svg" alt="Image">
-                </div>
-            </div>
-        </div>
-
-
-        <div class="accessories-container">
-            <h2 class="uk-text-center">Os melhores Acessórios:</h2>
-
-            <div class="uk-container uk-container-large">
-
-                <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
-                    <div>
-                        <div class="uk-card uk-card-body card-benefits cards-border">
-
-                            <h2 class="uk-card-title"></h2>
-                            <p class="products-price"></p>
-                        </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="image">
+                        <img src="../assets/img/chip.png" alt="">
+                        <img src="../assets/img/visa.png" alt="">
                     </div>
-                    <div>
-                        <div class="uk-card uk-card-body card-benefits cards-border" style="flex-direction: row-reverse; -webkit-flex-direction: row-reverse;">
-                            <h2 class="uk-card-title"></h2>
-                            <p class="products-price"></p>
+                    <div class="card-number-box">################</div>
+                    <div class="flexbox">
+                        <div class="box">
+                            <span>proprietário</span>
+                            <div class="card-holder-name">nome completo</div>
                         </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-body card-benefits cards-border">
-                            <h2 class="uk-card-title"></h2>
-                            <p class="products-price"></p>
+                        <div class="box">
+                            <span>validade</span>
+                            <div class="expiration">
+                                <span class="exp-month">mm</span>
+                                <span class="exp-year">yy</span>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="back">
+                    <div class="stripe"></div>
+                    <div class="box">
+                        <span>cvv</span>
+                        <div class="cvv-box"></div>
+                        <img src="../assets/img/visa.png" alt="">
+                    </div>
+
+                </div>
             </div>
 
-            <div class="button-grid">
-                <a href="accessories.php">
-                    <button class="accessories-page-button">Ver mais</button>
-                </a>
-            </div>
-
-            <!-- End accessories container -->
+            <form action="">
+                <div class="inputBox">
+                    <span>Número no Cartão</span>
+                    <input type="text" maxlength="16" class="card-number-input">
+                </div>
+                <div class="inputBox">
+                    <span>Nome no cartão</span>
+                    <input type="text" maxlength="20" class="card-holder-input">
+                </div>
+                <div class="flexbox">
+                    <div class="inputBox">
+                        <span>mês de validade</span>
+                        <select name="" class="month-input" id="">
+                            <option value="month" selected disabled>Mês</option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </div>
+                    <div class="inputBox">
+                        <span>ano de validade</span>
+                        <select name="" class="year-input" id="">
+                            <option value="year" selected disabled>Ano</option>
+                            <option value="24">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                            <option value="32">32</option>
+                            <option value="33">33</option>
+                        </select>
+                    </div>
+                    <div class="inputBox">
+                        <span>cvv</span>
+                        <input type="text" maxlength="3" class="cvv-input">
+                    </div>
+                </div>
+                <input type="submit" value="Finalizar compra" class="submit-btn">
+            </form>
         </div>
 
-    </main>
-
-    <section class="supplements">
     </section>
 
     <footer>
@@ -218,7 +227,7 @@
             </div>
         </div>
     </footer>
-    <script src="../assets/js/loja.js"></script>
+    <script src="../assets/js/payment.js"></script>
 </body>
 
 </html>
