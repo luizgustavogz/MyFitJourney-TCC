@@ -173,6 +173,16 @@
                         <option value="extremelyActive">Extremamente Ativo (Atleta, 2x por dia)</option>
                     </select>
                     </div>
+                    <div class="uk-margin">
+                    <label class="uk-form-label" for="objective">Objetivo:</label>
+                    <select class="uk-select" id="objective" required>
+                        <option value="loseWeightFast">Emagrecer rápido</option>
+                        <option value="loseWeight">Emagrecer</option>
+                        <option value="maintainWeight">Manter peso</option>
+                        <option value="moderateGains">Ganhos moderados</option>
+                        <option value="agressiveGains">Ganhos agressivos</option>
+                    </select>
+                    </div>
                 </div>
 
                 <div class="uk-width-1-1 uk-flex uk-flex-center button-middle">
