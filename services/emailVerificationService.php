@@ -34,6 +34,7 @@
 </html>
 <script src="../assets/js/toast.js" async></script>
 <script src="../assets/js/verificationEmail.js" async></script>
+<script src="../assets/js/acessibility.js"></script>
 
 <?php
 

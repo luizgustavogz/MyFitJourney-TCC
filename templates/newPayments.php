@@ -11,9 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>
+    
 </head>
 
 <body>
@@ -21,9 +19,9 @@
         <nav class="uk-navbar-container">
             <div class="uk-container uk-container-large">
                 <div uk-navbar>
-
+                    
                     <div class="uk-navbar-left">
-
+                        
                         <a class="uk-navbar-item uk-logo logo-header" href="home.php" aria-label="Back to Home">MyFit<strong>Journey</strong></a>
                     </div>
                     <div class="uk-navbar-center">
@@ -227,7 +225,10 @@
             </div>
         </div>
     </footer>
-    <script src="../assets/js/payment.js"></script>
 </body>
-
 </html>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>
+<script src="../assets/js/payment.js"></script>
+<script src="../assets/js/acessibility.js"></script>

@@ -133,3 +133,4 @@ session_start();
     </form>
 </div>    
 </body>
+<script src="../assets/js/acessibility.js"></script>
