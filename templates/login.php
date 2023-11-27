@@ -6,8 +6,7 @@
         <title>MyFitJourney | Login</title>
         
         <link rel="stylesheet" href="../assets/css/login.css">
-        <link rel="stylesheet" href="../assets/css/toast.css">
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> -->
+        <link rel="stylesheet" href="../assets/css/toast.css">        
     </head>
     
     <body>
@@ -44,6 +43,7 @@
     </body>
 </html>
 <script src="../assets/js/toast.js"></script>
+<script src="../assets/js/acessibility.js"></script>
 
 <?php
 session_start();

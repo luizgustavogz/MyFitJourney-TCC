@@ -7,32 +7,23 @@
 #wk-training-plans h2{
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     padding-bottom: 40px;
-}
-
-#wk-training-plans .cards-border {
-    border: 3px solid #205DC9;
-    border-radius: 20px;
-}
-
-#wk-training-plans .cards-border-white {
-    border: 3px solid #fff;
-    border-radius: 20px;
-}
-
-#wk-training-plans .cards-border-black {
-    border: 3px solid #000;
-    border-radius: 20px;
+    font-size: 40px;
 }
 
 #wk-training-plans .card-benefits{
+    border-radius: 15px;
     background-color: #fff;
+    opacity: 0.9;
 }
 
 #wk-training-plans .card-benefits-secondary{
+    border-radius: 15px;
     background-color: #205DC9;
+    opacity: 0.9;
 }
+
 
 #wk-training-plans .card-benefits-secondary h3{
     color: #fff;

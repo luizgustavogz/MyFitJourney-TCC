@@ -11,9 +11,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>
 </head>
 
 <body>
@@ -166,7 +163,7 @@
 
             <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 500; repeat: true">
                 <div>
-                    <div class="uk-card uk-card-body card-benefits cards-border-black" id="cardiovascular">
+                    <div class="uk-card uk-card-body card-benefits" id="cardiovascular">
                         <h3 class="uk-card-title">
                             <img src="../assets/img/img-wk-card-cardio.png" alt="" width="55" height="55">
                             Cardiovascular
@@ -194,7 +191,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-body card-benefits-secondary cards-border-white" uk-scrollspy-class="uk-animation-slide-top" id="resistencia">
+                    <div class="uk-card uk-card-body card-benefits-secondary" uk-scrollspy-class="uk-animation-slide-top" id="resistencia">
                         <h3 class="uk-card-title">
                             <div class="invert-img">
                                 <canvas id="canvas-resistencia" width="55" height="55"></canvas>
@@ -224,7 +221,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-body card-benefits cards-border-black" id="definicao">
+                    <div class="uk-card uk-card-body card-benefits" id="definicao">
                         <h3 class="uk-card-title">
                             <img src="../assets/img/img-wk-card-definicao.png" alt="" width="55" height="55">
                             Definição
@@ -257,7 +254,7 @@
 
             <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid uk-scrollspy="cls: uk-animation-slide-top; target: .uk-card; delay: 500; repeat: true">
                 <div>
-                    <div class="uk-card uk-card-body card-benefits-secondary cards-border-white" id="forca">
+                    <div class="uk-card uk-card-body card-benefits-secondary" id="forca">
                         <h3 class="uk-card-title">
                             <div class="invert-img">
                                 <canvas id="canvas-forca" width="55" height="55"></canvas>
@@ -286,7 +283,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-body card-benefits cards-border-black" uk-scrollspy-class="uk-animation-slide-bottom" id="funcional" >
+                    <div class="uk-card uk-card-body card-benefits" uk-scrollspy-class="uk-animation-slide-bottom" id="funcional" >
                         <h3 class="uk-card-title">
                             <img src="../assets/img/img-wk-card-funcional.png" alt="" width="55" height="55">
                             Funcional
@@ -313,7 +310,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-body card-benefits-secondary cards-border-white" id="hipertrofia"> 
+                    <div class="uk-card uk-card-body card-benefits-secondary" id="hipertrofia"> 
                         <h3 class="uk-card-title">
                             <div class="invert-img">
                                 <canvas id="canvas-hipertrofia" width="55" height="55"></canvas>
@@ -401,8 +398,12 @@
         </div>
     </footer>
 
+</body>
+</html>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>
 <script src="../assets/js/invertColors.js"></script>
 <script src="../assets/js/scrollIntoView.js"></script>
-</body>
-
-</html>
+<script src="../assets/js/acessibility.js"></script>
