@@ -18,16 +18,18 @@ async function loadProducts(url) {
         const accImgElements = document.getElementsByClassName('uk-card uk-card-body card-benefits cards-border'); // Seleciona todas as divs com a classe 'accessories-img'
         const nameProducts = document.getElementsByClassName('uk-card-title');
         const priceProducts = document.getElementsByClassName('products-price');
+        const carrinho = document.getElementById('carrinho');
+        const total = document.getElementById('total_amount');
 
         for (let i = 0; i < responseJson.products.length; i++) {
             const tagImg = document.createElement('img');
             tagImg.className = 'productsImg';
             tagImg.src = responseJson.products[i].url;
-            
+
             if (i < accImgElements.length) {
                 // Verifica se ainda há divs disponíveis para inserir as imagens
                 accImgElements[i].appendChild(tagImg);
-                
+
             }
 
             if (i < nameProducts.length) {
@@ -44,7 +46,7 @@ async function loadProducts(url) {
             }
 
             if (i < accImgElements.length) {
-                const link = document.createElement("a");
+                var link = document.createElement("a");
                 accImgElements[i].appendChild(link);
                 link.style.textAlign = 'center';
                 link.style.display = 'flex';
@@ -54,12 +56,18 @@ async function loadProducts(url) {
                 link.className = 'shoppingCart';
                 link.innerText = 'Adicionar no carrinho';
 
-                link.addEventListener("click", function(){
-                    console.log('teste')
+                responseJson.products[i].quantity = 0;
+                link.addEventListener("click", function () {
+                    responseJson.products[i].quantity += 1;
+                    console.log(responseJson.products[i].name && responseJson.products[i].price)
+
+                    total.innerText = ` ${((responseJson.products[i].price)*(responseJson.products[i].quantity)).toFixed(2)}`
                 })
             }
 
         }
+
+
 
     } catch (error) {
         alert(error)

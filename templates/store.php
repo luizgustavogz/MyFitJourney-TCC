@@ -20,17 +20,15 @@
 
     <div class="sidebar">
         <menu>
-            <li class="logo">
+            <li>
                 <a href="#"></a>
-                <span>MyFitJourney</span>
+                <span>Carrinho:</span>
+                <div id="carrinho"></div>
             </li>
             <li>
                 <a href="#"></a>
-                <span>Carrinho</span>
-            </li>
-            <li>
-                <a href="#"></a>
-                <span>Logoff</span>
+                <span>Total: </span>
+                <span id="total_amount"></span>
             </li>
         </menu>
     </div>
