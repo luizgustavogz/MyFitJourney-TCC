@@ -221,4 +221,4 @@
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>
 <script src="../assets/js/loja.js"></script>
-<script src="../assets/js/acessibility.js"></script>
+<script src="../assets/js/accessibility.js"></script>

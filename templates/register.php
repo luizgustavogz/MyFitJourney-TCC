@@ -50,7 +50,7 @@
     </body>
 </html>
 <script src="../assets/js/toast.js"></script>
-<script src="../assets/js/acessibility.js"></script>
+<script src="../assets/js/accessibility.js"></script>
 
 <?php
 session_start();
