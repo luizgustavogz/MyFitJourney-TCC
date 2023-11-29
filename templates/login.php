@@ -6,8 +6,7 @@
         <title>MyFitJourney | Login</title>
         
         <link rel="stylesheet" href="../assets/css/login.css">
-        <link rel="stylesheet" href="../assets/css/toast.css">
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> -->
+        <link rel="stylesheet" href="../assets/css/toast.css">        
     </head>
     
     <body>
@@ -44,6 +43,7 @@
     </body>
 </html>
 <script src="../assets/js/toast.js"></script>
+<script src="../assets/js/acessibility.js"></script>
 
 <?php
 session_start();
@@ -61,25 +61,40 @@ if (isset($_POST["login"])) {
     $result = mysqli_query($conn, $sql);
 
     if (mysqli_num_rows($result) == 0) {
+        $tipoMensagem = "Error";
         echo '<script>
-            showToast("E-mail não registrado ou incorreto. Tente novamente.");
+            showToast("Erro: E-mail não registrado ou incorreto");
+            document.getElementById("toast").classList.add("' . strtolower($tipoMensagem) . '");
             </script>';
     } else {
         $user = mysqli_fetch_object($result);
 
         if (!password_verify($password, $user->vchSenha)) {
-            echo '<script>                    
-                    showToast("Senha incorreta. Tente novamente.");
+            $tipoMensagem = "Error";
+            echo '<script>
+                showToast("Erro: Senha incorreta");
+                document.getElementById("toast").classList.add("' . strtolower($tipoMensagem) . '");
                 </script>';
         } elseif ($user->dtmVerificadoEm == null) {
+            $tipoMensagem = "Warning";
             echo '<script>
-                    showToast("Validação de e-mail pendente. Clique para continuar.");                
-                    document.getElementById("toast").addEventListener("click", function() {
-                    redirectVerificationEmail("' . $email . '");
+                showToast("Aviso: Validação de e-mail pendente. Clique aqui para validar");                
+                document.getElementById("toast").classList.add("' . strtolower($tipoMensagem) . '");
+                document.getElementById("toast").addEventListener("click", function() {
+                redirectVerificationEmail("' . $email . '");
                 });
             </script>';
         } else {
-            header("Location: ./home.php");
+            $tipoMensagem = "Success";
+            echo '<script>
+                    showToast("Login efetuado com sucesso! Redirecionando...");
+                    document.getElementById("toast").classList.add("' . strtolower($tipoMensagem) . '");
+                    // Aguarda 1,75 segundos (1750 milissegundos) antes de redirecionar
+                    setTimeout(function() {
+                        window.location.href = "./home.php";
+                    }, 1750);
+                </script>';
+            // header("Location: ./home.php");
             exit();
         }
     }

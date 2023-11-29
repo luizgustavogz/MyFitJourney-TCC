@@ -1,17 +1,35 @@
 #toast {
-  position: fixed;
-  top: 20px;
-  right: 30px;
-  transform: translateX(-50%);
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 8px;
-  display: none;
-  cursor: pointer; /* Adiciona um cursor de clique */
-  transition: background-color 0.3s ease-in-out;
+    position: fixed;
+    top: 25px;
+    right: 30px;
+    border-radius: 12px;
+    border: 3px solid #555;
+    color: #fff;
+    padding: 20px 20px 20px 25px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    display: none;
+    cursor: pointer; /* Adiciona um cursor de clique */
+    transition: background-color 0.3s ease-in-out;        
+}
+
+#toast.error {
+    background-color: #d83d2ff3;
+    color: #000;
+    font-weight: 700;
+}
+
+#toast.warning {
+    background-color: #ffd700;
+    color: #000;
+    font-weight: 700;
+}
+
+#toast.success {
+    background-color: #0def0d;
+    color: #000;
+    font-weight: 700;
 }
 
 #toast:hover {
-  background-color: #555; /* Altera a cor de fundo ao passar o mouse */
+    background-color: #555;
 }
