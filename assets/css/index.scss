@@ -11,6 +11,23 @@
     color: #000;
 }
 
+#menu-nav-home-banner .logo-header-home {    
+    transition: ease-in-out 0.2s;
+}
+
+#menu-nav-home-banner .logo-header-home:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 0.2s;
+}
+
+#menu-nav-home-banner img{        
+    padding-right: 10px;
+}
+
+#menu-nav-home-banner .uk-navbar-left, .uk-navbar-right, [class*=uk-navbar-center]{
+    gap: 15px;
+}
+
 #menu-nav-home-banner a.link:hover{
     color: #0842A9;
 }
@@ -18,12 +35,7 @@
 #menu-nav-home-banner a.logo-header{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    transition: ease-in-out 0.2s;
-}
-
-#menu-nav-home-banner a.logo-header:hover{
-    transform: scale(1.1);
-    transition: ease-in-out 0.2s;
+    
 }
 
 #menu-nav-home-banner a.logo-header strong{

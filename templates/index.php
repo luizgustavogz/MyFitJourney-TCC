@@ -16,11 +16,13 @@
         <nav class="uk-navbar-container">
             <div class="uk-container uk-container-large">
                 <div uk-navbar>
-
-                    <div class="uk-navbar-left">
-
-                        <a class="uk-navbar-item uk-logo logo-header" href="index.php" aria-label="Back to Home">MyFit<strong>Journey</strong></a>
-                    </div>                    
+                    
+                    <div class="uk-navbar-left logo-header-home">                        
+                        <a class="uk-navbar-item uk-logo logo-header" href="index.php" aria-label="Back to Home">
+                            <img src="../assets/img/heart-beat-logo.svg" width="55">
+                            MyFit<strong>Journey</strong>
+                        </a>
+                    </div>
 
                     <div class="uk-navbar-right">
                         <div class="uk-navbar-item">

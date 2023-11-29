@@ -15,10 +15,13 @@
             <div class="uk-container uk-container-large">
                 <div uk-navbar>
 
-                    <div class="uk-navbar-left">
-
-                        <a class="uk-navbar-item uk-logo logo-header" href="home.php" aria-label="Back to Home">MyFit<strong>Journey</strong></a>
+                    <div class="uk-navbar-left logo-header-home">                        
+                        <a class="uk-navbar-item uk-logo logo-header" href="home.php" aria-label="Back to Home">
+                            <img src="../assets/img/heart-beat-logo.svg" width="55">
+                            MyFit<strong>Journey</strong>
+                        </a>
                     </div>
+
                     <div class="uk-navbar-center">
                         <ul class="uk-navbar-nav">                            
                             <li>
@@ -46,7 +49,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="link" href="payment.php">
+                                <a class="link" href="newPayments.php">
                                     <span class="uk-icon uk-margin-small-right"></span>
                                     Pagamento
                                 </a>
