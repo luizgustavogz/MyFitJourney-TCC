@@ -14,7 +14,7 @@
     width: 100%;
     z-index: 2;
     bottom: 0;
-    height: 10vh;
+    height: 15vh;
     background-color: #0d0d0d;
 }
 
@@ -26,7 +26,8 @@ menu{
 }
 
 .sidebar:hover{
-    height: 20vh;
+    height: 25vh;
+    transition: .4s;
 }
 
 
