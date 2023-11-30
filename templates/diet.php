@@ -17,10 +17,13 @@
             <div class="uk-container uk-container-large">
                 <div uk-navbar>
 
-                    <div class="uk-navbar-left">
-
-                        <a class="uk-navbar-item uk-logo logo-header" href="home.php" aria-label="Back to Home">MyFit<strong>Journey</strong></a>
+                    <div class="uk-navbar-left logo-header-home">                        
+                        <a class="uk-navbar-item uk-logo logo-header" href="home.php" aria-label="Back to Home">
+                            <img src="../assets/img/heart-beat-logo.svg" width="55">
+                            MyFit<strong>Journey</strong>
+                        </a>
                     </div>
+                    
                     <div class="uk-navbar-center">
                         <ul class="uk-navbar-nav">                            
                             <li>
@@ -232,4 +235,4 @@
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <script src="../assets/js/calculateIMC.js"></script>
-<script src="../assets/js/acessibility.js"></script>
+<script src="../assets/js/accessibility.js"></script>

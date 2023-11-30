@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="../assets/css/index.scss">
     <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="../assets/css/store.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
-
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
 </head>
 
 <body>
@@ -27,6 +26,11 @@
                 <span>Total: </span>
                 <span id="total_amount"></span>
             </li>
+            <li>
+                <div class="uk-margin box-subscription" uk-margin>
+                    <a href="address.php"><button class="uk-button uk-button-default button-2">Comprar</button></a>
+                </div>
+            </li>
         </menu>
     </div>
 
@@ -35,10 +39,13 @@
             <div class="uk-container uk-container-large">
                 <div uk-navbar>
 
-                    <div class="uk-navbar-left">
-
-                        <a class="uk-navbar-item uk-logo logo-header" href="home.php" aria-label="Back to Home">MyFit<strong>Journey</strong></a>
+                    <div class="uk-navbar-left logo-header-home">                        
+                        <a class="uk-navbar-item uk-logo logo-header" href="home.php" aria-label="Back to Home">
+                            <img src="../assets/img/heart-beat-logo.svg" width="55">
+                            MyFit<strong>Journey</strong>
+                        </a>
                     </div>
+                    
                     <div class="uk-navbar-center">
                         <ul class="uk-navbar-nav">
                             <li>
@@ -219,4 +226,4 @@
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>
 <script src="../assets/js/loja.js"></script>
-<script src="../assets/js/acessibility.js"></script>
+<script src="../assets/js/accessibility.js"></script>
