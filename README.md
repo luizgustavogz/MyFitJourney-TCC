@@ -2,7 +2,7 @@
 
 <div align="center">
   <h1>MyFitJourney</h1>
-Um projeto de TCC desenvolvido por 5 estudantes de Bacharelado em Ciência da Computação na FMU (Faculdades Metropolitanas Unidas) <br>no período do 2º Semestre/2023:
+Um projeto de TCC desenvolvido por 5 estudantes de Bacharelado em Ciência da Computação na FMU (Faculdades Metropolitanas Unidas) no período do 2º Semestre/2023:
 </div>
 
 <br>
