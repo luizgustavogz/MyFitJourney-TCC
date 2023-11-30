@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="../assets/css/index.scss">
     <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="../assets/css/store.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
-
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
 </head>
 
 <body>
@@ -26,6 +25,11 @@
                 <a href="#"></a>
                 <span>Total: </span>
                 <span id="total_amount"></span>
+            </li>
+            <li>
+                <div class="uk-margin box-subscription" uk-margin>
+                    <a href="address.php"><button class="uk-button uk-button-default button-2">Comprar</button></a>
+                </div>
             </li>
         </menu>
     </div>

@@ -60,35 +60,31 @@ if (isset($_POST["login"])) {
     $sql = "SELECT * FROM tblusuario WHERE vchEmail = '" . $email . "'";
     $result = mysqli_query($conn, $sql);
 
-    if (mysqli_num_rows($result) == 0) {
-        $tipoMensagem = "Error";
+    if (mysqli_num_rows($result) == 0) {        
         echo '<script>
             showToast("Erro: E-mail não registrado ou incorreto");
-            document.getElementById("toast").classList.add("' . strtolower($tipoMensagem) . '");
+            document.getElementById("toast").classList.add("error");
             </script>';
     } else {
         $user = mysqli_fetch_object($result);
 
-        if (!password_verify($password, $user->vchSenha)) {
-            $tipoMensagem = "Error";
+        if (!password_verify($password, $user->vchSenha)) {            
             echo '<script>
                 showToast("Erro: Senha incorreta");
-                document.getElementById("toast").classList.add("' . strtolower($tipoMensagem) . '");
+                document.getElementById("toast").classList.add("error");
                 </script>';
-        } elseif ($user->dtmVerificadoEm == null) {
-            $tipoMensagem = "Warning";
+        } elseif ($user->dtmVerificadoEm == null) {            
             echo '<script>
                 showToast("Aviso: Validação de e-mail pendente. Clique aqui para validar");                
-                document.getElementById("toast").classList.add("' . strtolower($tipoMensagem) . '");
+                document.getElementById("toast").classList.add("warning");
                 document.getElementById("toast").addEventListener("click", function() {
                 redirectVerificationEmail("' . $email . '");
                 });
             </script>';
-        } else {
-            $tipoMensagem = "Success";
+        } else {            
             echo '<script>
                     showToast("Login efetuado com sucesso! Redirecionando...");
-                    document.getElementById("toast").classList.add("' . strtolower($tipoMensagem) . '");
+                    document.getElementById("toast").classList.add("success");
                     // Aguarda 1,75 segundos (1750 milissegundos) antes de redirecionar
                     setTimeout(function() {
                         window.location.href = "./home.php";

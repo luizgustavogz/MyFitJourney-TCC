@@ -6,8 +6,8 @@
     <title>MyFitJourney | Home</title>
     <link rel="stylesheet" href="../assets/css/index.scss">
     <link rel="stylesheet" href="../assets/css/footer.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
 </head>
 <body>
     <section id="menu-nav-home-banner">
@@ -49,7 +49,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="link" href="newPayments.php">
+                                <a class="link" href="payment.php">
                                     <span class="uk-icon uk-margin-small-right"></span>
                                     Pagamento
                                 </a>

@@ -135,7 +135,7 @@ session_start();
             }
 
             // Validar nome para não conter números
-            if (!preg_match("/^[A-Za-z ]+$/", $name)) {                
+            if (!preg_match("/^[A-Za-zÀ-ÖØ-öø-ÿ ]+$/u", $name)) {                
                 echo '<script>
                         showToast("Erro: O nome não pode conter números.");
                         document.getElementById("toast").classList.add("error");
@@ -154,7 +154,7 @@ session_start();
             }
 
             // Validar sobrenome para não conter números
-            if (!preg_match("/^[A-Za-z ]+$/", $sobrenome)) {                
+            if (!preg_match("/^[A-Za-zÀ-ÖØ-öø-ÿ ]+$/u", $sobrenome)) {                
                 echo '<script>
                         showToast("Erro: O sobrenome não pode conter números.");
                         document.getElementById("toast").classList.add("error");
