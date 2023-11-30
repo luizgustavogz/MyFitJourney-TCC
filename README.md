@@ -1,7 +1,7 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=FEA007&height=120&section=header"/>
 
 <div align="center">
-  <h1>MyFitJourney</h1>
+<h1>MyFitJourney</h1>
 Um projeto de TCC desenvolvido por 5 estudantes de Bacharelado em Ciência da Computação na FMU (Faculdades Metropolitanas Unidas) no período do 2º Semestre/2023:
 </div>
 
@@ -39,7 +39,7 @@ Vitor Emanuel de Brito Assis -> Documentação e Planejamento + Gestão do Proje
 </div>
 
 <div align="center">
-  <h2>Redes sociais do projeto</h2>
+<h2>Redes sociais do projeto</h2>
 <a href="https://www.instagram.com/myfitjourneyreal/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 <a href = "mailto:myfitjourneyldh@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href="https://www.facebook.com/profile.php?id=61550970016109" target="_blank"><img src="https://img.shields.io/badge/-Facebook-%230077B5?style=for-the-badge&logo=facebook&logoColor=white" target="_blank"></a>
