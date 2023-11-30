@@ -20,3 +20,6 @@
     s.setAttribute("src", "https://cdn.userway.org/widget.js");
     (d.body || d.head).appendChild(s);
 })(document)
+
+// Link para gerenciar o widget pelo painel do UserWay
+// https://manage.userway.org/widget/my-sites
