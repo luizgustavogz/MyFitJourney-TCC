@@ -1,0 +1,65 @@
+#about-section{
+    background: linear-gradient(to right, #FEA007, #FC4419);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#about-section h2{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+#about-section p{
+    font-size: 21px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 80px;
+}
+
+#about-section-2{
+    background: linear-gradient(to right, #3CA3F4, #224f9c);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#about-section-2 h2{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+#about-section-2 p{
+    font-size: 21px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 80px;
+}
+
+#about-section-3{
+    background: linear-gradient(to right, #FEA007, #FC4419);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#about-section-3 h2{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+#about-section-3 p{
+    font-size: 21px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 80px;
+}
