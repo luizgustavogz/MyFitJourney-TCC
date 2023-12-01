@@ -1,0 +1,32 @@
+#main-content {
+    padding: 60px 0 60px 0;
+}
+
+#products-content {
+    padding: 60px 0 60px 0;
+    background-color: #205dc9;
+}
+
+
+.sidebar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    z-index: 2;
+    bottom: 0;
+    height: 15vh;
+    background-color: #0d0d0d;
+  }
+  
+  menu {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    color: #fff;
+    justify-content: space-around;
+  }
+  
+  .sidebar:hover {
+    height: 25vh;
+  }

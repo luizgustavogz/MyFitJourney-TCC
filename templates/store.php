@@ -16,10 +16,14 @@
 
     <div class="sidebar">
         <menu>
-            <li>
+            <li style="display: flex; column-gap: 10px">
                 <a href="#"></a>
                 <span>Carrinho:</span>
                 <div id="carrinho"></div>
+                <div id="trash-cart">
+                    <img width="27" id="trash-cart-img" src="../assets/img/trash-cart.png" alt="">
+                    <img width="20" id="decrease-product" src="../assets/img/decrease.png" alt="">
+                </div>
             </li>
             <li>
                 <a href="#"></a>

@@ -27,6 +27,7 @@ async function loadProducts(url) {
         for (let i = 0; i < responseJson.products.length; i++) {
             const tagImg = document.createElement('img');
             tagImg.className = 'productsImg';
+            tagImg.style.borderRadius = '25px';
             tagImg.src = responseJson.products[i].url;
 
             if (i < accImgElements.length) {
@@ -38,6 +39,7 @@ async function loadProducts(url) {
             if (i < nameProducts.length) {
                 nameProducts[i].innerText = responseJson.products[i].name;
                 nameProducts[i].style.textAlign = 'center';
+                nameProducts[i].style.color = '#fff';
                 accImgElements[i].appendChild(nameProducts[i]);
             }
 
@@ -45,6 +47,7 @@ async function loadProducts(url) {
                 priceProducts[i].className = 'products-price';
                 priceProducts[i].innerText = `R$ ${responseJson.products[i].price}`;
                 priceProducts[i].style.textAlign = 'center';
+                priceProducts[i].style.color = '#fff'
                 accImgElements[i].appendChild(priceProducts[i]);
             }
 
@@ -54,7 +57,7 @@ async function loadProducts(url) {
                 link.style.textAlign = 'center';
                 link.style.display = 'flex';
                 link.style.justifyContent = 'center';
-                link.style.color = '#fff';
+                link.style.color = '#000';
                 link.style.textDecoration = 'underline'
                 link.className = 'shoppingCart';
                 link.innerText = 'Adicionar no carrinho';
