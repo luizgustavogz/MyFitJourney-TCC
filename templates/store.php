@@ -45,9 +45,15 @@
                             MyFit<strong>Journey</strong>
                         </a>
                     </div>
-                    
+
                     <div class="uk-navbar-center">
                         <ul class="uk-navbar-nav">
+                            <li>
+                                <a class="link" href="about.php">
+                                    <span class="uk-icon uk-margin-small-right"></span>
+                                    Sobre
+                                </a>
+                            </li>
                             <li>
                                 <a class="link" href="workout.php">
                                     <span class="uk-icon uk-margin-small-right"></span>
@@ -67,9 +73,9 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="link" href="payment.php">
-                                    <span class="uk-icon uk-margin-small-right"></span>
-                                    Pagamento
+                                <a class="link" href="store.php">
+                                    <span class="uk-icon uk-margin-small-right" ></span>
+                                    Loja
                                 </a>
                             </li>
                         </ul>
@@ -80,7 +86,7 @@
                             <form action="javascript:void(0)">
                                 <a href="../services/logoutService.php" class="uk-button uk-button-logout">Sair</a>
                             </form>
-                        </div>
+                        </div>    
                     </div>
 
                 </div>

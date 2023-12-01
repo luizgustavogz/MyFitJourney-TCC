@@ -18,16 +18,22 @@
         <nav class="uk-navbar-container">
             <div class="uk-container uk-container-large">
                 <div uk-navbar>
-                    
+
                     <div class="uk-navbar-left logo-header-home">                        
-                        <a class="uk-navbar-item uk-logo logo-header" href="store.php" aria-label="Back to Home">
+                        <a class="uk-navbar-item uk-logo logo-header" href="home.php" aria-label="Back to Home">
                             <img src="../assets/img/heart-beat-logo.svg" width="55">
                             MyFit<strong>Journey</strong>
                         </a>
                     </div>
-                    
-                    <!-- <div class="uk-navbar-center">
+
+                    <div class="uk-navbar-center">
                         <ul class="uk-navbar-nav">
+                            <li>
+                                <a class="link" href="about.php">
+                                    <span class="uk-icon uk-margin-small-right"></span>
+                                    Sobre
+                                </a>
+                            </li>
                             <li>
                                 <a class="link" href="workout.php">
                                     <span class="uk-icon uk-margin-small-right"></span>
@@ -47,20 +53,20 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="link" href="payment.php">
-                                    <span class="uk-icon uk-margin-small-right"></span>
-                                    Pagamento
+                                <a class="link" href="store.php">
+                                    <span class="uk-icon uk-margin-small-right" ></span>
+                                    Loja
                                 </a>
                             </li>
                         </ul>
-                    </div> -->
+                    </div>
 
                     <div class="uk-navbar-right">
                         <div class="uk-navbar-item">
                             <form action="javascript:void(0)">
                                 <a href="../services/logoutService.php" class="uk-button uk-button-logout">Sair</a>
                             </form>
-                        </div>
+                        </div>    
                     </div>
 
                 </div>

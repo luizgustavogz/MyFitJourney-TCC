@@ -23,13 +23,13 @@
                             MyFit<strong>Journey</strong>
                         </a>
                     </div>
-                    
+
                     <div class="uk-navbar-center">
-                        <ul class="uk-navbar-nav">                            
+                        <ul class="uk-navbar-nav">
                             <li>
-                                <a class="link" href="store.php">
-                                    <span class="uk-icon uk-margin-small-right" ></span>
-                                    Loja
+                                <a class="link" href="about.php">
+                                    <span class="uk-icon uk-margin-small-right"></span>
+                                    Sobre
                                 </a>
                             </li>
                             <li>
@@ -39,15 +39,21 @@
                                 </a>
                             </li>
                             <li>
+                                <a class="link" href="diet.php">
+                                    <span class="uk-icon uk-margin-small-right"></span>
+                                    Dietas
+                                </a>
+                            </li>
+                            <li>
                                 <a class="link" href="nutritionist.php">
                                     <span class="uk-icon uk-margin-small-right"></span>
                                     Fale com nossos Nutricionistas
                                 </a>
                             </li>
                             <li>
-                                <a class="link" href="payment.php">
-                                    <span class="uk-icon uk-margin-small-right"></span>
-                                    Pagamento
+                                <a class="link" href="store.php">
+                                    <span class="uk-icon uk-margin-small-right" ></span>
+                                    Loja
                                 </a>
                             </li>
                         </ul>
