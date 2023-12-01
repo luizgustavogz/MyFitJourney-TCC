@@ -125,7 +125,7 @@
                     <p>Nosso site foi criado com um propósito claro: capacitar indivíduos a tomar o controle de sua saúde e bem-estar, promovendo um estilo de vida saudável e a prevenção de doenças relacionadas à obesidade e má alimentação. Acreditamos que a saúde é um ativo inestimável e que cada pessoa merece a oportunidade de viver uma vida plena, longa e cheia de vitalidade.</p>
 
                     <p>Nosso objetivo é fornecer recursos, informações e orientações práticas para ajudar as pessoas a fazer escolhas conscientes em relação à sua alimentação, atividade física e saúde mental. Acreditamos que a prevenção é a chave para um futuro mais saudável e estamos empenhados em capacitar nossos visitantes a trilhar esse caminho.</p> <br>
-                    <a href="">Ler mais</a>
+                    <a href="./about.php">Ler mais</a>
                 </div>
                 <div class="uk-width-1-2@m uk-text-center">
                     <img src="../assets/img/about-us-img-3.svg" alt="Image">
@@ -230,18 +230,17 @@
                 <div class="footer-col">
                     <h4>MyFitJourney</h4>
                     <div class="medias-socias">
-                        <a href="https://www.instagram.com/myfitjourneyreal/"> <img src="../assets/img/instagram-icon.svg"></img> </a>
-                        <a href="https://twitter.com/myfitjourneyofc"> <img src="../assets/img/twitter-icon.svg"></img> </a>
-                        <a href="#"> <img src="../assets/img/linkedin-icon.svg"></img> </a> 
-                        <a href="https://www.instagram.com/myfitjourneyreal/"> <img src="../assets/img/facebook-icon.svg"></img> </a>                       
-
+                        <a href="https://www.instagram.com/myfitjourneyreal"><img src="../assets/img/instagram-icon.svg"></img></a>
+                        <a href="https://twitter.com/myfitjourneyofc"><img src="../assets/img/twitter-icon.svg"></img></a>
+                        <a href="https://www.linkedin.com/in/luiz-gustavo-oliveira-cunha-a9b329176/"><img src="../assets/img/linkedin-icon.svg"></img></a> 
+                        <a href="https://www.facebook.com/profile.php?id=61550970016109"><img src="../assets/img/facebook-icon.svg"></img></a>
                     </div>
                 </div>
 
                 <div class="footer-col">
                     <h4>Informações</h4>
                     <ul>
-                        <li><a href="#">Sobre</a></li>
+                        <li><a href="./about.php">Sobre</a></li>
                         <li><a href="./store.php">Loja</a></li>
                         <li><a href="./payment.php">Pagamento</a></li>
                     </ul>
@@ -284,4 +283,4 @@
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>   
-<script src="../assets/js/accessibility.js" data-account="GkccoORrCl"></script>
+<script src="../assets/js/accessibility.js"></script>
