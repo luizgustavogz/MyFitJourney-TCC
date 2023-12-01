@@ -19,9 +19,9 @@ async function loadProducts(url) {
         const nameProducts = document.getElementsByClassName('uk-card-title');
         const carrinho = document.getElementById('carrinho');
         const priceProducts = document.getElementsByClassName('products-price');
+        const productsDescription = document.getElementsByClassName('products-description');
         const total = document.getElementById('total_amount');
         const trashCartImg = document.getElementById('trash-cart-img');
-        const removeProd = document.getElementById('decrease-product')
         let carrinhoTexto = '';
 
         for (let i = 0; i < responseJson.products.length; i++) {
@@ -39,8 +39,17 @@ async function loadProducts(url) {
             if (i < nameProducts.length) {
                 nameProducts[i].innerText = responseJson.products[i].name;
                 nameProducts[i].style.textAlign = 'center';
+                nameProducts[i].style.fontSize = '2.2rem';
                 nameProducts[i].style.color = '#fff';
                 accImgElements[i].appendChild(nameProducts[i]);
+            }
+
+            if (i < productsDescription.length){
+                productsDescription[i].innerText = responseJson.products[i].description;
+                productsDescription[i].style.textAlign = 'center';
+                productsDescription[i].style.fontSize = '.9rem';
+                productsDescription[i].style.color = '#fff';
+                accImgElements[i].appendChild(productsDescription[i]);
             }
 
             if (i < priceProducts.length) {
@@ -60,7 +69,7 @@ async function loadProducts(url) {
                 link.style.color = '#000';
                 link.style.textDecoration = 'underline'
                 link.className = 'shoppingCart';
-                link.innerText = 'Adicionar no carrinho';
+                link.innerText = 'Adicionar ao carrinho';
 
                 responseJson.products[i].quantity = 0;
                 link.addEventListener("click", function () {

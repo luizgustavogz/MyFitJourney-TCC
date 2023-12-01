@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    
+
     <div class="sidebar">
         <menu>
             <li style="display: flex; column-gap: 10px">
@@ -22,7 +22,6 @@
                 <div id="carrinho"></div>
                 <div id="trash-cart">
                     <img width="27" id="trash-cart-img" src="../assets/img/trash-cart.png" alt="">
-                    <img width="20" id="decrease-product" src="../assets/img/decrease.png" alt="">
                 </div>
             </li>
             <li>
@@ -90,6 +89,7 @@
     </section>
 
     <section id="products-content">
+        <h2 style="font-weight: 700;font-size: 40px;color: #fff; margin-bottom: 20px;" class="uk-text-center">Acessórios</h2>
         <div class="uk-container uk-container-large">
 
             <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
@@ -97,18 +97,21 @@
                     <div class="uk-card uk-card-body card-benefits cards-border">
 
                         <h2 class="uk-card-title"></h2>
+                        <p class="products-description"></p>
                         <p class="products-price"></p>
                     </div>
                 </div>
                 <div>
                     <div class="uk-card uk-card-body card-benefits cards-border" style="flex-direction: row-reverse; -webkit-flex-direction: row-reverse;">
                         <h2 class="uk-card-title"></h2>
+                        <p class="products-description"></p>
                         <p class="products-price"></p>
                     </div>
                 </div>
                 <div>
                     <div class="uk-card uk-card-body card-benefits cards-border">
                         <h2 class="uk-card-title"></h2>
+                        <p class="products-description"></p>
                         <p class="products-price"></p>
                     </div>
                 </div>
@@ -116,18 +119,21 @@
                     <div class="uk-card uk-card-body card-benefits cards-border">
 
                         <h2 class="uk-card-title"></h2>
+                        <p class="products-description"></p>
                         <p class="products-price"></p>
                     </div>
                 </div>
                 <div>
                     <div class="uk-card uk-card-body card-benefits cards-border" style="flex-direction: row-reverse; -webkit-flex-direction: row-reverse;">
                         <h2 class="uk-card-title"></h2>
+                        <p class="products-description"></p>
                         <p class="products-price"></p>
                     </div>
                 </div>
                 <div>
                     <div class="uk-card uk-card-body card-benefits cards-border">
                         <h2 class="uk-card-title"></h2>
+                        <p class="products-description"></p>
                         <p class="products-price"></p>
                     </div>
                 </div>
@@ -135,18 +141,21 @@
                     <div class="uk-card uk-card-body card-benefits cards-border">
 
                         <h2 class="uk-card-title"></h2>
+                        <p class="products-description"></p>
                         <p class="products-price"></p>
                     </div>
                 </div>
                 <div>
                     <div class="uk-card uk-card-body card-benefits cards-border" style="flex-direction: row-reverse; -webkit-flex-direction: row-reverse;">
                         <h2 class="uk-card-title"></h2>
+                        <p class="products-description"></p>
                         <p class="products-price"></p>
                     </div>
                 </div>
                 <div>
                     <div class="uk-card uk-card-body card-benefits cards-border">
                         <h2 class="uk-card-title"></h2>
+                        <p class="products-description"></p>
                         <p class="products-price"></p>
                     </div>
                 </div>
@@ -156,19 +165,20 @@
     </section>
 
     <section id="main-content">
+        <h2 class="uk-text-center" style="font-weight: 700;color: #fff; margin-bottom: 80px;">Os melhores Acessórios:</h2>
         <div class="uk-container uk-container-large">
             <div class="uk-flex-middle" uk-grid>
-                <div class="uk-width-1-2@m uk-text-center" style="margin-bottom: 80px;">
-                    <img src="../assets/img/Coach-amico.svg" alt="Image">
-                </div>
                 <div class="uk-width-1-2@m">
                     <div>
-                        <h2 style="color: #fff;">Na MyFitJourney nós trazemos os produtos certos para o seu crescimento</h2>
-                        <p style="color: #fff;">A MyFitJourney, comprometida com a promoção de um estilo de vida saudável, foi concebida com o objetivo claro de capacitar os indivíduos a assumirem o controle de sua saúde e bem-estar. Nossa missão é prevenir doenças relacionadas à obesidade e má alimentação, proporcionando a todos a oportunidade de viver uma vida plena, longa e cheia de vitalidade.</p>
+                        <h2 style="color: #fff;">Cuide da sua saúde com treinos personalizados!</h2>
+                        <p style="color: #fff;">A MyFitJourney, A MyFitJourney, comprometida com o seu bem-estar, oferece programas de exercícios exclusivos para capacitar você a alcançar uma vida plena e saudável. Nossa abordagem personalizada visa não apenas a melhoria física, mas também o equilíbrio mental, promovendo um estilo de vida ativo e sustentável. Invista em seu corpo, invista em você. Viva com vitalidade, cuide da sua saúde conosco!</p>
 
-                        <p style="color: #fff;">Acreditamos que investir na qualidade desses itens não só aprimora seu desempenho, mas também contribui significativamente para a promoção de uma vida saudável e ativa. Convidamos você a explorar nossa variedade, dando um passo firme em direção a um futuro mais saudável e capacitador.</p> <br>
-                        <u style="color: #c0c0c0;"><a style="color: #fff;" href="#">Falar com especialista</a></u>
+                        <p style="color: #fff;">Na MyFitJourney, entendemos que cada jornada é única, e é por isso que oferecemos programas de exercícios sob medida para atender às suas necessidades específicas. Nossos treinos são projetados para não apenas aprimorar a sua forma física, mas também para promover o equilíbrio mental e o bem-estar geral.</p> <br>
+                        <u style="color: #fff;"><a id="workout-link" href="workout.php">Ir para Treinos</a></u>
                     </div>
+                </div>
+                <div class="uk-width-1-2@m uk-text-center" style="margin-bottom: 80px;">
+                    <img style="width: 400px;" src="../assets/img/Coach-amico.svg" alt="Image">
                 </div>
             </div>
     </section>

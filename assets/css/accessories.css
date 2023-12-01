@@ -1,5 +1,6 @@
 #main-content {
     padding: 60px 0 60px 0;
+    background: linear-gradient(to right, #FEA007, #FC4419);
 }
 
 #products-content {
@@ -29,4 +30,27 @@
   
   .sidebar:hover {
     height: 25vh;
+  }
+
+  .productsImg{
+    cursor: pointer;
+  }
+
+.productsImg:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+  }
+
+  #workout-link{
+    color: #fff;
+  }
+
+  #workout-link:hover{
+    color: #205dc9;
+    transition: 2s;
+  }
+
+  #trash-cart-img{
+    visibility: hidden;
+    cursor: pointer;
   }
