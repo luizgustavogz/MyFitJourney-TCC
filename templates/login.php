@@ -1,49 +1,59 @@
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-        <title>MyFitJourney | Login</title>
-        
-        <link rel="stylesheet" href="../assets/css/login.css">
-        <link rel="stylesheet" href="../assets/css/toast.css">        
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>MyFitJourney | Login</title>    
+    <link rel="stylesheet" href="../assets/css/login.css">
+    <link rel="stylesheet" href="../assets/css/toast.css">        
+</head>
     
-    <body>
-        <div class="container-login">
-            <div class="img-box">
-                <img id="inverter" src="../assets/img/login.svg">
-            </div>
-            <div class="content-box">
-                <div class="form-box">                
-                    <h2>Login</h2>
-                    <form method="POST">
-                        <div class="input-box">
-                            <span>E-mail</span>
-                            <input type="email" name="email" placeholder="@gmail.com" required />
-                        </div>
-                        
-                        <div class="input-box">
-                            <span>Senha</span>
-                            <input type="password" name="password" placeholder="****" required />
-                        </div>                    
-                        
-                        <div class="input-box">
-                            <input type="submit" name="login" value="Entrar">
-                        </div>
-                        
-                        <div class="input-box">
-                            <p>Não tem uma conta? <a href="register.php">Cadastre-se</a></p>
-                        </div>
-                    </form>
-                    <div id="toast"></div>
-                </div>
+<body>
+    <div class="container-login">
+        <div class="img-box">
+            <img id="inverter" src="../assets/img/login.svg">
+        </div>
+        <div class="content-box">
+            <div class="form-box">                
+                <h2>Login</h2>
+                <form method="POST">
+                    <div class="input-box">
+                        <span>E-mail</span>
+                        <input type="email" name="email" placeholder="@gmail.com" required />
+                    </div>
+                    
+                    <div class="input-box">
+                        <span>Senha</span>
+                        <input type="password" name="password" placeholder="****" required />
+                    </div>                    
+                    
+                    <div class="input-box">
+                        <input type="submit" name="login" value="Entrar">
+                    </div>
+                    
+                    <div class="input-box">
+                        <p>Não tem uma conta? <a href="register.php">Cadastre-se</a></p>
+                    </div>
+                </form>
+                <div id="toast"></div>
             </div>
         </div>
-    </body>
+    </div>
+    
+    <section id="accessibility-vlibras">
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+    </section>
+</body>
 </html>
-<script src="../assets/js/toast.js"></script>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
 <script src="../assets/js/accessibility.js"></script>
+<script src="../assets/js/accessibilityVlibras.js"></script>
+<script src="../assets/js/toast.js"></script>
 
 <?php
 session_start();
