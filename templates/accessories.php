@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="../assets/css/index.scss">
     <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="../assets/css/accessories.css">
+    <link rel="stylesheet" href="../assets/css/toast.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
     <div class="sidebar">
         <menu>
             <li style="display: flex; column-gap: 10px">
@@ -190,6 +190,8 @@
                     <img style="width: 400px;" src="../assets/img/Coach-amico.svg" alt="Image">
                 </div>
             </div>
+        </div>
+        <div id="toast"></div>
     </section>
 
     <section id="accessibility-vlibras">
@@ -270,13 +272,13 @@
         </div>
     </footer>
 </body>
-<script src="../assets/js/accessories.js"></script>
-
 </html>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>
 <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script src="../assets/js/accessories.js"></script>
 <script src="../assets/js/accessibility.js"></script>
 <script src="../assets/js/accessibilityVlibras.js"></script>
 <script src="../assets/js/footerMap.js"></script>
+<script src="../assets/js/toast.js"></script>
