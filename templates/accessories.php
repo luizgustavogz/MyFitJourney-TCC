@@ -4,15 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyFitJourney | Store</title>
+    <title>MyFitJourney | Acessórios</title>
     <link rel="stylesheet" href="../assets/css/index.scss">
     <link rel="stylesheet" href="../assets/css/footer.css">
-    <link rel="stylesheet" href="../assets/css/loja.css">
+    <link rel="stylesheet" href="../assets/css/accessories.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
+    <div class="sidebar">
+        <menu>
+            <li style="display: flex; column-gap: 10px">
+                <a href="#"></a>
+                <span>Carrinho:</span>
+                <div id="carrinho"></div>
+                <div id="trash-cart">
+                    <img width="27" id="trash-cart-img" src="../assets/img/trash-cart.png" alt="">
+                </div>
+            </li>
+            <li>
+                <a href="#"></a>
+                <span>Total: </span>
+                <span id="total_amount"></span>
+            </li>
+            <li>
+                <div class="uk-margin box-subscription" uk-margin>
+                    <a href="address.php"><button class="uk-button uk-button-default button-2">Comprar</button></a>
+                </div>
+            </li>
+        </menu>
+    </div>
+
     <section id="menu-nav-home-banner">
         <nav class="uk-navbar-container">
             <div class="uk-container uk-container-large">
@@ -65,7 +89,7 @@
                             <form action="javascript:void(0)">
                                 <a href="../services/logoutService.php" class="uk-button uk-button-logout">Sair</a>
                             </form>
-                        </div>    
+                        </div>
                     </div>
 
                 </div>
@@ -73,8 +97,99 @@
         </nav>
     </section>
 
-    <section>
+    <section id="products-content">
+        <h2 style="font-weight: 700;font-size: 40px;color: #fff; margin-bottom: 20px;" class="uk-text-center">Acessórios</h2>
+        <div class="uk-container uk-container-large">
 
+            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-body card-benefits cards-border">
+
+                        <h2 class="uk-card-title"></h2>
+                        <p class="products-description"></p>
+                        <p class="products-price"></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-body card-benefits cards-border" style="flex-direction: row-reverse; -webkit-flex-direction: row-reverse;">
+                        <h2 class="uk-card-title"></h2>
+                        <p class="products-description"></p>
+                        <p class="products-price"></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-body card-benefits cards-border">
+                        <h2 class="uk-card-title"></h2>
+                        <p class="products-description"></p>
+                        <p class="products-price"></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-body card-benefits cards-border">
+
+                        <h2 class="uk-card-title"></h2>
+                        <p class="products-description"></p>
+                        <p class="products-price"></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-body card-benefits cards-border" style="flex-direction: row-reverse; -webkit-flex-direction: row-reverse;">
+                        <h2 class="uk-card-title"></h2>
+                        <p class="products-description"></p>
+                        <p class="products-price"></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-body card-benefits cards-border">
+                        <h2 class="uk-card-title"></h2>
+                        <p class="products-description"></p>
+                        <p class="products-price"></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-body card-benefits cards-border">
+
+                        <h2 class="uk-card-title"></h2>
+                        <p class="products-description"></p>
+                        <p class="products-price"></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-body card-benefits cards-border" style="flex-direction: row-reverse; -webkit-flex-direction: row-reverse;">
+                        <h2 class="uk-card-title"></h2>
+                        <p class="products-description"></p>
+                        <p class="products-price"></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-body card-benefits cards-border">
+                        <h2 class="uk-card-title"></h2>
+                        <p class="products-description"></p>
+                        <p class="products-price"></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="main-content">
+        <h2 class="uk-text-center" style="font-weight: 700;color: #fff; margin-bottom: 80px;">Os melhores Acessórios:</h2>
+        <div class="uk-container uk-container-large">
+            <div class="uk-flex-middle" uk-grid>
+                <div class="uk-width-1-2@m">
+                    <div>
+                        <h2 style="color: #fff;">Cuide da sua saúde com treinos personalizados!</h2>
+                        <p style="color: #fff;">A MyFitJourney, A MyFitJourney, comprometida com o seu bem-estar, oferece programas de exercícios exclusivos para capacitar você a alcançar uma vida plena e saudável. Nossa abordagem personalizada visa não apenas a melhoria física, mas também o equilíbrio mental, promovendo um estilo de vida ativo e sustentável. Invista em seu corpo, invista em você. Viva com vitalidade, cuide da sua saúde conosco!</p>
+
+                        <p style="color: #fff;">Na MyFitJourney, entendemos que cada jornada é única, e é por isso que oferecemos programas de exercícios sob medida para atender às suas necessidades específicas. Nossos treinos são projetados para não apenas aprimorar a sua forma física, mas também para promover o equilíbrio mental e o bem-estar geral.</p> <br>
+                        <u style="color: #fff;"><a id="workout-link" href="workout.php">Ir para Treinos</a></u>
+                    </div>
+                </div>
+                <div class="uk-width-1-2@m uk-text-center" style="margin-bottom: 80px;">
+                    <img style="width: 400px;" src="../assets/img/Coach-amico.svg" alt="Image">
+                </div>
+            </div>
     </section>
 
     <section id="accessibility-vlibras">
@@ -118,15 +233,45 @@
                 </div>
 
                 <div class="footer-col">
-                    <h4>Nosso endereço:</h4>                    
+                    <h4>Nosso endereço:</h4>
                     <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
                         <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+                        <script>
+                            (function() {
+                                var setting = {
+                                    "query": "Avenida da Liberdade, 899 - Liberdade, São Paulo - State of São Paulo, Brazil",
+                                    "width": 300,
+                                    "height": 200,
+                                    "satellite": false,
+                                    "zoom": 12,
+                                    "placeId": "ChIJi9nxv6VZzpQRmTpKInfOmbo",
+                                    "cid": "0xba99ce77224a3a99",
+                                    "coords": [-23.5607673, -46.63771339999999],
+                                    "lang": "en",
+                                    "queryString": "Avenida da Liberdade, 899 - Liberdade, São Paulo - State of São Paulo, Brazil",
+                                    "centerCoord": [-23.5607673, -46.63771339999999],
+                                    "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3",
+                                    "embed_id": "996185"
+                                };
+                                var d = document;
+                                var s = d.createElement('script');
+                                s.src = 'https://1map.com/js/script-for-user.js?embed_id=996185';
+                                s.async = true;
+                                s.onload = function(e) {
+                                    window.OneMap.initMap(setting)
+                                };
+                                var to = d.getElementsByTagName('script')[0];
+                                to.parentNode.insertBefore(s, to);
+                            })();
+                        </script><a href="https://1map.com/map-embed">1 Map</a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
 </body>
+<script src="../assets/js/accessories.js"></script>
+
 </html>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
