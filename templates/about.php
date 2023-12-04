@@ -1,3 +1,24 @@
+<?php
+// Iniciar a sessão (se ainda não estiver iniciada)
+session_start();
+
+// Verificar se o usuário está autenticado
+if (!isset($_SESSION["email"])) {
+    header("Location: login.php");
+    exit();
+}
+
+// Conexão com o banco
+$conn = mysqli_connect("localhost", "root", "", "myfitjourney");
+
+$email = $_SESSION["email"];
+$sql = "SELECT vchNome FROM tblusuario WHERE vchEmail = '" . $email . "'";
+$result = mysqli_query($conn, $sql);
+
+// Obter o nome do usuário da sessão
+$nome = mysqli_fetch_array($result)["vchNome"];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +28,7 @@
     <link rel="stylesheet" href="../assets/css/index.scss">
     <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="../assets/css/about.css">
+    <link rel="stylesheet" href="../assets/css/toast.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">       
 </head>
@@ -60,6 +82,8 @@
 
                     <div class="uk-navbar-right">
                         <div class="uk-navbar-item">
+                            <p>Bem-vindo, <strong><?php echo $nome;?></strong>!</p>
+                            <img src="../assets/img/user-id.svg" width="45">
                             <form action="javascript:void(0)">
                                 <a href="../services/logoutService.php" class="uk-button uk-button-logout">Sair</a>
                             </form>
@@ -69,6 +93,7 @@
                 </div>
             </div>
         </nav>
+        <div id="toast"></div>
     </section>
 
     <section id="hp-banner-header">
@@ -248,3 +273,4 @@
 <script src="../assets/js/accessibility.js"></script>
 <script src="../assets/js/accessibilityVlibras.js"></script>
 <script src="../assets/js/footerMap.js"></script>
+<script src="../assets/js/toast.js"></script>

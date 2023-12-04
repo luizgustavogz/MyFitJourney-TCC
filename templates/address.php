@@ -1,6 +1,12 @@
 <?php
 session_start();
 
+// Verificar se o usuário está autenticado
+if (!isset($_SESSION["email"])) {
+    header("Location: login.php");
+    exit();
+}
+
 // Conexão com o banco
 $conn = mysqli_connect("localhost", "root", "", "myfitjourney");
 
@@ -8,6 +14,12 @@ $email = $_SESSION["email"];
 $sql = sprintf("SELECT intIdUsuario, vchNome, vchEmail FROM tblusuario WHERE vchEmail = '" . $email . "'");
 $result = mysqli_query($conn, $sql);
 $usuarios = mysqli_fetch_assoc($result);
+
+$sql2 = "SELECT vchNome FROM tblusuario WHERE vchEmail = '" . $email . "'";
+$result2 = mysqli_query($conn, $sql2);
+
+// Obter o nome do usuário da sessão
+$nome = mysqli_fetch_array($result2)["vchNome"];
 ?>
 
 <html>
@@ -72,6 +84,8 @@ $usuarios = mysqli_fetch_assoc($result);
 
                     <div class="uk-navbar-right">
                         <div class="uk-navbar-item">
+                            <p>Bem-vindo, <strong><?php echo $nome;?></strong>!</p>
+                            <img src="../assets/img/user-id.svg" width="45">
                             <form action="javascript:void(0)">
                                 <a href="../services/logoutService.php" class="uk-button uk-button-logout">Sair</a>
                             </form>
