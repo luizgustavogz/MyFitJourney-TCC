@@ -30,11 +30,22 @@
             </form>
             <div id="toast"></div>
         </div>
+
+        <section id="accessibility-vlibras">
+            <div vw class="enabled">
+                <div vw-access-button class="active"></div>
+                <div vw-plugin-wrapper>
+                    <div class="vw-plugin-top-wrapper"></div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
 <script src="../assets/js/toast.js" async></script>
 <script src="../assets/js/verificationEmail.js" async></script>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
 <script src="../assets/js/accessibility.js"></script>
+<script src="../assets/js/accessibilityVlibras.js"></script>
 
 <?php
 
