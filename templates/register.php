@@ -1,55 +1,65 @@
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MyFitJourney | Cadastro</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFitJourney | Cadastro</title>
+    <link rel="stylesheet" href="../assets/css/register.css">
+    <link rel="stylesheet" href="../assets/css/toast.css">
+</head>
+<body>
+    <div class="container-cadastro">    
+        <div class="img-box">            
+            <img id="inverter" src="../assets/img/cadastro.svg">
+        </div>
+        <div class="content-box">
+            <div class="form-box">
+                <h2>Criar uma conta</h2>
+                <form method="POST">
+                    <div class="input-box">
+                        <span>Nome</span>
+                        <input type="text" name="name" placeholder="" required />
+                    </div>
+                    <div class="input-box">
+                        <span>Sobrenome</span>
+                        <input type="text" name="sobrenome" placeholder="" required />
+                    </div>
+                    <div class="input-box">
+                        <span>E-mail</span>
+                        <input type="email" name="email" placeholder="@gmail.com" required />
+                    </div>
+                    <div class="input-box">
+                        <span>Senha</span>
+                        <input type="password" name="password" placeholder="****" required />
+                    </div>
+                    <div class="input-box">
+                        <span>Confirmar senha</span>
+                        <input type="password" name="repassword" placeholder="****" required />
+                    </div>
+                    <div class="input-box">
+                        <input type="submit" name="register" value="Cadastrar">
+                    </div>
+                    <div class="input-box">
+                        <p>Já possui uma conta? <a href="login.php">Entrar</a></p>
+                    </div>
+                </form>
+            <div id="toast"></div>
+        </div>
+    </div>
 
-        <link rel="stylesheet" href="../assets/css/register.css">
-        <link rel="stylesheet" href="../assets/css/toast.css">
-    </head>
-
-    <body>
-        <div class="container-cadastro">    
-            <div class="img-box">            
-                <img id="inverter" src="../assets/img/cadastro.svg">
+    <section id="accessibility-vlibras">
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
             </div>
-            <div class="content-box">
-                <div class="form-box">
-                    <h2>Criar uma conta</h2>
-                    <form method="POST">
-                        <div class="input-box">
-                            <span>Nome</span>
-                            <input type="text" name="name" placeholder="" required />
-                        </div>
-                        <div class="input-box">
-                            <span>Sobrenome</span>
-                            <input type="text" name="sobrenome" placeholder="" required />
-                        </div>
-                        <div class="input-box">
-                            <span>E-mail</span>
-                            <input type="email" name="email" placeholder="@gmail.com" required />
-                        </div>
-                        <div class="input-box">
-                            <span>Senha</span>
-                            <input type="password" name="password" placeholder="****" required />
-                        </div>
-                        <div class="input-box">
-                            <span>Confirmar senha</span>
-                            <input type="password" name="repassword" placeholder="****" required />
-                        </div>
-                        <div class="input-box">
-                            <input type="submit" name="register" value="Cadastrar">
-                        </div>
-                        <div class="input-box">
-                            <p>Já possui uma conta? <a href="login.php">Entrar</a></p>
-                        </div>
-                    </form>
-                    <div id="toast"></div>
-                </div>
-            </div>
-    </body>
+        </div>
+    </section>
+</body>
 </html>
 <script src="../assets/js/toast.js"></script>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script src="../assets/js/accessibility.js"></script>
+<script src="../assets/js/accessibilityVlibras.js"></script>
 
 <?php
 session_start();
@@ -134,7 +144,7 @@ session_start();
             }
 
             // Validar nome para não conter números
-            if (!preg_match("/^[A-Za-z]+$/", $name)) {                
+            if (!preg_match("/^[A-Za-zÀ-ÖØ-öø-ÿ ]+$/u", $name)) {                
                 echo '<script>
                         showToast("Erro: O nome não pode conter números.");
                         document.getElementById("toast").classList.add("error");
@@ -153,7 +163,7 @@ session_start();
             }
 
             // Validar sobrenome para não conter números
-            if (!preg_match("/^[A-Za-z]+$/", $sobrenome)) {                
+            if (!preg_match("/^[A-Za-zÀ-ÖØ-öø-ÿ ]+$/u", $sobrenome)) {                
                 echo '<script>
                         showToast("Erro: O sobrenome não pode conter números.");
                         document.getElementById("toast").classList.add("error");

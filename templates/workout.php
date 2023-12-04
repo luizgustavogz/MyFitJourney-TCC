@@ -11,9 +11,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>
 </head>
 
 <body>
@@ -22,16 +19,25 @@
             <div class="uk-container uk-container-large">
                 <div uk-navbar>
 
-                    <div class="uk-navbar-left">
-
-                        <a class="uk-navbar-item uk-logo logo-header" href="home.php" aria-label="Back to Home">MyFit<strong>Journey</strong></a>
+                    <div class="uk-navbar-left logo-header-home">                        
+                        <a class="uk-navbar-item uk-logo logo-header" href="home.php" aria-label="Back to Home">
+                            <img src="../assets/img/heart-beat-logo.svg" width="55">
+                            MyFit<strong>Journey</strong>
+                        </a>
                     </div>
+
                     <div class="uk-navbar-center">
-                        <ul class="uk-navbar-nav">                            
+                        <ul class="uk-navbar-nav">
                             <li>
-                                <a class="link" href="store.php">
-                                    <span class="uk-icon uk-margin-small-right" ></span>
-                                    Loja
+                                <a class="link" href="about.php">
+                                    <span class="uk-icon uk-margin-small-right"></span>
+                                    Sobre
+                                </a>
+                            </li>
+                            <li>
+                                <a class="link" href="workout.php">
+                                    <span class="uk-icon uk-margin-small-right"></span>
+                                    Treinos
                                 </a>
                             </li>
                             <li>
@@ -47,9 +53,9 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="link" href="payment.php">
-                                    <span class="uk-icon uk-margin-small-right"></span>
-                                    Pagamento
+                                <a class="link" href="store.php">
+                                    <span class="uk-icon uk-margin-small-right" ></span>
+                                    Loja
                                 </a>
                             </li>
                         </ul>
@@ -166,7 +172,7 @@
 
             <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 500; repeat: true">
                 <div>
-                    <div class="uk-card uk-card-body card-benefits cards-border-black" id="cardiovascular">
+                    <div class="uk-card uk-card-body card-benefits" id="cardiovascular">
                         <h3 class="uk-card-title">
                             <img src="../assets/img/img-wk-card-cardio.png" alt="" width="55" height="55">
                             Cardiovascular
@@ -194,7 +200,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-body card-benefits-secondary cards-border-white" uk-scrollspy-class="uk-animation-slide-top" id="resistencia">
+                    <div class="uk-card uk-card-body card-benefits-secondary" uk-scrollspy-class="uk-animation-slide-top" id="resistencia">
                         <h3 class="uk-card-title">
                             <div class="invert-img">
                                 <canvas id="canvas-resistencia" width="55" height="55"></canvas>
@@ -224,7 +230,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-body card-benefits cards-border-black" id="definicao">
+                    <div class="uk-card uk-card-body card-benefits" id="definicao">
                         <h3 class="uk-card-title">
                             <img src="../assets/img/img-wk-card-definicao.png" alt="" width="55" height="55">
                             Definição
@@ -257,7 +263,7 @@
 
             <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid uk-scrollspy="cls: uk-animation-slide-top; target: .uk-card; delay: 500; repeat: true">
                 <div>
-                    <div class="uk-card uk-card-body card-benefits-secondary cards-border-white" id="forca">
+                    <div class="uk-card uk-card-body card-benefits-secondary" id="forca">
                         <h3 class="uk-card-title">
                             <div class="invert-img">
                                 <canvas id="canvas-forca" width="55" height="55"></canvas>
@@ -286,7 +292,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-body card-benefits cards-border-black" uk-scrollspy-class="uk-animation-slide-bottom" id="funcional" >
+                    <div class="uk-card uk-card-body card-benefits" uk-scrollspy-class="uk-animation-slide-bottom" id="funcional" >
                         <h3 class="uk-card-title">
                             <img src="../assets/img/img-wk-card-funcional.png" alt="" width="55" height="55">
                             Funcional
@@ -313,7 +319,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-body card-benefits-secondary cards-border-white" id="hipertrofia"> 
+                    <div class="uk-card uk-card-body card-benefits-secondary" id="hipertrofia"> 
                         <h3 class="uk-card-title">
                             <div class="invert-img">
                                 <canvas id="canvas-hipertrofia" width="55" height="55"></canvas>
@@ -345,24 +351,32 @@
         </div>
     </section>
 
+    <section id="accessibility-vlibras">
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+    </section>
+    
     <footer>
         <div class="container-footer">
             <div class="row-footer">
                 <div class="footer-col">
                     <h4>MyFitJourney</h4>
                     <div class="medias-socias">
-                        <a href="https://www.instagram.com/myfitjourneyreal/"> <img src="../assets/img/instagram-icon.svg"></img> </a>
-                        <a href="https://twitter.com/myfitjourneyofc"> <img src="../assets/img/twitter-icon.svg"></img> </a>
-                        <a href="#"> <img src="../assets/img/linkedin-icon.svg"></img> </a> 
-                        <a href="https://www.instagram.com/myfitjourneyreal/"> <img src="../assets/img/facebook-icon.svg"></img> </a>                       
-
+                        <a href="https://www.instagram.com/myfitjourneyreal"><img src="../assets/img/instagram-icon.svg"></img></a>
+                        <a href="https://twitter.com/myfitjourneyofc"><img src="../assets/img/twitter-icon.svg"></img></a>
+                        <a href="https://www.linkedin.com/in/luiz-gustavo-oliveira-cunha-a9b329176/"><img src="../assets/img/linkedin-icon.svg"></img></a> 
+                        <a href="https://www.facebook.com/profile.php?id=61550970016109"><img src="../assets/img/facebook-icon.svg"></img></a>
                     </div>
                 </div>
 
                 <div class="footer-col">
                     <h4>Informações</h4>
                     <ul>
-                        <li><a href="#">Sobre</a></li>
+                        <li><a href="./about.php">Sobre</a></li>
                         <li><a href="./store.php">Loja</a></li>
                         <li><a href="./payment.php">Pagamento</a></li>
                     </ul>
@@ -381,20 +395,6 @@
                     <h4>Nosso endereço:</h4>                    
                     <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
                         <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
-                        <script>
-                            (function () {
-                                var setting = {"query":"Avenida da Liberdade, 899 - Liberdade, São Paulo - State of São Paulo, Brazil","width":300,"height":200,"satellite":false,"zoom":12,"placeId":"ChIJi9nxv6VZzpQRmTpKInfOmbo","cid":"0xba99ce77224a3a99","coords":[-23.5607673,-46.63771339999999],"lang":"en","queryString":"Avenida da Liberdade, 899 - Liberdade, São Paulo - State of São Paulo, Brazil","centerCoord":[-23.5607673,-46.63771339999999],"id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"996185"};
-                                var d = document;
-                                var s = d.createElement('script');
-                                s.src = 'https://1map.com/js/script-for-user.js?embed_id=996185';
-                                s.async = true;
-                                s.onload = function (e) {
-                                window.OneMap.initMap(setting)
-                                };
-                                var to = d.getElementsByTagName('script')[0];
-                                to.parentNode.insertBefore(s, to);
-                            })();
-                        </script><a href="https://1map.com/map-embed">1 Map</a>
                     </div>
                 </div>
             </div>
@@ -403,6 +403,7 @@
 <script src="../assets/js/whatsapp-api-content.js"></script>
 <script src="../assets/js/invertColors.js"></script>
 <script src="../assets/js/scrollIntoView.js"></script>
-</body>
-
-</html>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script src="../assets/js/accessibility.js"></script>
+<script src="../assets/js/accessibilityVlibras.js"></script>
+<script src="../assets/js/footerMap.js"></script>

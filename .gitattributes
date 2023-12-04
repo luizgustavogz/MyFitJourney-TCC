@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Example of a `.gitattributes` file which reclassifies `.rb` files as Java:
+*.php linguist-language=PHP
+*.css linguist-language=PHP
+*.hack linguist-language=PHP
