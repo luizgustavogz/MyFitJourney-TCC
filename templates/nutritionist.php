@@ -200,11 +200,12 @@
         </div>
     </section>
 
-    <section id="talk-to-us">
-        <div class="uk-container uk-container-large uk-text-center">
-            <p>contato</p>
-            <h2>Agende sua Consulta Nutricional</h2>
-            <a href="https://api.whatsapp.com/send?phone=+5411985974082&text=Olá%2C+gostaria+de+agendar+uma+consultoria+online+pela+MyFitJourney%21%21" target="_blank" class="uk-button uk-button-default button-nutritionist-banner"><img src="../assets/img/whatsapp.svg" width="20" alt="Image"> Agendar uma consulta</a>
+    <section id="accessibility-vlibras">
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
         </div>
     </section>
     
