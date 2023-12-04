@@ -400,7 +400,7 @@
             </div>
         </div>
     </footer>
-
+<script src="../assets/js/whatsapp-api-content.js"></script>
 <script src="../assets/js/invertColors.js"></script>
 <script src="../assets/js/scrollIntoView.js"></script>
 </body>

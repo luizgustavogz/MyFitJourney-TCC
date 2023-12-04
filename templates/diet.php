@@ -148,25 +148,98 @@
                 </div>
             </div>
 
-            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match cards" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 200; repeat: false">
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body">
-                        <h3 class="uk-card-title">Default</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div class="uk-card uk-card-default uk-card-body card">
+                        <img src="../assets/img/card-diet-1.svg" width="110" alt="">
+                        <h3 class="uk-card-title">Nada de desafios dolorosos</h3>
+                        <p>As metodologias e programas são elaborados por um time de especialistas focado em tirar seu organismo da estagnação, se alimentando melhor, reprogramando seu corpo para queimar mais gordura e transformando-a em massa magra.</p>
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body">
-                        <h3 class="uk-card-title">Primary</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div class="uk-card uk-card-default uk-card-body card">
+                        <img src="../assets/img/card-diet-2.svg"  width="110" alt="">
+                        <h3 class="uk-card-title">Estamos com você nessa jornada</h3>
+                        <p>Aqui, nós vamos te incentivar sempre. Você vai passar por um processo personalizado pela nossa equipe multidisciplinar, respeitando seus gostos, necessidades e evolução diária.</p>
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body">
-                        <h3 class="uk-card-title">Secondary</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div class="uk-card uk-card-default uk-card-body card">
+                        <img src="../assets/img/card-diet-3.svg"  width="110" alt="">
+                        <h3 class="uk-card-title">Alcance seu objetivo sem sofrimento</h3>
+                        <p>Tenha consultas online com o time de saúde, acesso a listas de compras, cardápios e receitas. Além de aulas ao vivo, conteúdos interativos, grupos com usuários, e diversos programas cuidadosamente pensados para que você atinja os seus objetivos, com diferentes metodologias para descobrir o que se adapta melhor à sua rotina e gostos pessoais.</p>
                     </div>
                 </div>
+            </div>
+
+            <div class="uk-text-center card-middle">
+                <a class="uk-button button-meal-cards" href="">Conheça nossos cardápios!</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="chalenge-food">
+        <div class="uk-container uk-container-large">
+            <h2 class="uk-text-center">Programas exclusivos , <br> para alcançar sua melhor versão</h2>
+            <p class="uk-text-center">Com os programas do Tecnonutri, você vai se sentir mais feliz com o seu corpo,<br>vai dar uma guinada na autoestima e aproveitar a vida de uma forma mais leve e ativa.</p>
+
+            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match cards" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body card">
+                        <div class="uk-flex-middle" uk-grid>
+                            <div class="uk-width-1-2@m">
+                                <h3>Desafio <br>10 EM 2</h3>
+                            </div>
+                            <div class="uk-width-1-2@m ">
+                                <img src="../assets/img/img-challenge-1.svg" alt="">
+                            </div>
+                        </div>
+                        <p class="divisor-text">Realize as metas de ano novo e mude o seu estilo de vida neste verão. Emagreça até 10kg em 2 meses à base dos métodos Detox, Low Carb, Jejum intermitente e Keto, e potencialize o emagrecimento semanal.</p>
+
+                        <p class="text-button">Detox, Low Carb, Jejum e Keto</p>
+                        <p class="text-button">Emagreça até 10kg</p>
+                        <p class="text-button">890 pessoas no programa</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body card">
+                        <div class="uk-flex-middle" uk-grid>
+                            <div class="uk-width-1-2@m">
+                                <h3>Desafio <br> 15 em 3</h3>
+                            </div>
+                            <div class="uk-width-1-2@m ">
+                                <img src="../assets/img/img-challenge-2.svg" alt="">
+                            </div>
+                        </div>
+                        <p class="divisor-text">Elimine até 15kg em 3 meses com métodos comprovados de emagrecimento, que vão ativar a queima de gordura sem medo dos efeitos platô e sanfona para você aproveitar a vida de uma forma mais leve.</p>
+
+                        <p class="text-button">Cinco métodos eficazes</p>
+                        <p class="text-button">Até -6kg em pouco tempo</p>
+                        <p class="text-button">Emagreça comendo de tudo</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body card">
+                        <div class="uk-flex-middle" uk-grid>
+                            <div class="uk-width-1-2@m">
+                                <h3>Jejum <br> 7 em 6</h3>
+                            </div>
+                            <div class="uk-width-1-2@m ">
+                                <img src="../assets/img/img-challenge-3.svg" alt="">
+                            </div>
+                        </div>
+                        <p class="divisor-text">Se a meta é emagrecer 7kg em 6 semanas, alternando os horários das refeições e aprendendo a ter uma relação diferente com a comida para ativar a queima de gordura, o jejum intermitente é ideal para você.</p>
+
+                        <p class="text-button">Cardápios estratégicos</p>
+                        <p class="text-button">Até -3kg em uma semana</p>
+                        <p class="text-button">Controle da saciedade</p>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="uk-text-center button-middle">
+                <a href="" class="uk-button button-challenge">Quero uma vida mais leve!</a>
             </div>
         </div>
     </section>
@@ -228,6 +301,7 @@
     </footer>
 </body>
 </html>
+<script src="../assets/js/whatsapp-api-content.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>

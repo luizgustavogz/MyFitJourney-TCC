@@ -18,22 +18,6 @@
 
 <body>
 
-    <div class="sidebar">
-        <menu>
-            <li class="logo">
-                <a href="#"></a>
-                <span>MyFitJourney</span>
-            </li>
-            <li>
-                <a href="#"></a>
-                <span>Carrinho</span>
-            </li>
-            <li>
-                <a href="#"></a>
-                <span>Logoff</span>
-            </li>
-        </menu>
-    </div>
 
     <section id="menu-nav-home-banner">
         <nav class="uk-navbar-container">
@@ -86,65 +70,80 @@
         </nav>
     </section>
 
-    <main class="product-banner">
-        <div class="banner-img">
-            <span class="product-title">Conheça nossos Produtos</span>
-        </div>
-
+    <section id="hp-banner-header">
         <div class="uk-container uk-container-large">
             <div class="uk-flex-middle" uk-grid>
+
+                <div class="uk-width-1-2@m" >
+                    <h2></h2>
+                </div>
+
                 <div class="uk-width-1-2@m">
-                    <h2>Na MyFitJourney nós trazemos os produtos certos para o seu crescimento</h2>
-                    <p>A MyFitJourney, comprometida com a promoção de um estilo de vida saudável, foi concebida com o objetivo claro de capacitar os indivíduos a assumirem o controle de sua saúde e bem-estar. Nossa missão é prevenir doenças relacionadas à obesidade e má alimentação, proporcionando a todos a oportunidade de viver uma vida plena, longa e cheia de vitalidade.</p>
-
-                    <p>Acreditamos que investir na qualidade desses itens não só aprimora seu desempenho, mas também contribui significativamente para a promoção de uma vida saudável e ativa. Convidamos você a explorar nossa variedade, dando um passo firme em direção a um futuro mais saudável e capacitador.</p> <br>
-                    <a href="#">Falar com especialista</a>
+                    <img src="../assets/img/imc-calc.svg" alt="Image">            
                 </div>
-                <div class="uk-width-1-2@m uk-text-center" style="margin-bottom: 80px;">
-                    <img src="../assets/img/Coach-amico.svg" alt="Image">
-                </div>
-            </div>
         </div>
+    </section>
+    <!--
+        <main class="product-banner">
+                <div class="banner-img">
+                    <span class="product-title">Conheça nossos Produtos</span>
+                </div>
 
+                <div class="uk-container uk-container-large">
+                    <div class="uk-flex-middle" uk-grid>
+                        <div class="uk-width-1-2@m">
+                            <h2>Na MyFitJourney nós trazemos os produtos certos para o seu crescimento</h2>
+                            <p>A MyFitJourney, comprometida com a promoção de um estilo de vida saudável, foi concebida com o objetivo claro de capacitar os indivíduos a assumirem o controle de sua saúde e bem-estar. Nossa missão é prevenir doenças relacionadas à obesidade e má alimentação, proporcionando a todos a oportunidade de viver uma vida plena, longa e cheia de vitalidade.</p>
 
-        <div class="accessories-container">
-            <h2 class="uk-text-center">Os melhores Acessórios:</h2>
-
-            <div class="uk-container uk-container-large">
-
-                <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
-                    <div>
-                        <div class="uk-card uk-card-body card-benefits cards-border">
-
-                            <h2 class="uk-card-title"></h2>
-                            <p class="products-price"></p>
+                            <p>Acreditamos que investir na qualidade desses itens não só aprimora seu desempenho, mas também contribui significativamente para a promoção de uma vida saudável e ativa. Convidamos você a explorar nossa variedade, dando um passo firme em direção a um futuro mais saudável e capacitador.</p> <br>
+                            <a href="#">Falar com especialista</a>
                         </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-body card-benefits cards-border" style="flex-direction: row-reverse; -webkit-flex-direction: row-reverse;">
-                            <h2 class="uk-card-title"></h2>
-                            <p class="products-price"></p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-body card-benefits cards-border">
-                            <h2 class="uk-card-title"></h2>
-                            <p class="products-price"></p>
+                        <div class="uk-width-1-2@m uk-text-center" style="margin-bottom: 80px;">
+                            <img src="../assets/img/Coach-amico.svg" alt="Image">
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="button-grid">
-                <a href="accessories.php">
-                    <button class="accessories-page-button">Ver mais</button>
-                </a>
-            </div>
 
-            <!-- End accessories container -->
-        </div>
+                <div class="accessories-container">
+                    <h2 class="uk-text-center">Os melhores Acessórios:</h2>
 
-    </main>
+                    <div class="uk-container uk-container-large">
+
+                        <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+                            <div>
+                                <div class="uk-card uk-card-body card-benefits cards-border">
+
+                                    <h2 class="uk-card-title"></h2>
+                                    <p class="products-price"></p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-card uk-card-body card-benefits cards-border" style="flex-direction: row-reverse; -webkit-flex-direction: row-reverse;">
+                                    <h2 class="uk-card-title"></h2>
+                                    <p class="products-price"></p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-card uk-card-body card-benefits cards-border">
+                                    <h2 class="uk-card-title"></h2>
+                                    <p class="products-price"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="button-grid">
+                        <a href="accessories.php">
+                            <button class="accessories-page-button">Ver mais</button>
+                        </a>
+                    </div>
+
+                    </div>
+
+        </main>
+    -->
+    
 
     <section class="supplements">
     </section>

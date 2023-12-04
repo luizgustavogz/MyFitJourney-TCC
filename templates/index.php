@@ -280,5 +280,6 @@
     </footer>
 </body>
 </html>
+<script src="../assets/js/whatsapp-api-content.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>

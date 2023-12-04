@@ -91,6 +91,19 @@
     border-radius: 5px;
 }
 
+#hp-banner-header .button-nutritionist-banner{
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    background: linear-gradient(to right, #FEA007, #FC4419);
+    border-radius: 5px;
+    border: unset;
+}
+#hp-banner-header .button-nutritionist-banner img{
+    margin-bottom: 3px;
+}
+
 #hp-banner-header .form-container{
     background: #000;
     padding: 40px;
@@ -507,4 +520,258 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     margin-bottom: 80px;
+}
+
+#diet-meal-plan .button-meal-cards{
+    background: linear-gradient(to right, #3CA3F4, #224f9c);
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+
+#diet-meal-plan .button-meal-cards:hover{
+    background: linear-gradient(to right, #003a67, #232c3c);
+
+}
+#diet-meal-plan .card-middle{
+    margin-top: 50px;
+}
+
+#diet-meal-plan .cards{
+    margin-top: 80px;
+}
+
+#diet-meal-plan .cards .card{
+    opacity: 0.9;
+    border-radius: 20px;
+}
+
+
+#diet-meal-plan .cards p{
+    font-size: 13px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+
+#diet-meal-plan .cards h3{
+    font-size: 18px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#chalenge-food{
+    background: linear-gradient(to right, #003a67, #232c3c);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#chalenge-food h2{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#chalenge-food p{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#chalenge-food .cards{
+    margin-top: 65px;
+}
+
+#chalenge-food .cards .card{
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+#chalenge-food .cards .card h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#chalenge-food .cards .card p{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#chalenge-food .divisor-text {
+margin-bottom: 30px;
+}
+
+#chalenge-food .cards .text-button{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+#chalenge-food .button-middle{
+    margin-top: 70px;
+}
+
+#chalenge-food .button-challenge{
+    background: linear-gradient(to right, #FEA007, #FC4419);
+    color: #fff;
+    text-transform: initial;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    border-radius: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+#about-team-nutrition{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: linear-gradient(to right, #FEA007, #FC4419);
+
+}
+
+#about-team-nutrition .button-nutritionist-team{
+    background: linear-gradient(to right, #3CA3F4, #224f9c);
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    border: unset;
+}
+
+#about-team-nutrition h2{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#about-team-nutrition p{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#customized-solutions{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: linear-gradient(to right, #003a67, #232c3c);
+}
+
+#customized-solutions .banner-custom-solution{
+    color: #FEA007;
+}
+
+#customized-solutions h2{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#customized-solutions p{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#customized-solutions .uk-card-default{
+    background-color: unset;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff;
+    opacity: 0.6;
+}
+
+#customized-solutions .uk-card-default h3{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#customized-solutions .uk-card-default p{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#site-support{
+    background: linear-gradient(to right, #FEA007, #FC4419);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#site-support h2{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+#site-support .uk-card-default{
+    background-color: unset;
+    border: 1px solid #fff;
+}
+
+#site-support .uk-card-default h3{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#site-support .uk-card-default p{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#talk-to-us{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: linear-gradient(to right, #003a67, #232c3c);
+}
+
+#talk-to-us h2{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+#talk-to-us p{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#talk-to-us a{
+    background: linear-gradient(to right, #FEA007, #FC4419);
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    border: unset;
 }
