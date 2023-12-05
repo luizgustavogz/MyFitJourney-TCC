@@ -35,29 +35,32 @@ $nome = mysqli_fetch_array($result)["vchNome"];
 
 <body>
 
-    <div class="sidebar">
-        <menu>
-            <li style="display: flex; column-gap: 10px">
-                <a href="#"></a>
-                <span>Carrinho:</span>
-                <div id="carrinho"></div>
-                <div id="trash-cart">
-                    <img width="27" id="trash-cart-img" src="../assets/img/trash-cart.png" alt="">
-                    <img width="20" id="decrease-product" src="../assets/img/decrease.png" alt="">
-                </div>
-            </li>
-            <li>
-                <a href="#"></a>
-                <span>Total: </span>
-                <span id="total_amount"></span>
-            </li>
-            <li>
-                <div class="uk-margin box-subscription" uk-margin>
-                    <a href="address.php"><button class="uk-button uk-button-default button-2">Comprar</button></a>
-                </div>
-            </li>
-        </menu>
-    </div>
+    <!-- 
+        <div class="sidebar">
+            <menu>
+                <li style="display: flex; column-gap: 10px">
+                    <a href="#"></a>
+                    <span>Carrinho:</span>
+                    <div id="carrinho"></div>
+                    <div id="trash-cart">
+                        <img width="27" id="trash-cart-img" src="../assets/img/trash-cart.png" alt="">
+                        <img width="20" id="decrease-product" src="../assets/img/decrease.png" alt="">
+                    </div>
+                </li>
+                <li>
+                    <a href="#"></a>
+                    <span>Total: </span>
+                    <span id="total_amount"></span>
+                </li>
+                <li>
+                    <div class="uk-margin box-subscription" uk-margin>
+                        <a href="address.php"><button class="uk-button uk-button-default button-2">Comprar</button></a>
+                    </div>
+                </li>
+            </menu>
+        </div>
+     
+    -->
 
     <section id="menu-nav-home-banner">
         <nav class="uk-navbar-container">
@@ -126,12 +129,132 @@ $nome = mysqli_fetch_array($result)["vchNome"];
             <div class="uk-flex-middle" uk-grid>
 
                 <div class="uk-width-1-2@m" >
-                    <h2></h2>
+                    <h2>Aproveite as ofertas imperdíveis da MyfitJourney! Não perca tempo, compre agora e transforme seu estilo de vida!</h2>
+                    <p>Na MyfitJourney, priorizamos sua tranquilidade durante toda a jornada de compra. Comprometemo-nos a oferecer uma experiência de compra segura, implementando as mais avançadas medidas de segurança online.</p>
                 </div>
 
-                <div class="uk-width-1-2@m">
-                    <img src="../assets/img/imc-calc.svg" alt="Image">            
+                <div class="uk-width-1-2@m uk-text-center">
+                    <img src="../assets/img/store-banner.svg"  alt="Image">            
                 </div>
+        </div>
+    </section>
+
+    <section id="delyvery-contents">
+        <div class="uk-container">
+            <h2 class="uk-text-center">Nossos Recursos:</h2>
+            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid uk-height-match="target: > div > div > .border-out">
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body uk-text-center">
+                        <div class="border-out">
+                            <img src="../assets/img/supplements.svg" width="200" alt="Image">   
+                            <h3 class="uk-card-title">Suplementos de Qualidade</h3>
+                            <p>Descubra o poder da excelência em suplementação! Nossos produtos são cuidadosamente selecionados para garantir a mais alta qualidade, proporcionando o suporte necessário para alcançar seus objetivos de saúde e fitness.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body uk-text-center">
+                        <div class="border-out">
+                            <img src="../assets/img/free-delivery.svg" width="200" alt="Image">   
+                            <h3 class="uk-card-title">Entrega Grátis</h3>
+                            <p>Simplificamos ainda mais sua jornada rumo à saúde e bem-estar! Agora, todos os pedidos feitos conosco têm entrega grátis diretamente para sua porta. Não importa onde você esteja, estamos comprometidos em facilitar o acesso aos melhores suplementos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body uk-text-center">
+                        <div class="border-out">
+                            <img src="../assets/img/easy-payment.svg" width="200" alt="Image">   
+                            <h3 class="uk-card-title">Pagamento Fácil</h3>
+                            <p>Queremos tornar sua experiência de compra tão eficiente quanto seus treinos! Com nosso sistema de pagamento fácil, você pode finalizar suas compras rapidamente, sem complicações. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="our-products">
+        <div class="uk-container">
+            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match uk-text-center" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <div class="border-out">
+                            <h3 class="uk-card-title">Default</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <div class="border-out">
+                            <h3 class="uk-card-title">Default</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <div class="border-out">
+                            <h3 class="uk-card-title">Default</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match uk-text-center" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <div class="border-out">
+                            <h3 class="uk-card-title">Default</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <div class="border-out">
+                            <h3 class="uk-card-title">Default</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <div class="border-out">
+                            <h3 class="uk-card-title">Default</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match uk-text-center" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <div class="border-out">
+                            <h3 class="uk-card-title">Default</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div >
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <div class="border-out">
+                            <h3 class="uk-card-title">Default</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <div class="border-out">
+                            <h3 class="uk-card-title">Default</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!--
@@ -253,7 +376,7 @@ $nome = mysqli_fetch_array($result)["vchNome"];
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>
-<script src="../assets/js/loja.js"></script>
+ <!-- <script src="../assets/js/loja.js"></script>-->
 <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
 <script src="../assets/js/accessibility.js"></script>
 <script src="../assets/js/accessibilityVlibras.js"></script>
