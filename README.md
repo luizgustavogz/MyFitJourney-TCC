@@ -44,6 +44,7 @@ Vitor Emanuel de Brito Assis -> Documentação e Planejamento + Gestão do Proje
 <a href="https://www.instagram.com/myfitjourneyreal/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 <a href = "mailto:myfitjourneyldh@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href="https://www.facebook.com/profile.php?id=61550970016109" target="_blank"><img src="https://img.shields.io/badge/-Facebook-%230077B5?style=for-the-badge&logo=facebook&logoColor=white" target="_blank"></a>
+<a href = "https://youtu.be/-HF_roK2sHk?si=yzpHueehIeDMkTJV"><img src="https://img.shields.io/badge/Youtube-D14836?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
 
 <br>
 
