@@ -133,3 +133,63 @@ a.shoppingCart {
   font-weight: 700;
   border-radius: 5px;
 }
+
+#hp-banner-header h2{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#delyvery-contents{
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: linear-gradient(to right, #ff7d16, #ff2f00);
+}
+
+#delyvery-contents h2{
+  color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 70px;
+
+}
+#delyvery-contents .border-out{
+  border: 2px solid #666;
+  padding: 10px;
+}
+
+#delyvery-contents .uk-card-body{
+  padding: 5px;
+}
+#delyvery-contents .uk-card-default{
+  border: 2px solid #666;
+}
+
+#delyvery-contents .uk-card-default h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#delyvery-contents .uk-card-default p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#our-products{
+  background-color: #f4f4f4;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#our-products .uk-card-body{
+  padding: 3px;
+}
+
+#our-products .uk-card-default{
+  border: 1px solid #f4f4f4;
+}
+
+#our-products .border-out{
+  border: 1px solid #f4f4f4;
+  padding: 10px;
+}
