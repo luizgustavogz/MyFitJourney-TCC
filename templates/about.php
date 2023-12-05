@@ -27,8 +27,7 @@ $nome = mysqli_fetch_array($result)["vchNome"];
     <title>MyFitJourney | Sobre</title>
     <link rel="stylesheet" href="../assets/css/index.scss">
     <link rel="stylesheet" href="../assets/css/footer.css">
-    <link rel="stylesheet" href="../assets/css/about.css">
-    <link rel="stylesheet" href="../assets/css/toast.css">
+    <link rel="stylesheet" href="../assets/css/about.css">    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">       
 </head>
@@ -92,8 +91,7 @@ $nome = mysqli_fetch_array($result)["vchNome"];
 
                 </div>
             </div>
-        </nav>
-        <div id="toast"></div>
+        </nav>        
     </section>
 
     <section id="hp-banner-header">
@@ -127,7 +125,7 @@ $nome = mysqli_fetch_array($result)["vchNome"];
             <div class="uk-flex-middle" uk-grid id="porque" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
                 <div class="uk-width-1-2@m">
                     <h2 class="uk-text-center">Por que MyFitJourney?</h2>
-                    <p class="uk-text-center">A tradução do nome "MyFitJourney" significa Minha Jornada Fit, para que a pessoa que ainda não tomou a 
+                    <p>A tradução do nome "MyFitJourney" significa Minha Jornada Fit, para que a pessoa que ainda não tomou a 
                         decisão de começar sua jornada de uma vida mais saudável ou até aquelas que já fazem, possam ter essas informações e aprendam 
                         mais sobre como melhorar o seu bem-estar com treinos e dietas. Mesmo em casa, ou até mesmo numa academia ou ao ar livre, a MyFitJourney
                         está aqui para auxiliar trazendo informações verídicas e comprovadas cientificamente para todos.</p>
@@ -140,7 +138,7 @@ $nome = mysqli_fetch_array($result)["vchNome"];
             <div class="uk-flex-middle" uk-grid id="tema">
                 <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
                     <h2 class="uk-text-center">Nosso Tema</h2>
-                    <p class="uk-text-center">O nosso tema se trata de uma preocupação que vem cada vez mais ganhando espaço nos últimos anos, a preocupação com a saúde e o bem estar das 
+                    <p>O nosso tema se trata de uma preocupação que vem cada vez mais ganhando espaço nos últimos anos, a preocupação com a saúde e o bem estar das 
                         pessoas principalmente depois da pandemia do Covid 19 que tivemos se intensificou significativamente no mundo inteiro. Com a facilidade de como
                          se corre a informação nos dias de hoje vem se tornando cada vez mais alarmante a preocupação com esse ponto, já que tivemos essa mudança na 
                          cabeça das pessoas causadas pelo isolamento e a mudança de rotina da pandemia, devido à essa facilidade em obter informações nos dias de hoje,
@@ -163,7 +161,7 @@ $nome = mysqli_fetch_array($result)["vchNome"];
             <div class="uk-flex-middle" uk-grid id="objetivo">
                 <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
                     <h2 class="uk-text-center">Nosso Objetivo</h2>
-                    <p class="uk-text-center">O nosso principal objetivo do site é promover um estilo de vida saudável, conscientizando as pessoas sobre a importância da alimentação saudável e estimulando
+                    <p>O nosso principal objetivo do site é promover um estilo de vida saudável, conscientizando as pessoas sobre a importância da alimentação saudável e estimulando
                          a prática de atividades físicas, com o intuito de contribuir para o bem-estar e a qualidade de vida. Além disso, o site busca oferecer um ambiente educativo e inspirador onde os 
                          visitantes possam encontrar informações confiáveis e baseadas em evidências científicas sobre saúde, nutrição e exercícios, o site também abordará os benefícios de uma alimentação
                           saudável, como perda de peso, redução do risco de câncer, gestão de diabetes, saúde do coração e prevenção do AVC e conseguir uma boa noite de sono. Também compartilhará 
@@ -179,7 +177,7 @@ $nome = mysqli_fetch_array($result)["vchNome"];
             <div class="uk-flex-middle" uk-grid id="fundamentacao">
                 <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
                     <h2 class="uk-text-center">Fundamentação teórica</h2>
-                    <p class="uk-text-center">A importância de estudar o problema de saúde e qualidade de vida, refletida na criação de um site dedicado a esse propósito, é evidente em diversos aspectos.
+                    <p>A importância de estudar o problema de saúde e qualidade de vida, refletida na criação de um site dedicado a esse propósito, é evidente em diversos aspectos.
                         Em primeiro lugar, o impacto na qualidade de vida das pessoas é uma das principais razões para investigar a questão da saúde. A saúde desempenha um papel central na qualidade de 
                         vida de indivíduos de todas as idades. Compreender esse problema é essencial para aprimorar a saúde e o bem-estar, possibilitando que as pessoas vivam vidas mais longas e mais saudáveis.
                         A criação de um site fitness dedicado à saúde e ao bem-estar desempenha um papel crucial na melhoria da qualidade de vida, na prevenção de doenças crônicas, como diabetes, doenças 
@@ -199,7 +197,7 @@ $nome = mysqli_fetch_array($result)["vchNome"];
             <div class="uk-flex-middle" uk-grid id="justificativa">
                 <div class="uk-width-1-2@m"uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
                     <h2 class="uk-text-center">Justificativa</h2>
-                    <p class="uk-text-center">É importante se estudar esse problema devido aos seguintes pontos. O primeiro é criar um impacto na qualidade de vida das pessoas, a saúde desempenha um papel central
+                    <p>É importante se estudar esse problema devido aos seguintes pontos. O primeiro é criar um impacto na qualidade de vida das pessoas, a saúde desempenha um papel central
                         na qualidade de vida das pessoas e compreender esse problema é essencial para melhorar a saúde e o bem-estar, permitindo que as pessoas vivam vidas mais longas e saudáveis. Junto com a saúde
                         é importante também na prevenção de doenças como diabetes, doenças cardíacas e obesidade e no bem-estar psicológico que é um ponto muito importante na saúde das pessoas, pois a saúde mental
                         e o bem-estar emocional são impactados pela qualidade de vida.
@@ -263,14 +261,14 @@ $nome = mysqli_fetch_array($result)["vchNome"];
     </footer>
 </body>
 </html>
+<script src="../assets/js/whatsapp-api-content.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>    
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>
-<script src="../assets/js/scrollIntoView.js"></script>
 <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
 <script src="../assets/js/accessibility.js"></script>
 <script src="../assets/js/accessibilityVlibras.js"></script>
+<script src="../assets/js/scrollIntoView.js"></script>
 <script src="../assets/js/footerMap.js"></script>
-<script src="../assets/js/toast.js"></script>
