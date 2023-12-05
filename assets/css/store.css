@@ -63,7 +63,7 @@ menu {
 }
 
 .accessories-container {
-  background-color: #205dc9;
+  background: linear-gradient(to right, #0842A9, #3CA3F4);
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -71,6 +71,8 @@ menu {
 .accessories-container h2,
 .accessories-container p {
   color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 
 .productsImg {
@@ -108,19 +110,15 @@ a.shoppingCart {
 
 .accessories-page-button {
   width: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   margin: 25px auto;
   padding: 15px;
-  background-color: #3286ca;
+  background: linear-gradient(to right, #ff7d16, #ff2f00);
   color: #fff;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-}
-
-.accessories-page-button:hover {
-  background-color: #fff;
-  color: #3286ca;
-  transition: 0.3s;
 }
 
 /* Grid dos Suplementos */
