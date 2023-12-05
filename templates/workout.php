@@ -1,3 +1,24 @@
+<?php
+// Iniciar a sessão (se ainda não estiver iniciada)
+session_start();
+
+// Verificar se o usuário está autenticado
+if (!isset($_SESSION["email"])) {
+    header("Location: login.php");
+    exit();
+}
+
+// Conexão com o banco
+$conn = mysqli_connect("localhost", "root", "", "myfitjourney");
+
+$email = $_SESSION["email"];
+$sql = "SELECT vchNome FROM tblusuario WHERE vchEmail = '" . $email . "'";
+$result = mysqli_query($conn, $sql);
+
+// Obter o nome do usuário da sessão
+$nome = mysqli_fetch_array($result)["vchNome"];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -63,6 +84,8 @@
 
                     <div class="uk-navbar-right">
                         <div class="uk-navbar-item">
+                            <p>Bem-vindo, <strong><?php echo $nome;?></strong>!</p>
+                            <img src="../assets/img/user-id.svg" width="45">
                             <form action="javascript:void(0)">
                                 <a href="../services/logoutService.php" class="uk-button uk-button-logout">Sair</a>
                             </form>
@@ -400,6 +423,11 @@
             </div>
         </div>
     </footer>
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <script src="../assets/js/whatsapp-api-content.js"></script>
 <script src="../assets/js/invertColors.js"></script>
 <script src="../assets/js/scrollIntoView.js"></script>

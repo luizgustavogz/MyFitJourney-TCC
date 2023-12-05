@@ -74,7 +74,7 @@ session_start();
     if (isset($_POST["register"])) {
         $name = $_POST["name"];
         $sobrenome = $_POST["sobrenome"];
-        $nome_completo = $name . " " . $sobrenome;
+        // $nome_completo = $name . " " . $sobrenome;
         $email = $_SESSION["email"] = $_POST["email"];
         $password = $_POST["password"];
         $repassword = $_POST["repassword"];
@@ -214,8 +214,8 @@ session_start();
                 exit();
             } else {
                 // insert na tabela de usuários
-                $sql = "INSERT INTO tblusuario(vchNome, vchEmail, vchSenha, vchCodigo, dtmVerificadoEm) 
-                VALUES ('" . $nome_completo . "', '" . $email . "', '" . $encrypted_password . "', '" . $verification_code . "', NULL)";
+                $sql = "INSERT INTO tblusuario(vchNome, vchSobrenome, vchEmail, vchSenha, vchCodigo, dtmVerificadoEm) 
+                VALUES ('" . $name . "', '" . $sobrenome . "', '" . $email . "', '" . $encrypted_password . "', '" . $verification_code . "', NULL)";
                 mysqli_query($conn, $sql);
 
                 // header("Location: emailVerificationService.php?email=" . $email);           

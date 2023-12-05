@@ -20,6 +20,19 @@
     transition: ease-in-out 0.2s;
 }
 
+#menu-nav-home-banner p{        
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 0px;
+    margin-right: 10px;    
+}
+
+#menu-nav-home-banner p strong{
+    color: #0842A9;
+}
+
+
 #menu-nav-home-banner img{        
     padding-right: 10px;
 }
@@ -34,8 +47,7 @@
 
 #menu-nav-home-banner a.logo-header{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    
+    font-weight: 700;    
 }
 
 #menu-nav-home-banner a.logo-header strong{
