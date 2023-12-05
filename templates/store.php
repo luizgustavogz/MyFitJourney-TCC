@@ -345,4 +345,3 @@ $nome = mysqli_fetch_array($result)["vchNome"];
 <script src="../assets/js/accessibility.js"></script>
 <script src="../assets/js/accessibilityVlibras.js"></script>
 <script src="../assets/js/footerMap.js"></script>
-
