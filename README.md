@@ -54,7 +54,7 @@ Promover um estilo de vida saud√°vel, conscientizando as pessoas sobre a import√
 <br>
 
 <h2>Linguagens e Tecnologias utilizadas</h2>
-PHP - HTML - CSS e SCSS - JavaScript - NodeJs - MySQL - Composer - NPM - JQuery - PHPMailer - Toast - UserWay - XAMPP - Poastman - Visual Studio Code
+PHP - HTML - CSS e SCSS - JavaScript - NodeJs - MySQL - Composer - NPM - JQuery - PHPMailer - Toast - UserWay - VLibras - XAMPP - Postman - VS Code
 
 <br>
 
