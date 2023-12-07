@@ -32,7 +32,7 @@ Luiz Gustavo de Oliveira Cunha -> Dev Frontend + Backend + Banco de dados
 <a href = "mailto:luiz.gustavogz02@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href="https://www.linkedin.com/in/luiz-gustavo-oliveira-cunha-a9b329176/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
-Vitor Emanuel de Brito Assis -> Documentação e Planejamento + Gestão do Projeto
+Vitor Emanuel de Brito Assis -> Gestão do Projeto + PO + Documentação + Planejamento
 <br>
 <a href="https://www.instagram.com/vitorspu1/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 <a href = "mailto:vitorspu1@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
